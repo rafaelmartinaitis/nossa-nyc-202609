@@ -1,0 +1,991 @@
+﻿Par,Origem ID,Origem,Destino ID,Destino,Distância reta (km),Modo recomendado,Tempo estimado (min),Tempo planejamento (min),Confiança,Observação
+L01-L02,L01,Hotel — 340 W 40th St,L02,The Mills at Jersey Gardens,18.5,Ônibus intermunicipal / shuttle,40,45,Média,Tempo de planejamento a partir da região de Port Authority.
+L01-L03,L01,Hotel — 340 W 40th St,L03,American Museum of Natural History,3.16,Metrô/ônibus + caminhada,19,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L04,L01,Hotel — 340 W 40th St,L04,New York Aquarium,20.36,Metrô + caminhada,80,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L05,L01,Hotel — 340 W 40th St,L05,Coney Island Boardwalk,20.46,Metrô + caminhada,80,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L06,L01,Hotel — 340 W 40th St,L06,QC NY Spa,7.42,Ferry + metrô/ônibus/caminhada,49,60,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L01-L07,L01,Hotel — 340 W 40th St,L07,WORLD SPA,15.81,Metrô + caminhada,66,85,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L08,L01,Hotel — 340 W 40th St,L08,ARTE MUSEUM New York,1.8,Metrô/ônibus + caminhada,15,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L09,L01,Hotel — 340 W 40th St,L09,Chelsea Market,1.93,Metrô/ônibus + caminhada,15,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L10,L01,Hotel — 340 W 40th St,L10,High Line — Chelsea/Gansevoort,2.05,Metrô/ônibus + caminhada,15,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L11,L01,Hotel — 340 W 40th St,L11,Little Island,2.22,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L12,L01,Hotel — 340 W 40th St,L12,MoMA,1.41,Metrô/ônibus + caminhada,13,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L13,L01,Hotel — 340 W 40th St,L13,Rockefeller Center,1.23,Caminhada,22,30,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L14,L01,Hotel — 340 W 40th St,L14,St. Patrick's Cathedral,1.43,Metrô/ônibus + caminhada,13,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L15,L01,Hotel — 340 W 40th St,L15,Bryant Park,0.88,Caminhada,16,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L16,L01,Hotel — 340 W 40th St,L16,NYPL — Schwarzman Building,1.01,Caminhada,18,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L17,L01,Hotel — 340 W 40th St,L17,Grand Central Terminal,1.42,Metrô/ônibus + caminhada,13,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L18,L01,Hotel — 340 W 40th St,L18,Tudor City Overpass,2.1,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L19,L01,Hotel — 340 W 40th St,L19,United Nations Headquarters,2.31,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L20,L01,Hotel — 340 W 40th St,L20,Moynihan Train Hall,0.65,Caminhada,12,15,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L21,L01,Hotel — 340 W 40th St,L21,Herald Square,0.88,Caminhada,16,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L22,L01,Hotel — 340 W 40th St,L22,Empire State Building,1.14,Caminhada,20,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L23,L01,Hotel — 340 W 40th St,L23,Madison Square Garden,0.71,Caminhada,13,20,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L24,L01,Hotel — 340 W 40th St,L24,Gerald Schoenfeld Theatre — Broadway,0.51,Caminhada,6,8,Alta,Mesmo cluster; tempo operacional curto.
+L01-L25,L01,Hotel — 340 W 40th St,L25,Times Square,0.6,Caminhada,8,10,Alta,Mesmo cluster; tempo operacional curto.
+L01-L26,L01,Hotel — 340 W 40th St,L26,Flatiron Building,1.79,Metrô/ônibus + caminhada,15,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L27,L01,Hotel — 340 W 40th St,L27,The Battery,6.31,Metrô/ônibus + caminhada,29,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L28,L01,Hotel — 340 W 40th St,L28,Chinatown — Columbus Park,4.69,Metrô/ônibus + caminhada,24,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L29,L01,Hotel — 340 W 40th St,L29,Brooklyn Bridge,5.71,Metrô/ônibus + caminhada,27,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L30,L01,Hotel — 340 W 40th St,L30,DUMBO — Washington & Water,5.98,Metrô + caminhada,32,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L31,L01,Hotel — 340 W 40th St,L31,Brooklyn Bridge Park — Pier 1,6.1,Metrô + caminhada,32,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L01-L32,L01,Hotel — 340 W 40th St,L32,Brooklyn Heights Promenade,6.6,Metrô + caminhada,34,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L02-L03,L02,The Mills at Jersey Gardens,L03,American Museum of Natural History,21.42,Ônibus intermunicipal + caminhada,54,65,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L04,L02,The Mills at Jersey Gardens,L04,New York Aquarium,19.1,Ônibus intermunicipal + caminhada,96,110,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L05,L02,The Mills at Jersey Gardens,L05,Coney Island Boardwalk,18.91,Ônibus intermunicipal + caminhada,97,110,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L06,L02,The Mills at Jersey Gardens,L06,QC NY Spa,13.47,Ônibus intermunicipal + caminhada,70,80,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L07,L02,The Mills at Jersey Gardens,L07,WORLD SPA,17.2,Ônibus intermunicipal + caminhada,86,100,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L08,L02,The Mills at Jersey Gardens,L08,ARTE MUSEUM New York,16.7,Ônibus intermunicipal + caminhada,51,65,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L09,L02,The Mills at Jersey Gardens,L09,Chelsea Market,16.75,Ônibus intermunicipal + caminhada,51,65,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L10,L02,The Mills at Jersey Gardens,L10,High Line — Chelsea/Gansevoort,16.55,Ônibus intermunicipal + caminhada,52,65,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L11,L02,The Mills at Jersey Gardens,L11,Little Island,16.34,Ônibus intermunicipal + caminhada,52,65,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L12,L02,The Mills at Jersey Gardens,L12,MoMA,19.87,Ônibus intermunicipal + caminhada,50,65,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L13,L02,The Mills at Jersey Gardens,L13,Rockefeller Center,19.61,Ônibus intermunicipal + caminhada,56,70,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L14,L02,The Mills at Jersey Gardens,L14,St. Patrick's Cathedral,19.77,Ônibus intermunicipal + caminhada,50,65,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L15,L02,The Mills at Jersey Gardens,L15,Bryant Park,18.96,Ônibus intermunicipal + caminhada,52,65,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L16,L02,The Mills at Jersey Gardens,L16,NYPL — Schwarzman Building,19.02,Ônibus intermunicipal + caminhada,54,65,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L17,L02,The Mills at Jersey Gardens,L17,Grand Central Terminal,19.36,Ônibus intermunicipal + caminhada,50,65,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L18,L02,The Mills at Jersey Gardens,L18,Tudor City Overpass,19.62,Ônibus intermunicipal + caminhada,52,65,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L19,L02,The Mills at Jersey Gardens,L19,United Nations Headquarters,19.87,Ônibus intermunicipal + caminhada,52,65,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L20,L02,The Mills at Jersey Gardens,L20,Moynihan Train Hall,17.99,Ônibus intermunicipal + caminhada,49,60,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L21,L02,The Mills at Jersey Gardens,L21,Herald Square,18.46,Ônibus intermunicipal + caminhada,52,65,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L22,L02,The Mills at Jersey Gardens,L22,Empire State Building,18.49,Ônibus intermunicipal + caminhada,55,70,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L23,L02,The Mills at Jersey Gardens,L23,Madison Square Garden,18.07,Ônibus intermunicipal + caminhada,50,65,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L24,L02,The Mills at Jersey Gardens,L24,Gerald Schoenfeld Theatre — Broadway,18.99,Ônibus intermunicipal + caminhada,48,60,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L25,L02,The Mills at Jersey Gardens,L25,Times Square,19.01,Ônibus intermunicipal + caminhada,49,60,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L26,L02,The Mills at Jersey Gardens,L26,Flatiron Building,17.78,Ônibus intermunicipal + caminhada,51,65,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L27,L02,The Mills at Jersey Gardens,L27,The Battery,13.97,Ônibus intermunicipal + caminhada,61,75,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L28,L02,The Mills at Jersey Gardens,L28,Chinatown — Columbus Park,15.7,Ônibus intermunicipal + caminhada,58,70,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L29,L02,The Mills at Jersey Gardens,L29,Brooklyn Bridge,15.62,Ônibus intermunicipal + caminhada,60,75,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L30,L02,The Mills at Jersey Gardens,L30,DUMBO — Washington & Water,16.07,Ônibus intermunicipal + caminhada,64,75,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L31,L02,The Mills at Jersey Gardens,L31,Brooklyn Bridge Park — Pier 1,15.48,Ônibus intermunicipal + caminhada,64,75,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L02-L32,L02,The Mills at Jersey Gardens,L32,Brooklyn Heights Promenade,15.29,Ônibus intermunicipal + caminhada,65,80,Baixa/Média,Estimativa estrutural; trânsito e horário do ônibus podem variar bastante.
+L03-L04,L03,American Museum of Natural History,L04,New York Aquarium,23.01,Metrô + caminhada,88,105,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L05,L03,American Museum of Natural History,L05,Coney Island Boardwalk,23.13,Metrô + caminhada,88,105,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L06,L03,American Museum of Natural History,L06,QC NY Spa,10.5,Ferry + metrô/ônibus/caminhada,58,70,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L03-L07,L03,American Museum of Natural History,L07,WORLD SPA,18.46,Metrô + caminhada,74,90,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L08,L03,American Museum of Natural History,L08,ARTE MUSEUM New York,4.86,Metrô/ônibus + caminhada,24,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L09,L03,American Museum of Natural History,L09,Chelsea Market,5.08,Metrô/ônibus + caminhada,25,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L10,L03,American Museum of Natural History,L10,High Line — Chelsea/Gansevoort,5.2,Metrô/ônibus + caminhada,25,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L11,L03,American Museum of Natural History,L11,Little Island,5.35,Metrô/ônibus + caminhada,26,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L12,L03,American Museum of Natural History,L12,MoMA,2.21,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L13,L03,American Museum of Natural History,L13,Rockefeller Center,2.53,Metrô/ônibus + caminhada,17,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L14,L03,American Museum of Natural History,L14,St. Patrick's Cathedral,2.53,Metrô/ônibus + caminhada,17,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L15,L03,American Museum of Natural History,L15,Bryant Park,3.17,Metrô/ônibus + caminhada,19,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L16,L03,American Museum of Natural History,L16,NYPL — Schwarzman Building,3.2,Metrô/ônibus + caminhada,19,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L17,L03,American Museum of Natural History,L17,Grand Central Terminal,3.18,Metrô/ônibus + caminhada,19,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L18,L03,American Museum of Natural History,L18,Tudor City Overpass,3.6,Metrô/ônibus + caminhada,20,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L19,L03,American Museum of Natural History,L19,United Nations Headquarters,3.57,Metrô/ônibus + caminhada,20,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L20,L03,American Museum of Natural History,L20,Moynihan Train Hall,3.79,Metrô/ônibus + caminhada,21,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L21,L03,American Museum of Natural History,L21,Herald Square,3.64,Metrô/ônibus + caminhada,20,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L22,L03,American Museum of Natural History,L22,Empire State Building,3.79,Metrô/ônibus + caminhada,21,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L23,L03,American Museum of Natural History,L23,Madison Square Garden,3.8,Metrô/ônibus + caminhada,21,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L24,L03,American Museum of Natural History,L24,Gerald Schoenfeld Theatre — Broadway,2.78,Metrô/ônibus + caminhada,18,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L25,L03,American Museum of Natural History,L25,Times Square,2.86,Metrô/ônibus + caminhada,18,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L26,L03,American Museum of Natural History,L26,Flatiron Building,4.67,Metrô/ônibus + caminhada,23,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L27,L03,American Museum of Natural History,L27,The Battery,9.41,Metrô/ônibus + caminhada,38,50,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L28,L03,American Museum of Natural History,L28,Chinatown — Columbus Park,7.68,Metrô/ônibus + caminhada,33,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L29,L03,American Museum of Natural History,L29,Brooklyn Bridge,8.62,Metrô/ônibus + caminhada,36,50,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L30,L03,American Museum of Natural History,L30,DUMBO — Washington & Water,8.78,Metrô + caminhada,40,50,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L31,L03,American Museum of Natural History,L31,Brooklyn Bridge Park — Pier 1,9.01,Metrô + caminhada,41,55,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L03-L32,L03,American Museum of Natural History,L32,Brooklyn Heights Promenade,9.51,Metrô + caminhada,43,55,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L05,L04,New York Aquarium,L05,Coney Island Boardwalk,0.31,Caminhada,3,5,Alta,Mesmo cluster; tempo operacional curto.
+L04-L06,L04,New York Aquarium,L06,QC NY Spa,13.66,Ferry + metrô/ônibus/caminhada,78,90,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L04-L07,L04,New York Aquarium,L07,WORLD SPA,4.55,Metrô (F) + caminhada,20,25,Média,Ligação relativamente direta pelo sul do Brooklyn.
+L04-L08,L04,New York Aquarium,L08,ARTE MUSEUM New York,19.48,Metrô + caminhada,77,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L09,L04,New York Aquarium,L09,Chelsea Market,18.81,Metrô + caminhada,75,90,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L10,L04,New York Aquarium,L10,High Line — Chelsea/Gansevoort,18.86,Metrô + caminhada,76,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L11,L04,New York Aquarium,L11,Little Island,18.88,Metrô + caminhada,76,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L12,L04,New York Aquarium,L12,MoMA,20.82,Metrô + caminhada,81,100,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L13,L04,New York Aquarium,L13,Rockefeller Center,20.52,Metrô + caminhada,81,100,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L14,L04,New York Aquarium,L14,St. Patrick's Cathedral,20.48,Metrô + caminhada,80,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L15,L04,New York Aquarium,L15,Bryant Park,19.96,Metrô + caminhada,79,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L16,L04,New York Aquarium,L16,NYPL — Schwarzman Building,19.9,Metrô + caminhada,79,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L17,L04,New York Aquarium,L17,Grand Central Terminal,19.84,Metrô + caminhada,79,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L18,L04,New York Aquarium,L18,Tudor City Overpass,19.42,Metrô + caminhada,77,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L19,L04,New York Aquarium,L19,United Nations Headquarters,19.5,Metrô + caminhada,77,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L20,L04,New York Aquarium,L20,Moynihan Train Hall,19.75,Metrô + caminhada,78,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L21,L04,New York Aquarium,L21,Herald Square,19.59,Metrô + caminhada,78,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L22,L04,New York Aquarium,L22,Empire State Building,19.38,Metrô + caminhada,77,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L23,L04,New York Aquarium,L23,Madison Square Garden,19.65,Metrô + caminhada,78,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L24,L04,New York Aquarium,L24,Gerald Schoenfeld Theatre — Broadway,20.5,Metrô + caminhada,80,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L25,L04,New York Aquarium,L25,Times Square,20.36,Metrô + caminhada,80,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L26,L04,New York Aquarium,L26,Flatiron Building,18.57,Metrô + caminhada,75,90,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L27,L04,New York Aquarium,L27,The Battery,14.68,Metrô + caminhada,63,80,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L28,L04,New York Aquarium,L28,Chinatown — Columbus Park,15.78,Metrô + caminhada,66,85,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L29,L04,New York Aquarium,L29,Brooklyn Bridge,14.71,Metrô + caminhada,63,80,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L30,L04,New York Aquarium,L30,DUMBO — Washington & Water,14.38,Metrô/ônibus + caminhada,59,70,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L31,L04,New York Aquarium,L31,Brooklyn Bridge Park — Pier 1,14.32,Metrô/ônibus + caminhada,59,70,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L04-L32,L04,New York Aquarium,L32,Brooklyn Heights Promenade,13.83,Metrô/ônibus + caminhada,57,70,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L06,L05,Coney Island Boardwalk,L06,QC NY Spa,13.7,Ferry + metrô/ônibus/caminhada,78,90,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L05-L07,L05,Coney Island Boardwalk,L07,WORLD SPA,4.68,Metrô (F) + caminhada,22,27,Média,Ligação relativamente direta pelo sul do Brooklyn.
+L05-L08,L05,Coney Island Boardwalk,L08,ARTE MUSEUM New York,19.56,Metrô + caminhada,78,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L09,L05,Coney Island Boardwalk,L09,Chelsea Market,18.89,Metrô + caminhada,76,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L10,L05,Coney Island Boardwalk,L10,High Line — Chelsea/Gansevoort,18.94,Metrô + caminhada,76,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L11,L05,Coney Island Boardwalk,L11,Little Island,18.95,Metrô + caminhada,76,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L12,L05,Coney Island Boardwalk,L12,MoMA,20.94,Metrô + caminhada,82,100,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L13,L05,Coney Island Boardwalk,L13,Rockefeller Center,20.63,Metrô + caminhada,81,100,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L14,L05,Coney Island Boardwalk,L14,St. Patrick's Cathedral,20.6,Metrô + caminhada,81,100,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L15,L05,Coney Island Boardwalk,L15,Bryant Park,20.07,Metrô + caminhada,79,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L16,L05,Coney Island Boardwalk,L16,NYPL — Schwarzman Building,20.01,Metrô + caminhada,79,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L17,L05,Coney Island Boardwalk,L17,Grand Central Terminal,19.96,Metrô + caminhada,79,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L18,L05,Coney Island Boardwalk,L18,Tudor City Overpass,19.55,Metrô + caminhada,78,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L19,L05,Coney Island Boardwalk,L19,United Nations Headquarters,19.63,Metrô + caminhada,78,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L20,L05,Coney Island Boardwalk,L20,Moynihan Train Hall,19.84,Metrô + caminhada,79,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L21,L05,Coney Island Boardwalk,L21,Herald Square,19.69,Metrô + caminhada,78,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L22,L05,Coney Island Boardwalk,L22,Empire State Building,19.48,Metrô + caminhada,77,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L23,L05,Coney Island Boardwalk,L23,Madison Square Garden,19.75,Metrô + caminhada,78,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L24,L05,Coney Island Boardwalk,L24,Gerald Schoenfeld Theatre — Broadway,20.61,Metrô + caminhada,81,100,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L25,L05,Coney Island Boardwalk,L25,Times Square,20.46,Metrô + caminhada,80,95,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L26,L05,Coney Island Boardwalk,L26,Flatiron Building,18.67,Metrô + caminhada,75,90,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L27,L05,Coney Island Boardwalk,L27,The Battery,14.74,Metrô + caminhada,63,80,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L28,L05,Coney Island Boardwalk,L28,Chinatown — Columbus Park,15.87,Metrô + caminhada,67,85,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L29,L05,Coney Island Boardwalk,L29,Brooklyn Bridge,14.8,Metrô + caminhada,63,80,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L30,L05,Coney Island Boardwalk,L30,DUMBO — Washington & Water,14.48,Metrô/ônibus + caminhada,59,70,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L31,L05,Coney Island Boardwalk,L31,Brooklyn Bridge Park — Pier 1,14.4,Metrô/ônibus + caminhada,59,70,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L05-L32,L05,Coney Island Boardwalk,L32,Brooklyn Heights Promenade,13.91,Metrô/ônibus + caminhada,58,70,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L06-L07,L06,QC NY Spa,L07,WORLD SPA,9.31,Ferry + metrô/ônibus/caminhada,65,75,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L08,L06,QC NY Spa,L08,ARTE MUSEUM New York,6.11,Ferry + metrô/ônibus/caminhada,44,55,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L09,L06,QC NY Spa,L09,Chelsea Market,5.57,Ferry + metrô/ônibus/caminhada,43,55,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L10,L06,QC NY Spa,L10,High Line — Chelsea/Gansevoort,5.54,Ferry + metrô/ônibus/caminhada,43,55,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L11,L06,QC NY Spa,L11,Little Island,5.49,Ferry + metrô/ônibus/caminhada,43,55,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L12,L06,QC NY Spa,L12,MoMA,8.36,Ferry + metrô/ônibus/caminhada,52,65,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L13,L06,QC NY Spa,L13,Rockefeller Center,8.04,Ferry + metrô/ônibus/caminhada,51,65,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L14,L06,QC NY Spa,L14,St. Patrick's Cathedral,8.1,Ferry + metrô/ônibus/caminhada,51,65,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L15,L06,QC NY Spa,L15,Bryant Park,7.36,Ferry + metrô/ônibus/caminhada,48,60,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L16,L06,QC NY Spa,L16,NYPL — Schwarzman Building,7.35,Ferry + metrô/ônibus/caminhada,48,60,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L17,L06,QC NY Spa,L17,Grand Central Terminal,7.49,Ferry + metrô/ônibus/caminhada,49,60,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L18,L06,QC NY Spa,L18,Tudor City Overpass,7.41,Ferry + metrô/ônibus/caminhada,49,60,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L19,L06,QC NY Spa,L19,United Nations Headquarters,7.6,Ferry + metrô/ônibus/caminhada,49,60,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L20,L06,QC NY Spa,L20,Moynihan Train Hall,6.76,Ferry + metrô/ônibus/caminhada,47,60,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L21,L06,QC NY Spa,L21,Herald Square,6.87,Ferry + metrô/ônibus/caminhada,47,60,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L22,L06,QC NY Spa,L22,Empire State Building,6.74,Ferry + metrô/ônibus/caminhada,47,60,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L23,L06,QC NY Spa,L23,Madison Square Garden,6.73,Ferry + metrô/ônibus/caminhada,46,60,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L24,L06,QC NY Spa,L24,Gerald Schoenfeld Theatre — Broadway,7.73,Ferry + metrô/ônibus/caminhada,50,60,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L25,L06,QC NY Spa,L25,Times Square,7.64,Ferry + metrô/ônibus/caminhada,49,60,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L26,L06,QC NY Spa,L26,Flatiron Building,5.85,Ferry + metrô/ônibus/caminhada,44,55,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L27,L06,QC NY Spa,L27,The Battery,1.12,Ferry + caminhada,20,25,Média,Inclui espera/embarque operacional no ferry.
+L06-L28,L06,QC NY Spa,L28,Chinatown — Columbus Park,2.89,Ferry + metrô/ônibus/caminhada,35,45,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L29,L06,QC NY Spa,L29,Brooklyn Bridge,2.3,Ferry + metrô/ônibus/caminhada,34,45,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L30,L06,QC NY Spa,L30,DUMBO — Washington & Water,2.64,Ferry + metrô/ônibus/caminhada,41,55,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L31,L06,QC NY Spa,L31,Brooklyn Bridge Park — Pier 1,2.07,Ferry + metrô/ônibus/caminhada,39,50,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L06-L32,L06,QC NY Spa,L32,Brooklyn Heights Promenade,1.82,Ferry + metrô/ônibus/caminhada,39,50,Média,Inclui conexão e espera de ferry; confirmar grade do dia.
+L07-L08,L07,WORLD SPA,L08,ARTE MUSEUM New York,14.98,Metrô + caminhada,64,80,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L09,L07,WORLD SPA,L09,Chelsea Market,14.3,Metrô + caminhada,62,80,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L10,L07,WORLD SPA,L10,High Line — Chelsea/Gansevoort,14.35,Metrô + caminhada,62,80,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L11,L07,WORLD SPA,L11,Little Island,14.38,Metrô + caminhada,62,80,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L12,L07,WORLD SPA,L12,MoMA,16.27,Metrô + caminhada,68,85,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L13,L07,WORLD SPA,L13,Rockefeller Center,15.96,Metrô + caminhada,67,85,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L14,L07,WORLD SPA,L14,St. Patrick's Cathedral,15.93,Metrô + caminhada,67,85,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L15,L07,WORLD SPA,L15,Bryant Park,15.4,Metrô + caminhada,65,80,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L16,L07,WORLD SPA,L16,NYPL — Schwarzman Building,15.34,Metrô + caminhada,65,80,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L17,L07,WORLD SPA,L17,Grand Central Terminal,15.29,Metrô + caminhada,65,80,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L18,L07,WORLD SPA,L18,Tudor City Overpass,14.88,Metrô + caminhada,64,80,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L19,L07,WORLD SPA,L19,United Nations Headquarters,14.95,Metrô + caminhada,64,80,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L20,L07,WORLD SPA,L20,Moynihan Train Hall,15.2,Metrô + caminhada,65,80,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L21,L07,WORLD SPA,L21,Herald Square,15.03,Metrô + caminhada,64,80,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L22,L07,WORLD SPA,L22,Empire State Building,14.82,Metrô + caminhada,63,80,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L23,L07,WORLD SPA,L23,Madison Square Garden,15.1,Metrô + caminhada,64,80,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L24,L07,WORLD SPA,L24,Gerald Schoenfeld Theatre — Broadway,15.95,Metrô + caminhada,67,85,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L25,L07,WORLD SPA,L25,Times Square,15.8,Metrô + caminhada,66,85,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L26,L07,WORLD SPA,L26,Flatiron Building,14.02,Metrô + caminhada,61,80,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L27,L07,WORLD SPA,L27,The Battery,10.28,Metrô + caminhada,50,60,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L28,L07,WORLD SPA,L28,Chinatown — Columbus Park,11.27,Metrô + caminhada,53,65,Baixa/Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L29,L07,WORLD SPA,L29,Brooklyn Bridge,10.19,Metrô + caminhada,50,60,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L30,L07,WORLD SPA,L30,DUMBO — Washington & Water,9.84,Metrô/ônibus + caminhada,46,60,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L31,L07,WORLD SPA,L31,Brooklyn Bridge Park — Pier 1,9.8,Metrô/ônibus + caminhada,45,55,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L07-L32,L07,WORLD SPA,L32,Brooklyn Heights Promenade,9.32,Metrô/ônibus + caminhada,44,55,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L09,L08,ARTE MUSEUM New York,L09,Chelsea Market,0.77,Caminhada,10,15,Alta,Mesmo cluster; tempo operacional curto.
+L08-L10,L08,ARTE MUSEUM New York,L10,High Line — Chelsea/Gansevoort,0.64,Caminhada,10,12,Alta,Mesmo cluster; tempo operacional curto.
+L08-L11,L08,ARTE MUSEUM New York,L11,Little Island,0.62,Caminhada,6,8,Alta,Mesmo cluster; tempo operacional curto.
+L08-L12,L08,ARTE MUSEUM New York,L12,MoMA,3.19,Metrô/ônibus + caminhada,19,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L13,L08,ARTE MUSEUM New York,L13,Rockefeller Center,2.95,Metrô/ônibus + caminhada,18,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L14,L08,ARTE MUSEUM New York,L14,St. Patrick's Cathedral,3.14,Metrô/ônibus + caminhada,19,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L15,L08,ARTE MUSEUM New York,L15,Bryant Park,2.38,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L16,L08,ARTE MUSEUM New York,L16,NYPL — Schwarzman Building,2.47,Metrô/ônibus + caminhada,17,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L17,L08,ARTE MUSEUM New York,L17,Grand Central Terminal,2.87,Metrô/ônibus + caminhada,18,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L18,L08,ARTE MUSEUM New York,L18,Tudor City Overpass,3.38,Metrô/ônibus + caminhada,19,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L19,L08,ARTE MUSEUM New York,L19,United Nations Headquarters,3.63,Metrô/ônibus + caminhada,20,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L20,L08,ARTE MUSEUM New York,L20,Moynihan Train Hall,1.35,Metrô/ônibus + caminhada,13,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L21,L08,ARTE MUSEUM New York,L21,Herald Square,1.95,Metrô/ônibus + caminhada,15,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L22,L08,ARTE MUSEUM New York,L22,Empire State Building,2.1,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L23,L08,ARTE MUSEUM New York,L23,Madison Square Garden,1.47,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L24,L08,ARTE MUSEUM New York,L24,Gerald Schoenfeld Theatre — Broadway,2.3,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L25,L08,ARTE MUSEUM New York,L25,Times Square,2.33,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L26,L08,ARTE MUSEUM New York,L26,Flatiron Building,1.9,Metrô/ônibus + caminhada,15,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L27,L08,ARTE MUSEUM New York,L27,The Battery,4.99,Metrô/ônibus + caminhada,24,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L28,L08,ARTE MUSEUM New York,L28,Chinatown — Columbus Park,3.72,Metrô/ônibus + caminhada,21,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L29,L08,ARTE MUSEUM New York,L29,Brooklyn Bridge,4.81,Metrô/ônibus + caminhada,24,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L30,L08,ARTE MUSEUM New York,L30,DUMBO — Washington & Water,5.23,Metrô + caminhada,30,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L31,L08,ARTE MUSEUM New York,L31,Brooklyn Bridge Park — Pier 1,5.19,Metrô + caminhada,30,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L08-L32,L08,ARTE MUSEUM New York,L32,Brooklyn Heights Promenade,5.66,Metrô + caminhada,31,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L10,L09,Chelsea Market,L10,High Line — Chelsea/Gansevoort,0.24,Caminhada,4,6,Alta,Mesmo cluster; tempo operacional curto.
+L09-L11,L09,Chelsea Market,L11,Little Island,0.48,Caminhada,7,9,Alta,Mesmo cluster; tempo operacional curto.
+L09-L12,L09,Chelsea Market,L12,MoMA,3.17,Metrô/ônibus + caminhada,19,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L13,L09,Chelsea Market,L13,Rockefeller Center,2.89,Metrô/ônibus + caminhada,18,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L14,L09,Chelsea Market,L14,St. Patrick's Cathedral,3.03,Metrô/ônibus + caminhada,18,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L15,L09,Chelsea Market,L15,Bryant Park,2.22,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L16,L09,Chelsea Market,L16,NYPL — Schwarzman Building,2.28,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L17,L09,Chelsea Market,L17,Grand Central Terminal,2.62,Metrô/ônibus + caminhada,17,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L18,L09,Chelsea Market,L18,Tudor City Overpass,3.0,Metrô/ônibus + caminhada,18,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L19,L09,Chelsea Market,L19,United Nations Headquarters,3.26,Metrô/ônibus + caminhada,19,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L20,L09,Chelsea Market,L20,Moynihan Train Hall,1.31,Metrô/ônibus + caminhada,13,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L21,L09,Chelsea Market,L21,Herald Square,1.72,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L22,L09,Chelsea Market,L22,Empire State Building,1.77,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L23,L09,Chelsea Market,L23,Madison Square Garden,1.34,Metrô/ônibus + caminhada,13,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L24,L09,Chelsea Market,L24,Gerald Schoenfeld Theatre — Broadway,2.35,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L25,L09,Chelsea Market,L25,Times Square,2.32,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L26,L09,Chelsea Market,L26,Flatiron Building,1.29,Metrô/ônibus + caminhada,13,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L27,L09,Chelsea Market,L27,The Battery,4.46,Metrô/ônibus + caminhada,23,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L28,L09,Chelsea Market,L28,Chinatown — Columbus Park,3.03,Metrô/ônibus + caminhada,18,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L29,L09,Chelsea Market,L29,Brooklyn Bridge,4.11,Metrô/ônibus + caminhada,22,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L30,L09,Chelsea Market,L30,DUMBO — Washington & Water,4.5,Metrô + caminhada,27,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L31,L09,Chelsea Market,L31,Brooklyn Bridge Park — Pier 1,4.49,Metrô + caminhada,27,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L09-L32,L09,Chelsea Market,L32,Brooklyn Heights Promenade,4.98,Metrô + caminhada,29,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L11,L10,High Line — Chelsea/Gansevoort,L11,Little Island,0.24,Caminhada,3,5,Alta,Mesmo cluster; tempo operacional curto.
+L10-L12,L10,High Line — Chelsea/Gansevoort,L12,MoMA,3.34,Metrô/ônibus + caminhada,19,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L13,L10,High Line — Chelsea/Gansevoort,L13,Rockefeller Center,3.07,Metrô/ônibus + caminhada,19,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L14,L10,High Line — Chelsea/Gansevoort,L14,St. Patrick's Cathedral,3.22,Metrô/ônibus + caminhada,19,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L15,L10,High Line — Chelsea/Gansevoort,L15,Bryant Park,2.41,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L16,L10,High Line — Chelsea/Gansevoort,L16,NYPL — Schwarzman Building,2.48,Metrô/ônibus + caminhada,17,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L17,L10,High Line — Chelsea/Gansevoort,L17,Grand Central Terminal,2.84,Metrô/ônibus + caminhada,18,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L18,L10,High Line — Chelsea/Gansevoort,L18,Tudor City Overpass,3.23,Metrô/ônibus + caminhada,19,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L19,L10,High Line — Chelsea/Gansevoort,L19,United Nations Headquarters,3.49,Metrô/ônibus + caminhada,20,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L20,L10,High Line — Chelsea/Gansevoort,L20,Moynihan Train Hall,1.46,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L21,L10,High Line — Chelsea/Gansevoort,L21,Herald Square,1.92,Metrô/ônibus + caminhada,15,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L22,L10,High Line — Chelsea/Gansevoort,L22,Empire State Building,1.99,Metrô/ônibus + caminhada,15,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L23,L10,High Line — Chelsea/Gansevoort,L23,Madison Square Garden,1.52,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L24,L10,High Line — Chelsea/Gansevoort,L24,Gerald Schoenfeld Theatre — Broadway,2.5,Metrô/ônibus + caminhada,17,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L25,L10,High Line — Chelsea/Gansevoort,L25,Times Square,2.49,Metrô/ônibus + caminhada,17,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L26,L10,High Line — Chelsea/Gansevoort,L26,Flatiron Building,1.53,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L27,L10,High Line — Chelsea/Gansevoort,L27,The Battery,4.43,Metrô/ônibus + caminhada,23,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L28,L10,High Line — Chelsea/Gansevoort,L28,Chinatown — Columbus Park,3.08,Metrô/ônibus + caminhada,19,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L29,L10,High Line — Chelsea/Gansevoort,L29,Brooklyn Bridge,4.17,Metrô/ônibus + caminhada,22,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L30,L10,High Line — Chelsea/Gansevoort,L30,DUMBO — Washington & Water,4.59,Metrô + caminhada,28,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L31,L10,High Line — Chelsea/Gansevoort,L31,Brooklyn Bridge Park — Pier 1,4.55,Metrô + caminhada,28,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L10-L32,L10,High Line — Chelsea/Gansevoort,L32,Brooklyn Heights Promenade,5.03,Metrô + caminhada,29,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L12,L11,Little Island,L12,MoMA,3.54,Metrô/ônibus + caminhada,20,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L13,L11,Little Island,L13,Rockefeller Center,3.27,Metrô/ônibus + caminhada,19,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L14,L11,Little Island,L14,St. Patrick's Cathedral,3.43,Metrô/ônibus + caminhada,20,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L15,L11,Little Island,L15,Bryant Park,2.63,Metrô/ônibus + caminhada,17,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L16,L11,Little Island,L16,NYPL — Schwarzman Building,2.69,Metrô/ônibus + caminhada,17,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L17,L11,Little Island,L17,Grand Central Terminal,3.06,Metrô/ônibus + caminhada,18,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L18,L11,Little Island,L18,Tudor City Overpass,3.47,Metrô/ônibus + caminhada,20,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L19,L11,Little Island,L19,United Nations Headquarters,3.72,Metrô/ônibus + caminhada,21,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L20,L11,Little Island,L20,Moynihan Train Hall,1.65,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L21,L11,Little Island,L21,Herald Square,2.14,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L22,L11,Little Island,L22,Empire State Building,2.22,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L23,L11,Little Island,L23,Madison Square Garden,1.72,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L24,L11,Little Island,L24,Gerald Schoenfeld Theatre — Broadway,2.68,Metrô/ônibus + caminhada,17,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L25,L11,Little Island,L25,Times Square,2.68,Metrô/ônibus + caminhada,17,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L26,L11,Little Island,L26,Flatiron Building,1.77,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L27,L11,Little Island,L27,The Battery,4.38,Metrô/ônibus + caminhada,23,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L28,L11,Little Island,L28,Chinatown — Columbus Park,3.12,Metrô/ônibus + caminhada,19,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L29,L11,Little Island,L29,Brooklyn Bridge,4.21,Metrô/ônibus + caminhada,22,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L30,L11,Little Island,L30,DUMBO — Washington & Water,4.66,Metrô + caminhada,28,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L31,L11,Little Island,L31,Brooklyn Bridge Park — Pier 1,4.59,Metrô + caminhada,28,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L11-L32,L11,Little Island,L32,Brooklyn Heights Promenade,5.06,Metrô + caminhada,29,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L12-L13,L12,MoMA,L13,Rockefeller Center,0.32,Caminhada,4,6,Alta,Mesmo cluster; tempo operacional curto.
+L12-L14,L12,MoMA,L14,St. Patrick's Cathedral,0.35,Caminhada,5,7,Alta,Mesmo cluster; tempo operacional curto.
+L12-L15,L12,MoMA,L15,Bryant Park,1.01,Caminhada,18,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L12-L16,L12,MoMA,L16,NYPL — Schwarzman Building,1.01,Caminhada,18,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L12-L17,L12,MoMA,L17,Grand Central Terminal,0.98,Caminhada,18,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L12-L18,L12,MoMA,L18,Tudor City Overpass,1.52,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L12-L19,L12,MoMA,L19,United Nations Headquarters,1.58,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L12-L20,L12,MoMA,L20,Moynihan Train Hall,1.89,Metrô/ônibus + caminhada,15,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L12-L21,L12,MoMA,L21,Herald Square,1.52,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L12-L22,L12,MoMA,L22,Empire State Building,1.62,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L12-L23,L12,MoMA,L23,Madison Square Garden,1.82,Metrô/ônibus + caminhada,15,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L12-L24,L12,MoMA,L24,Gerald Schoenfeld Theatre — Broadway,0.9,Caminhada,16,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L12-L25,L12,MoMA,L25,Times Square,0.86,Caminhada,16,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L12-L26,L12,MoMA,L26,Flatiron Building,2.51,Metrô/ônibus + caminhada,17,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L12-L27,L12,MoMA,L27,The Battery,7.29,Metrô/ônibus + caminhada,32,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L12-L28,L12,MoMA,L28,Chinatown — Columbus Park,5.51,Metrô/ônibus + caminhada,26,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L12-L29,L12,MoMA,L29,Brooklyn Bridge,6.42,Metrô/ônibus + caminhada,29,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L12-L30,L12,MoMA,L30,DUMBO — Washington & Water,6.57,Metrô + caminhada,34,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L12-L31,L12,MoMA,L31,Brooklyn Bridge Park — Pier 1,6.8,Metrô + caminhada,34,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L12-L32,L12,MoMA,L32,Brooklyn Heights Promenade,7.3,Metrô + caminhada,36,50,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L13-L14,L13,Rockefeller Center,L14,St. Patrick's Cathedral,0.21,Caminhada,3,4,Alta,Mesmo cluster; tempo operacional curto.
+L13-L15,L13,Rockefeller Center,L15,Bryant Park,0.69,Caminhada,13,20,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L13-L16,L13,Rockefeller Center,L16,NYPL — Schwarzman Building,0.69,Caminhada,13,20,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L13-L17,L13,Rockefeller Center,L17,Grand Central Terminal,0.69,Caminhada,13,20,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L13-L18,L13,Rockefeller Center,L18,Tudor City Overpass,1.3,Metrô/ônibus + caminhada,13,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L13-L19,L13,Rockefeller Center,L19,United Nations Headquarters,1.4,Metrô/ônibus + caminhada,13,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L13-L20,L13,Rockefeller Center,L20,Moynihan Train Hall,1.63,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L13-L21,L13,Rockefeller Center,L21,Herald Square,1.21,Caminhada,21,30,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L13-L22,L13,Rockefeller Center,L22,Empire State Building,1.29,Metrô/ônibus + caminhada,13,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L13-L23,L13,Rockefeller Center,L23,Madison Square Garden,1.55,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L13-L24,L13,Rockefeller Center,L24,Gerald Schoenfeld Theatre — Broadway,0.73,Caminhada,14,20,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L13-L25,L13,Rockefeller Center,L25,Times Square,0.63,Caminhada,12,15,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L13-L26,L13,Rockefeller Center,L26,Flatiron Building,2.18,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L13-L27,L13,Rockefeller Center,L27,The Battery,6.97,Metrô/ônibus + caminhada,31,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L13-L28,L13,Rockefeller Center,L28,Chinatown — Columbus Park,5.18,Metrô/ônibus + caminhada,25,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L13-L29,L13,Rockefeller Center,L29,Brooklyn Bridge,6.09,Metrô/ônibus + caminhada,28,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L13-L30,L13,Rockefeller Center,L30,DUMBO — Washington & Water,6.25,Metrô + caminhada,33,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L13-L31,L13,Rockefeller Center,L31,Brooklyn Bridge Park — Pier 1,6.48,Metrô + caminhada,33,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L13-L32,L13,Rockefeller Center,L32,Brooklyn Heights Promenade,6.98,Metrô + caminhada,35,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L14-L15,L14,St. Patrick's Cathedral,L15,Bryant Park,0.81,Caminhada,15,20,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L14-L16,L14,St. Patrick's Cathedral,L16,NYPL — Schwarzman Building,0.78,Caminhada,14,20,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L14-L17,L14,St. Patrick's Cathedral,L17,Grand Central Terminal,0.65,Caminhada,12,15,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L14-L18,L14,St. Patrick's Cathedral,L18,Tudor City Overpass,1.17,Caminhada,21,30,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L14-L19,L14,St. Patrick's Cathedral,L19,United Nations Headquarters,1.24,Caminhada,22,30,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L14-L20,L14,St. Patrick's Cathedral,L20,Moynihan Train Hall,1.8,Metrô/ônibus + caminhada,15,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L14-L21,L14,St. Patrick's Cathedral,L21,Herald Square,1.33,Metrô/ônibus + caminhada,13,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L14-L22,L14,St. Patrick's Cathedral,L22,Empire State Building,1.38,Metrô/ônibus + caminhada,13,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L14-L23,L14,St. Patrick's Cathedral,L23,Madison Square Garden,1.7,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L14-L24,L14,St. Patrick's Cathedral,L24,Gerald Schoenfeld Theatre — Broadway,0.94,Caminhada,17,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L14-L25,L14,St. Patrick's Cathedral,L25,Times Square,0.83,Caminhada,15,20,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L14-L26,L14,St. Patrick's Cathedral,L26,Flatiron Building,2.25,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L14-L27,L14,St. Patrick's Cathedral,L27,The Battery,7.04,Metrô/ônibus + caminhada,31,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L14-L28,L14,St. Patrick's Cathedral,L28,Chinatown — Columbus Park,5.23,Metrô/ônibus + caminhada,25,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L14-L29,L14,St. Patrick's Cathedral,L29,Brooklyn Bridge,6.12,Metrô/ônibus + caminhada,28,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L14-L30,L14,St. Patrick's Cathedral,L30,DUMBO — Washington & Water,6.26,Metrô + caminhada,33,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L14-L31,L14,St. Patrick's Cathedral,L31,Brooklyn Bridge Park — Pier 1,6.5,Metrô + caminhada,34,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L14-L32,L14,St. Patrick's Cathedral,L32,Brooklyn Heights Promenade,7.0,Metrô + caminhada,35,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L15-L16,L15,Bryant Park,L16,NYPL — Schwarzman Building,0.12,Caminhada,3,3,Alta,Mesmo cluster; tempo operacional curto.
+L15-L17,L15,Bryant Park,L17,Grand Central Terminal,0.55,Caminhada,8,10,Alta,Mesmo cluster; tempo operacional curto.
+L15-L18,L15,Bryant Park,L18,Tudor City Overpass,1.22,Caminhada,21,30,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L15-L19,L15,Bryant Park,L19,United Nations Headquarters,1.42,Metrô/ônibus + caminhada,13,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L15-L20,L15,Bryant Park,L20,Moynihan Train Hall,1.03,Caminhada,18,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L15-L21,L15,Bryant Park,L21,Herald Square,0.52,Caminhada,10,15,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L15-L22,L15,Bryant Park,L22,Empire State Building,0.62,Caminhada,12,15,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L15-L23,L15,Bryant Park,L23,Madison Square Garden,0.91,Caminhada,17,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L15-L24,L15,Bryant Park,L24,Gerald Schoenfeld Theatre — Broadway,0.62,Caminhada,12,15,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L15-L25,L15,Bryant Park,L25,Times Square,0.44,Caminhada,9,15,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L15-L26,L15,Bryant Park,L26,Flatiron Building,1.51,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L15-L27,L15,Bryant Park,L27,The Battery,6.28,Metrô/ônibus + caminhada,28,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L15-L28,L15,Bryant Park,L28,Chinatown — Columbus Park,4.52,Metrô/ônibus + caminhada,23,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L15-L29,L15,Bryant Park,L29,Brooklyn Bridge,5.45,Metrô/ônibus + caminhada,26,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L15-L30,L15,Bryant Park,L30,DUMBO — Washington & Water,5.64,Metrô + caminhada,31,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L15-L31,L15,Bryant Park,L31,Brooklyn Bridge Park — Pier 1,5.84,Metrô + caminhada,32,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L15-L32,L15,Bryant Park,L32,Brooklyn Heights Promenade,6.34,Metrô + caminhada,33,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L16-L17,L16,NYPL — Schwarzman Building,L17,Grand Central Terminal,0.43,Caminhada,6,8,Alta,Mesmo cluster; tempo operacional curto.
+L16-L18,L16,NYPL — Schwarzman Building,L18,Tudor City Overpass,1.1,Caminhada,20,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L16-L19,L16,NYPL — Schwarzman Building,L19,United Nations Headquarters,1.3,Metrô/ônibus + caminhada,13,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L16-L20,L16,NYPL — Schwarzman Building,L20,Moynihan Train Hall,1.12,Caminhada,20,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L16-L21,L16,NYPL — Schwarzman Building,L21,Herald Square,0.56,Caminhada,11,15,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L16-L22,L16,NYPL — Schwarzman Building,L22,Empire State Building,0.6,Caminhada,12,15,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L16-L23,L16,NYPL — Schwarzman Building,L23,Madison Square Garden,0.99,Caminhada,18,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L16-L24,L16,NYPL — Schwarzman Building,L24,Gerald Schoenfeld Theatre — Broadway,0.73,Caminhada,14,20,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L16-L25,L16,NYPL — Schwarzman Building,L25,Times Square,0.55,Caminhada,11,15,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L16-L26,L16,NYPL — Schwarzman Building,L26,Flatiron Building,1.49,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L16-L27,L16,NYPL — Schwarzman Building,L27,The Battery,6.28,Metrô/ônibus + caminhada,28,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L16-L28,L16,NYPL — Schwarzman Building,L28,Chinatown — Columbus Park,4.5,Metrô/ônibus + caminhada,23,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L16-L29,L16,NYPL — Schwarzman Building,L29,Brooklyn Bridge,5.42,Metrô/ônibus + caminhada,26,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L16-L30,L16,NYPL — Schwarzman Building,L30,DUMBO — Washington & Water,5.59,Metrô + caminhada,31,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L16-L31,L16,NYPL — Schwarzman Building,L31,Brooklyn Bridge Park — Pier 1,5.81,Metrô + caminhada,31,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L16-L32,L16,NYPL — Schwarzman Building,L32,Brooklyn Heights Promenade,6.3,Metrô + caminhada,33,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L17-L18,L17,Grand Central Terminal,L18,Tudor City Overpass,0.7,Caminhada,9,11,Alta,Mesmo cluster; tempo operacional curto.
+L17-L19,L17,Grand Central Terminal,L19,United Nations Headquarters,0.89,Caminhada,10,15,Alta,Mesmo cluster; tempo operacional curto.
+L17-L20,L17,Grand Central Terminal,L20,Moynihan Train Hall,1.54,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L17-L21,L17,Grand Central Terminal,L21,Herald Square,0.92,Caminhada,17,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L17-L22,L17,Grand Central Terminal,L22,Empire State Building,0.86,Caminhada,16,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L17-L23,L17,Grand Central Terminal,L23,Madison Square Garden,1.4,Metrô/ônibus + caminhada,13,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L17-L24,L17,Grand Central Terminal,L24,Gerald Schoenfeld Theatre — Broadway,1.07,Caminhada,19,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L17-L25,L17,Grand Central Terminal,L25,Times Square,0.89,Caminhada,16,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L17-L26,L17,Grand Central Terminal,L26,Flatiron Building,1.68,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L17-L27,L17,Grand Central Terminal,L27,The Battery,6.44,Metrô/ônibus + caminhada,29,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L17-L28,L17,Grand Central Terminal,L28,Chinatown — Columbus Park,4.62,Metrô/ônibus + caminhada,23,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L17-L29,L17,Grand Central Terminal,L29,Brooklyn Bridge,5.48,Metrô/ônibus + caminhada,26,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L17-L30,L17,Grand Central Terminal,L30,DUMBO — Washington & Water,5.61,Metrô + caminhada,31,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L17-L31,L17,Grand Central Terminal,L31,Brooklyn Bridge Park — Pier 1,5.86,Metrô + caminhada,32,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L17-L32,L17,Grand Central Terminal,L32,Brooklyn Heights Promenade,6.36,Metrô + caminhada,33,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L18-L19,L18,Tudor City Overpass,L19,United Nations Headquarters,0.26,Caminhada,3,5,Alta,Mesmo cluster; tempo operacional curto.
+L18-L20,L18,Tudor City Overpass,L20,Moynihan Train Hall,2.11,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L18-L21,L18,Tudor City Overpass,L21,Herald Square,1.45,Metrô/ônibus + caminhada,13,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L18-L22,L18,Tudor City Overpass,L22,Empire State Building,1.28,Metrô/ônibus + caminhada,13,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L18-L23,L18,Tudor City Overpass,L23,Madison Square Garden,1.95,Metrô/ônibus + caminhada,15,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L18-L24,L18,Tudor City Overpass,L24,Gerald Schoenfeld Theatre — Broadway,1.77,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L18-L25,L18,Tudor City Overpass,L25,Times Square,1.6,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L18-L26,L18,Tudor City Overpass,L26,Flatiron Building,1.85,Metrô/ônibus + caminhada,15,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L18-L27,L18,Tudor City Overpass,L27,The Battery,6.4,Metrô/ônibus + caminhada,29,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L18-L28,L18,Tudor City Overpass,L28,Chinatown — Columbus Park,4.52,Metrô/ônibus + caminhada,23,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L18-L29,L18,Tudor City Overpass,L29,Brooklyn Bridge,5.29,Metrô/ônibus + caminhada,25,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L18-L30,L18,Tudor City Overpass,L30,DUMBO — Washington & Water,5.34,Metrô + caminhada,30,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L18-L31,L18,Tudor City Overpass,L31,Brooklyn Bridge Park — Pier 1,5.65,Metrô + caminhada,31,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L18-L32,L18,Tudor City Overpass,L32,Brooklyn Heights Promenade,6.14,Metrô + caminhada,32,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L19-L20,L19,United Nations Headquarters,L20,Moynihan Train Hall,2.35,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L19-L21,L19,United Nations Headquarters,L21,Herald Square,1.69,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L19-L22,L19,United Nations Headquarters,L22,Empire State Building,1.53,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L19-L23,L19,United Nations Headquarters,L23,Madison Square Garden,2.19,Metrô/ônibus + caminhada,16,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L19-L24,L19,United Nations Headquarters,L24,Gerald Schoenfeld Theatre — Broadway,1.95,Metrô/ônibus + caminhada,15,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L19-L25,L19,United Nations Headquarters,L25,Times Square,1.77,Metrô/ônibus + caminhada,14,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L19-L26,L19,United Nations Headquarters,L26,Flatiron Building,2.09,Metrô/ônibus + caminhada,15,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L19-L27,L19,United Nations Headquarters,L27,The Battery,6.6,Metrô/ônibus + caminhada,29,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L19-L28,L19,United Nations Headquarters,L28,Chinatown — Columbus Park,4.71,Metrô/ônibus + caminhada,24,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L19-L29,L19,United Nations Headquarters,L29,Brooklyn Bridge,5.45,Metrô/ônibus + caminhada,26,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L19-L30,L19,United Nations Headquarters,L30,DUMBO — Washington & Water,5.48,Metrô + caminhada,30,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L19-L31,L19,United Nations Headquarters,L31,Brooklyn Bridge Park — Pier 1,5.81,Metrô + caminhada,31,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L19-L32,L19,United Nations Headquarters,L32,Brooklyn Heights Promenade,6.29,Metrô + caminhada,33,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L20-L21,L20,Moynihan Train Hall,L21,Herald Square,0.66,Caminhada,8,10,Alta,Mesmo cluster; tempo operacional curto.
+L20-L22,L20,Moynihan Train Hall,L22,Empire State Building,0.88,Caminhada,12,14,Alta,Mesmo cluster; tempo operacional curto.
+L20-L23,L20,Moynihan Train Hall,L23,Madison Square Garden,0.18,Caminhada,3,4,Alta,Mesmo cluster; tempo operacional curto.
+L20-L24,L20,Moynihan Train Hall,L24,Gerald Schoenfeld Theatre — Broadway,1.04,Caminhada,19,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L20-L25,L20,Moynihan Train Hall,L25,Times Square,1.03,Caminhada,18,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L20-L26,L20,Moynihan Train Hall,L26,Flatiron Building,1.24,Caminhada,22,30,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L20-L27,L20,Moynihan Train Hall,L27,The Battery,5.66,Metrô/ônibus + caminhada,27,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L20-L28,L20,Moynihan Train Hall,L28,Chinatown — Columbus Park,4.05,Metrô/ônibus + caminhada,22,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L20-L29,L20,Moynihan Train Hall,L29,Brooklyn Bridge,5.07,Metrô/ônibus + caminhada,25,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L20-L30,L20,Moynihan Train Hall,L30,DUMBO — Washington & Water,5.36,Metrô + caminhada,30,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L20-L31,L20,Moynihan Train Hall,L31,Brooklyn Bridge Park — Pier 1,5.47,Metrô + caminhada,30,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L20-L32,L20,Moynihan Train Hall,L32,Brooklyn Heights Promenade,5.97,Metrô + caminhada,32,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L21-L22,L21,Herald Square,L22,Empire State Building,0.26,Caminhada,4,6,Alta,Mesmo cluster; tempo operacional curto.
+L21-L23,L21,Herald Square,L23,Madison Square Garden,0.5,Caminhada,6,8,Alta,Mesmo cluster; tempo operacional curto.
+L21-L24,L21,Herald Square,L24,Gerald Schoenfeld Theatre — Broadway,0.92,Caminhada,17,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L21-L25,L21,Herald Square,L25,Times Square,0.79,Caminhada,15,20,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L21-L26,L21,Herald Square,L26,Flatiron Building,1.04,Caminhada,19,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L21-L27,L21,Herald Square,L27,The Battery,5.78,Metrô/ônibus + caminhada,27,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L21-L28,L21,Herald Square,L28,Chinatown — Columbus Park,4.05,Metrô/ônibus + caminhada,22,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L21-L29,L21,Herald Square,L29,Brooklyn Bridge,5.01,Metrô/ônibus + caminhada,25,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L21-L30,L21,Herald Square,L30,DUMBO — Washington & Water,5.23,Metrô + caminhada,30,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L21-L31,L21,Herald Square,L31,Brooklyn Bridge Park — Pier 1,5.4,Metrô + caminhada,30,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L21-L32,L21,Herald Square,L32,Brooklyn Heights Promenade,5.9,Metrô + caminhada,32,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L22-L23,L22,Empire State Building,L23,Madison Square Garden,0.7,Caminhada,10,12,Alta,Mesmo cluster; tempo operacional curto.
+L22-L24,L22,Empire State Building,L24,Gerald Schoenfeld Theatre — Broadway,1.13,Caminhada,20,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L22-L25,L22,Empire State Building,L25,Times Square,0.98,Caminhada,18,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L22-L26,L22,Empire State Building,L26,Flatiron Building,0.89,Caminhada,16,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L22-L27,L22,Empire State Building,L27,The Battery,5.67,Metrô/ônibus + caminhada,27,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L22-L28,L22,Empire State Building,L28,Chinatown — Columbus Park,3.9,Metrô/ônibus + caminhada,21,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L22-L29,L22,Empire State Building,L29,Brooklyn Bridge,4.84,Metrô/ônibus + caminhada,24,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L22-L30,L22,Empire State Building,L30,DUMBO — Washington & Water,5.04,Metrô + caminhada,29,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L22-L31,L22,Empire State Building,L31,Brooklyn Bridge Park — Pier 1,5.23,Metrô + caminhada,30,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L22-L32,L22,Empire State Building,L32,Brooklyn Heights Promenade,5.73,Metrô + caminhada,31,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L23-L24,L23,Madison Square Garden,L24,Gerald Schoenfeld Theatre — Broadway,1.02,Caminhada,18,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L23-L25,L23,Madison Square Garden,L25,Times Square,0.98,Caminhada,18,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L23-L26,L23,Madison Square Garden,L26,Flatiron Building,1.1,Caminhada,20,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L23-L27,L23,Madison Square Garden,L27,The Battery,5.63,Metrô/ônibus + caminhada,26,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L23-L28,L23,Madison Square Garden,L28,Chinatown — Columbus Park,3.98,Metrô/ônibus + caminhada,21,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L23-L29,L23,Madison Square Garden,L29,Brooklyn Bridge,4.99,Metrô/ônibus + caminhada,24,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L23-L30,L23,Madison Square Garden,L30,DUMBO — Washington & Water,5.26,Metrô + caminhada,30,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L23-L31,L23,Madison Square Garden,L31,Brooklyn Bridge Park — Pier 1,5.39,Metrô + caminhada,30,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L23-L32,L23,Madison Square Garden,L32,Brooklyn Heights Promenade,5.89,Metrô + caminhada,32,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L24-L25,L24,Gerald Schoenfeld Theatre — Broadway,L25,Times Square,0.18,Caminhada,3,4,Alta,Mesmo cluster; tempo operacional curto.
+L24-L26,L24,Gerald Schoenfeld Theatre — Broadway,L26,Flatiron Building,1.95,Metrô/ônibus + caminhada,15,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L24-L27,L24,Gerald Schoenfeld Theatre — Broadway,L27,The Battery,6.64,Metrô/ônibus + caminhada,30,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L24-L28,L24,Gerald Schoenfeld Theatre — Broadway,L28,Chinatown — Columbus Park,4.94,Metrô/ônibus + caminhada,24,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L24-L29,L24,Gerald Schoenfeld Theatre — Broadway,L29,Brooklyn Bridge,5.92,Metrô/ônibus + caminhada,27,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L24-L30,L24,Gerald Schoenfeld Theatre — Broadway,L30,DUMBO — Washington & Water,6.15,Metrô + caminhada,32,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L24-L31,L24,Gerald Schoenfeld Theatre — Broadway,L31,Brooklyn Bridge Park — Pier 1,6.31,Metrô + caminhada,33,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L24-L32,L24,Gerald Schoenfeld Theatre — Broadway,L32,Brooklyn Heights Promenade,6.82,Metrô + caminhada,34,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L25-L26,L25,Times Square,L26,Flatiron Building,1.83,Metrô/ônibus + caminhada,15,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L25-L27,L25,Times Square,L27,The Battery,6.55,Metrô/ônibus + caminhada,29,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L25-L28,L25,Times Square,L28,Chinatown — Columbus Park,4.84,Metrô/ônibus + caminhada,24,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L25-L29,L25,Times Square,L29,Brooklyn Bridge,5.8,Metrô/ônibus + caminhada,27,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L25-L30,L25,Times Square,L30,DUMBO — Washington & Water,6.01,Metrô + caminhada,32,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L25-L31,L25,Times Square,L31,Brooklyn Bridge Park — Pier 1,6.19,Metrô + caminhada,33,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L25-L32,L25,Times Square,L32,Brooklyn Heights Promenade,6.69,Metrô + caminhada,34,45,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L26-L27,L26,Flatiron Building,L27,The Battery,4.78,Metrô/ônibus + caminhada,24,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L26-L28,L26,Flatiron Building,L28,Chinatown — Columbus Park,3.01,Metrô/ônibus + caminhada,18,25,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L26-L29,L26,Flatiron Building,L29,Brooklyn Bridge,3.97,Metrô/ônibus + caminhada,21,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L26-L30,L26,Flatiron Building,L30,DUMBO — Washington & Water,4.2,Metrô + caminhada,27,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L26-L31,L26,Flatiron Building,L31,Brooklyn Bridge Park — Pier 1,4.36,Metrô + caminhada,27,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L26-L32,L26,Flatiron Building,L32,Brooklyn Heights Promenade,4.86,Metrô + caminhada,29,35,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L27-L28,L27,The Battery,L28,Chinatown — Columbus Park,1.9,Metrô/ônibus + caminhada,15,20,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L27-L29,L27,The Battery,L29,Brooklyn Bridge,1.67,Caminhada,17,22,Alta,Lower Manhattan; caminhada prática.
+L27-L30,L27,The Battery,L30,DUMBO — Washington & Water,2.2,Metrô + caminhada,24,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L27-L31,L27,The Battery,L31,Brooklyn Bridge Park — Pier 1,1.63,Metrô + caminhada,22,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L27-L32,L27,The Battery,L32,Brooklyn Heights Promenade,1.68,Metrô + caminhada,22,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L28-L29,L28,Chinatown — Columbus Park,L29,Brooklyn Bridge,1.09,Caminhada,10,15,Alta,Mesmo cluster; tempo operacional curto.
+L28-L30,L28,Chinatown — Columbus Park,L30,DUMBO — Washington & Water,1.58,Metrô + caminhada,22,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L28-L31,L28,Chinatown — Columbus Park,L31,Brooklyn Bridge Park — Pier 1,1.47,Metrô + caminhada,21,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L28-L32,L28,Chinatown — Columbus Park,L32,Brooklyn Heights Promenade,1.96,Metrô + caminhada,23,30,Média,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L29-L30,L29,Brooklyn Bridge,L30,DUMBO — Washington & Water,0.62,Caminhada,12,14,Alta,Mesmo cluster; tempo operacional curto.
+L29-L31,L29,Brooklyn Bridge,L31,Brooklyn Bridge Park — Pier 1,0.39,Caminhada,10,12,Alta,Mesmo cluster; tempo operacional curto.
+L29-L32,L29,Brooklyn Bridge,L32,Brooklyn Heights Promenade,0.9,Caminhada,19,25,Alta,"Estimativa de planejamento, não tempo em trânsito ao vivo."
+L30-L31,L30,DUMBO — Washington & Water,L31,Brooklyn Bridge Park — Pier 1,0.58,Caminhada,8,10,Alta,Mesmo cluster; tempo operacional curto.
+L30-L32,L30,DUMBO — Washington & Water,L32,Brooklyn Heights Promenade,0.88,Caminhada,10,15,Alta,Mesmo cluster; tempo operacional curto.
+L31-L32,L31,Brooklyn Bridge Park — Pier 1,L32,Brooklyn Heights Promenade,0.5,Caminhada,10,12,Alta,Mesmo cluster; tempo operacional curto.
+L01-L33,L01,Hotel — 340 W 40th St,L33,Chrysler Building,1.60,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L01-L34,L01,Hotel — 340 W 40th St,L34,Central Park — South / The Pond,1.94,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L01-L35,L01,Hotel — 340 W 40th St,L35,Apple Fifth Avenue,1.86,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L01-L36,L01,Hotel — 340 W 40th St,L36,SoHo — Prince & Broadway,3.66,Metrô/ônibus + caminhada,20,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L01-L37,L01,Hotel — 340 W 40th St,L37,Pearl River Mart,3.90,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L01-L38,L01,Hotel — 340 W 40th St,L38,Intrepid Museum,1.00,Caminhada,15,20,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L01-L39,L01,Hotel — 340 W 40th St,L39,Hudson River Greenway — Midtown,1.09,Caminhada,16,25,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L01-L40,L01,Hotel — 340 W 40th St,L40,Hudson Yards,0.88,Caminhada,13,20,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L01-L41,L01,Hotel — 340 W 40th St,L41,The Oculus,5.27,Metrô/ônibus + caminhada,25,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L01-L42,L01,Hotel — 340 W 40th St,L42,9/11 Memorial & Museum,5.32,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L01-L43,L01,Hotel — 340 W 40th St,L43,Wall Street / NYSE,5.77,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L01-L44,L01,Hotel — 340 W 40th St,L44,Trinity Church,5.67,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L01-L45,L01,Hotel — 340 W 40th St,L45,Bathhouse Flatiron,1.91,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L02-L33,L02,The Mills at Jersey Gardens,L33,Chrysler Building,19.41,Ônibus intermunicipal + caminhada,72,90,Baixa/Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L02-L34,L02,The Mills at Jersey Gardens,L34,Central Park — South / The Pond,20.44,Ônibus intermunicipal + caminhada,74,90,Baixa/Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L02-L35,L02,The Mills at Jersey Gardens,L35,Apple Fifth Avenue,20.33,Ônibus intermunicipal + caminhada,73,90,Baixa/Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L02-L36,L02,The Mills at Jersey Gardens,L36,SoHo — Prince & Broadway,16.29,Ônibus intermunicipal + caminhada,68,85,Baixa/Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L02-L37,L02,The Mills at Jersey Gardens,L37,Pearl River Mart,16.02,Ônibus intermunicipal + caminhada,67,85,Baixa/Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L02-L38,L02,The Mills at Jersey Gardens,L38,Intrepid Museum,18.57,Ônibus intermunicipal + caminhada,71,90,Baixa/Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L02-L39,L02,The Mills at Jersey Gardens,L39,Hudson River Greenway — Midtown,17.53,Ônibus intermunicipal + caminhada,70,85,Baixa/Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L02-L40,L02,The Mills at Jersey Gardens,L40,Hudson Yards,17.63,Ônibus intermunicipal + caminhada,70,85,Baixa/Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L02-L41,L02,The Mills at Jersey Gardens,L41,The Oculus,14.67,Ônibus intermunicipal + caminhada,66,85,Baixa/Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L02-L42,L02,The Mills at Jersey Gardens,L42,9/11 Memorial & Museum,14.52,Ônibus intermunicipal + caminhada,65,80,Baixa/Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L02-L43,L02,The Mills at Jersey Gardens,L43,Wall Street / NYSE,14.48,Ônibus intermunicipal + caminhada,65,80,Baixa/Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L02-L44,L02,The Mills at Jersey Gardens,L44,Trinity Church,14.46,Ônibus intermunicipal + caminhada,65,80,Baixa/Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L02-L45,L02,The Mills at Jersey Gardens,L45,Bathhouse Flatiron,17.68,Ônibus intermunicipal + caminhada,70,85,Baixa/Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L03-L33,L03,American Museum of Natural History,L33,Chrysler Building,3.30,Metrô/ônibus + caminhada,19,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L03-L34,L03,American Museum of Natural History,L34,Central Park — South / The Pond,1.65,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L03-L35,L03,American Museum of Natural History,L35,Apple Fifth Avenue,1.95,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L03-L36,L03,American Museum of Natural History,L36,SoHo — Prince & Broadway,6.66,Metrô + caminhada,34,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L03-L37,L03,American Museum of Natural History,L37,Pearl River Mart,6.92,Metrô + caminhada,35,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L03-L38,L03,American Museum of Natural History,L38,Intrepid Museum,2.85,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L03-L39,L03,American Museum of Natural History,L39,Hudson River Greenway — Midtown,3.93,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L03-L40,L03,American Museum of Natural History,L40,Hudson Yards,3.91,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L03-L41,L03,American Museum of Natural History,L41,The Oculus,8.37,Metrô + caminhada,39,50,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L03-L42,L03,American Museum of Natural History,L42,9/11 Memorial & Museum,8.44,Metrô + caminhada,39,50,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L03-L43,L03,American Museum of Natural History,L43,Wall Street / NYSE,8.85,Metrô + caminhada,41,55,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L03-L44,L03,American Museum of Natural History,L44,Trinity Church,8.76,Metrô + caminhada,40,50,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L03-L45,L03,American Museum of Natural History,L45,Bathhouse Flatiron,4.80,Metrô/ônibus + caminhada,24,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L04-L33,L04,New York Aquarium,L33,Chrysler Building,19.71,Metrô + caminhada,73,90,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L04-L34,L04,New York Aquarium,L34,Central Park — South / The Pond,21.36,Metrô + caminhada,78,95,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L04-L35,L04,New York Aquarium,L35,Apple Fifth Avenue,21.07,Metrô + caminhada,77,95,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L04-L36,L04,New York Aquarium,L36,SoHo — Prince & Broadway,16.77,Metrô + caminhada,64,80,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L04-L37,L04,New York Aquarium,L37,Pearl River Mart,16.58,Metrô + caminhada,64,80,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L04-L38,L04,New York Aquarium,L38,Intrepid Museum,21.24,Metrô + caminhada,78,95,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L04-L39,L04,New York Aquarium,L39,Hudson River Greenway — Midtown,20.31,Metrô + caminhada,75,90,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L04-L40,L04,New York Aquarium,L40,Hudson Yards,20.08,Metrô + caminhada,74,90,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L04-L41,L04,New York Aquarium,L41,The Oculus,15.56,Metrô + caminhada,61,80,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L04-L42,L04,New York Aquarium,L42,9/11 Memorial & Museum,15.59,Metrô + caminhada,61,80,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L04-L43,L04,New York Aquarium,L43,Wall Street / NYSE,15.04,Metrô + caminhada,59,70,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L04-L44,L04,New York Aquarium,L44,Trinity Church,15.19,Metrô + caminhada,60,70,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L04-L45,L04,New York Aquarium,L45,Bathhouse Flatiron,18.45,Metrô + caminhada,69,85,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L05-L33,L05,Coney Island Boardwalk,L33,Chrysler Building,19.83,Metrô + caminhada,73,90,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L05-L34,L05,Coney Island Boardwalk,L34,Central Park — South / The Pond,21.48,Metrô + caminhada,78,95,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L05-L35,L05,Coney Island Boardwalk,L35,Apple Fifth Avenue,21.19,Metrô + caminhada,78,95,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L05-L36,L05,Coney Island Boardwalk,L36,SoHo — Prince & Broadway,16.86,Metrô + caminhada,65,80,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L05-L37,L05,Coney Island Boardwalk,L37,Pearl River Mart,16.67,Metrô + caminhada,64,80,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L05-L38,L05,Coney Island Boardwalk,L38,Intrepid Museum,21.34,Metrô + caminhada,78,95,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L05-L39,L05,Coney Island Boardwalk,L39,Hudson River Greenway — Midtown,20.39,Metrô + caminhada,75,90,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L05-L40,L05,Coney Island Boardwalk,L40,Hudson Yards,20.17,Metrô + caminhada,74,90,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L05-L41,L05,Coney Island Boardwalk,L41,The Oculus,15.62,Metrô + caminhada,61,80,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L05-L42,L05,Coney Island Boardwalk,L42,9/11 Memorial & Museum,15.65,Metrô + caminhada,61,80,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L05-L43,L05,Coney Island Boardwalk,L43,Wall Street / NYSE,15.10,Metrô + caminhada,59,70,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L05-L44,L05,Coney Island Boardwalk,L44,Trinity Church,15.25,Metrô + caminhada,60,70,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L05-L45,L05,Coney Island Boardwalk,L45,Bathhouse Flatiron,18.56,Metrô + caminhada,70,85,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L06-L33,L06,QC NY Spa,L33,Chrysler Building,7.44,Ferry + metrô/ônibus/caminhada,52,65,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L06-L34,L06,QC NY Spa,L34,Central Park — South / The Pond,8.98,Ferry + metrô/ônibus/caminhada,57,70,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L06-L35,L06,QC NY Spa,L35,Apple Fifth Avenue,8.75,Ferry + metrô/ônibus/caminhada,56,70,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L06-L36,L06,QC NY Spa,L36,SoHo — Prince & Broadway,3.87,Ferry + metrô/ônibus/caminhada,42,55,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L06-L37,L06,QC NY Spa,L37,Pearl River Mart,3.59,Ferry + metrô/ônibus/caminhada,41,55,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L06-L38,L06,QC NY Spa,L38,Intrepid Museum,8.11,Ferry + metrô/ônibus/caminhada,54,65,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L06-L39,L06,QC NY Spa,L39,Hudson River Greenway — Midtown,7.04,Ferry + metrô/ônibus/caminhada,51,65,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L06-L40,L06,QC NY Spa,L40,Hudson Yards,6.88,Ferry + metrô/ônibus/caminhada,51,65,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L06-L41,L06,QC NY Spa,L41,The Oculus,2.14,Ferry + metrô/ônibus/caminhada,36,50,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L06-L42,L06,QC NY Spa,L42,9/11 Memorial & Museum,2.11,Ferry + metrô/ônibus/caminhada,36,50,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L06-L43,L06,QC NY Spa,L43,Wall Street / NYSE,1.65,Ferry + metrô/ônibus/caminhada,35,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L06-L44,L06,QC NY Spa,L44,Trinity Church,1.75,Ferry + metrô/ônibus/caminhada,35,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L06-L45,L06,QC NY Spa,L45,Bathhouse Flatiron,5.73,Ferry + metrô/ônibus/caminhada,47,60,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L07-L33,L07,WORLD SPA,L33,Chrysler Building,15.16,Metrô + caminhada,59,70,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L07-L34,L07,WORLD SPA,L34,Central Park — South / The Pond,16.81,Metrô + caminhada,64,80,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L07-L35,L07,WORLD SPA,L35,Apple Fifth Avenue,16.52,Metrô + caminhada,64,80,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L07-L36,L07,WORLD SPA,L36,SoHo — Prince & Broadway,12.24,Metrô + caminhada,51,65,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L07-L37,L07,WORLD SPA,L37,Pearl River Mart,12.06,Metrô + caminhada,50,60,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L07-L38,L07,WORLD SPA,L38,Intrepid Museum,16.71,Metrô + caminhada,64,80,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L07-L39,L07,WORLD SPA,L39,Hudson River Greenway — Midtown,15.79,Metrô + caminhada,61,80,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L07-L40,L07,WORLD SPA,L40,Hudson Yards,15.55,Metrô + caminhada,61,80,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L07-L41,L07,WORLD SPA,L41,The Oculus,11.10,Metrô + caminhada,47,60,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L07-L42,L07,WORLD SPA,L42,9/11 Memorial & Museum,11.15,Metrô + caminhada,47,60,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L07-L43,L07,WORLD SPA,L43,Wall Street / NYSE,10.60,Metrô + caminhada,46,60,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L07-L44,L07,WORLD SPA,L44,Trinity Church,10.74,Metrô + caminhada,46,60,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L07-L45,L07,WORLD SPA,L45,Bathhouse Flatiron,13.91,Metrô + caminhada,56,70,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L08-L33,L08,ARTE MUSEUM New York,L33,Chrysler Building,2.99,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L08-L34,L08,ARTE MUSEUM New York,L34,Central Park — South / The Pond,3.74,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L08-L35,L08,ARTE MUSEUM New York,L35,Apple Fifth Avenue,3.65,Metrô/ônibus + caminhada,20,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L08-L36,L08,ARTE MUSEUM New York,L36,SoHo — Prince & Broadway,2.81,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L08-L37,L08,ARTE MUSEUM New York,L37,Pearl River Mart,2.94,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L08-L38,L08,ARTE MUSEUM New York,L38,Intrepid Museum,2.10,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L08-L39,L08,ARTE MUSEUM New York,L39,Hudson River Greenway — Midtown,0.97,Caminhada,14,20,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L08-L40,L08,ARTE MUSEUM New York,L40,Hudson Yards,0.95,Caminhada,14,20,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L08-L41,L08,ARTE MUSEUM New York,L41,The Oculus,4.00,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L08-L42,L08,ARTE MUSEUM New York,L42,9/11 Memorial & Museum,4.01,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L08-L43,L08,ARTE MUSEUM New York,L43,Wall Street / NYSE,4.52,Metrô/ônibus + caminhada,23,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L08-L44,L08,ARTE MUSEUM New York,L44,Trinity Church,4.39,Metrô/ônibus + caminhada,23,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L08-L45,L08,ARTE MUSEUM New York,L45,Bathhouse Flatiron,1.91,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L09-L33,L09,Chelsea Market,L33,Chrysler Building,2.70,Metrô/ônibus + caminhada,17,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L09-L34,L09,Chelsea Market,L34,Central Park — South / The Pond,3.77,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L09-L35,L09,Chelsea Market,L35,Apple Fifth Avenue,3.62,Metrô/ônibus + caminhada,20,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L09-L36,L09,Chelsea Market,L36,SoHo — Prince & Broadway,2.07,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L09-L37,L09,Chelsea Market,L37,Pearl River Mart,2.23,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L09-L38,L09,Chelsea Market,L38,Intrepid Museum,2.54,Metrô/ônibus + caminhada,17,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L09-L39,L09,Chelsea Market,L39,Hudson River Greenway — Midtown,1.50,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L09-L40,L09,Chelsea Market,L40,Hudson Yards,1.31,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L09-L41,L09,Chelsea Market,L41,The Oculus,3.43,Metrô/ônibus + caminhada,20,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L09-L42,L09,Chelsea Market,L42,9/11 Memorial & Museum,3.46,Metrô/ônibus + caminhada,20,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L09-L43,L09,Chelsea Market,L43,Wall Street / NYSE,3.95,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L09-L44,L09,Chelsea Market,L44,Trinity Church,3.83,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L09-L45,L09,Chelsea Market,L45,Bathhouse Flatiron,1.26,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L10-L33,L10,High Line — Chelsea/Gansevoort,L33,Chrysler Building,2.92,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L10-L34,L10,High Line — Chelsea/Gansevoort,L34,Central Park — South / The Pond,3.93,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L10-L35,L10,High Line — Chelsea/Gansevoort,L35,Apple Fifth Avenue,3.79,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L10-L36,L10,High Line — Chelsea/Gansevoort,L36,SoHo — Prince & Broadway,2.17,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L10-L37,L10,High Line — Chelsea/Gansevoort,L37,Pearl River Mart,2.30,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L10-L38,L10,High Line — Chelsea/Gansevoort,L38,Intrepid Museum,2.58,Metrô/ônibus + caminhada,17,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L10-L39,L10,High Line — Chelsea/Gansevoort,L39,Hudson River Greenway — Midtown,1.49,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L10-L40,L10,High Line — Chelsea/Gansevoort,L40,Hudson Yards,1.35,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L10-L41,L10,High Line — Chelsea/Gansevoort,L41,The Oculus,3.42,Metrô/ônibus + caminhada,20,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L10-L42,L10,High Line — Chelsea/Gansevoort,L42,9/11 Memorial & Museum,3.44,Metrô/ônibus + caminhada,20,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L10-L43,L10,High Line — Chelsea/Gansevoort,L43,Wall Street / NYSE,3.94,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L10-L44,L10,High Line — Chelsea/Gansevoort,L44,Trinity Church,3.81,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L10-L45,L10,High Line — Chelsea/Gansevoort,L45,Bathhouse Flatiron,1.50,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L11-L33,L11,Little Island,L33,Chrysler Building,3.14,Metrô/ônibus + caminhada,19,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L11-L34,L11,Little Island,L34,Central Park — South / The Pond,4.12,Metrô/ônibus + caminhada,22,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L11-L35,L11,Little Island,L35,Apple Fifth Avenue,3.99,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L11-L36,L11,Little Island,L36,SoHo — Prince & Broadway,2.26,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L11-L37,L11,Little Island,L37,Pearl River Mart,2.36,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L11-L38,L11,Little Island,L38,Intrepid Museum,2.67,Metrô/ônibus + caminhada,17,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L11-L39,L11,Little Island,L39,Hudson River Greenway — Midtown,1.55,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L11-L40,L11,Little Island,L40,Hudson Yards,1.46,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L11-L41,L11,Little Island,L41,The Oculus,3.39,Metrô/ônibus + caminhada,19,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L11-L42,L11,Little Island,L42,9/11 Memorial & Museum,3.39,Metrô/ônibus + caminhada,20,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L11-L43,L11,Little Island,L43,Wall Street / NYSE,3.91,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L11-L44,L11,Little Island,L44,Trinity Church,3.78,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L11-L45,L11,Little Island,L45,Bathhouse Flatiron,1.73,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L12-L33,L12,MoMA,L33,Chrysler Building,1.12,Caminhada,16,25,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L12-L34,L12,MoMA,L34,Central Park — South / The Pond,0.62,Caminhada,10,15,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L12-L35,L12,MoMA,L35,Apple Fifth Avenue,0.46,Caminhada,8,15,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L12-L36,L12,MoMA,L36,SoHo — Prince & Broadway,4.50,Metrô/ônibus + caminhada,23,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L12-L37,L12,MoMA,L37,Pearl River Mart,4.77,Metrô/ônibus + caminhada,24,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L12-L38,L12,MoMA,L38,Intrepid Museum,1.89,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L12-L39,L12,MoMA,L39,Hudson River Greenway — Midtown,2.49,Metrô/ônibus + caminhada,17,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L12-L40,L12,MoMA,L40,Hudson Yards,2.30,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L12-L41,L12,MoMA,L41,The Oculus,6.25,Metrô + caminhada,33,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L12-L42,L12,MoMA,L42,9/11 Memorial & Museum,6.33,Metrô + caminhada,33,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L12-L43,L12,MoMA,L43,Wall Street / NYSE,6.72,Metrô + caminhada,34,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L12-L44,L12,MoMA,L44,Trinity Church,6.63,Metrô + caminhada,34,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L12-L45,L12,MoMA,L45,Bathhouse Flatiron,2.63,Metrô/ônibus + caminhada,17,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L13-L33,L13,Rockefeller Center,L33,Chrysler Building,0.85,Caminhada,13,20,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L13-L34,L13,Rockefeller Center,L34,Central Park — South / The Pond,0.94,Caminhada,14,20,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L13-L35,L13,Rockefeller Center,L35,Apple Fifth Avenue,0.74,Caminhada,11,15,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L13-L36,L13,Rockefeller Center,L36,SoHo — Prince & Broadway,4.17,Metrô/ônibus + caminhada,22,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L13-L37,L13,Rockefeller Center,L37,Pearl River Mart,4.44,Metrô/ônibus + caminhada,23,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L13-L38,L13,Rockefeller Center,L38,Intrepid Museum,1.86,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L13-L39,L13,Rockefeller Center,L39,Hudson River Greenway — Midtown,2.32,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L13-L40,L13,Rockefeller Center,L40,Hudson Yards,2.10,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L13-L41,L13,Rockefeller Center,L41,The Oculus,5.93,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L13-L42,L13,Rockefeller Center,L42,9/11 Memorial & Museum,6.01,Metrô + caminhada,32,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L13-L43,L13,Rockefeller Center,L43,Wall Street / NYSE,6.39,Metrô + caminhada,33,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L13-L44,L13,Rockefeller Center,L44,Trinity Church,6.31,Metrô + caminhada,33,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L13-L45,L13,Rockefeller Center,L45,Bathhouse Flatiron,2.31,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L14-L33,L14,St. Patrick's Cathedral,L33,Chrysler Building,0.78,Caminhada,12,15,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L14-L34,L14,St. Patrick's Cathedral,L34,Central Park — South / The Pond,0.90,Caminhada,13,20,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L14-L35,L14,St. Patrick's Cathedral,L35,Apple Fifth Avenue,0.65,Caminhada,10,15,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L14-L36,L14,St. Patrick's Cathedral,L36,SoHo — Prince & Broadway,4.23,Metrô/ônibus + caminhada,22,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L14-L37,L14,St. Patrick's Cathedral,L37,Pearl River Mart,4.51,Metrô/ônibus + caminhada,23,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L14-L38,L14,St. Patrick's Cathedral,L38,Intrepid Museum,2.07,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L14-L39,L14,St. Patrick's Cathedral,L39,Hudson River Greenway — Midtown,2.52,Metrô/ônibus + caminhada,17,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L14-L40,L14,St. Patrick's Cathedral,L40,Hudson Yards,2.29,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L14-L41,L14,St. Patrick's Cathedral,L41,The Oculus,6.01,Metrô + caminhada,32,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L14-L42,L14,St. Patrick's Cathedral,L42,9/11 Memorial & Museum,6.09,Metrô + caminhada,32,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L14-L43,L14,St. Patrick's Cathedral,L43,Wall Street / NYSE,6.46,Metrô + caminhada,33,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L14-L44,L14,St. Patrick's Cathedral,L44,Trinity Church,6.38,Metrô + caminhada,33,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L14-L45,L14,St. Patrick's Cathedral,L45,Bathhouse Flatiron,2.38,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L15-L33,L15,Bryant Park,L33,Chrysler Building,0.72,Caminhada,11,15,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L15-L34,L15,Bryant Park,L34,Central Park — South / The Pond,1.63,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L15-L35,L15,Bryant Park,L35,Apple Fifth Avenue,1.43,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L15-L36,L15,Bryant Park,L36,SoHo — Prince & Broadway,3.50,Metrô/ônibus + caminhada,20,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L15-L37,L15,Bryant Park,L37,Pearl River Mart,3.77,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L15-L38,L15,Bryant Park,L38,Intrepid Museum,1.81,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L15-L39,L15,Bryant Park,L39,Hudson River Greenway — Midtown,1.90,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L15-L40,L15,Bryant Park,L40,Hudson Yards,1.62,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L15-L41,L15,Bryant Park,L41,The Oculus,5.25,Metrô/ônibus + caminhada,25,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L15-L42,L15,Bryant Park,L42,9/11 Memorial & Museum,5.32,Metrô/ônibus + caminhada,25,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L15-L43,L15,Bryant Park,L43,Wall Street / NYSE,5.71,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L15-L44,L15,Bryant Park,L44,Trinity Church,5.62,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L15-L45,L15,Bryant Park,L45,Bathhouse Flatiron,1.63,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L16-L33,L16,NYPL — Schwarzman Building,L33,Chrysler Building,0.60,Caminhada,9,15,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L16-L34,L16,NYPL — Schwarzman Building,L34,Central Park — South / The Pond,1.63,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L16-L35,L16,NYPL — Schwarzman Building,L35,Apple Fifth Avenue,1.41,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L16-L36,L16,NYPL — Schwarzman Building,L36,SoHo — Prince & Broadway,3.48,Metrô/ônibus + caminhada,20,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L16-L37,L16,NYPL — Schwarzman Building,L37,Pearl River Mart,3.75,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L16-L38,L16,NYPL — Schwarzman Building,L38,Intrepid Museum,1.93,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L16-L39,L16,NYPL — Schwarzman Building,L39,Hudson River Greenway — Midtown,2.02,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L16-L40,L16,NYPL — Schwarzman Building,L40,Hudson Yards,1.73,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L16-L41,L16,NYPL — Schwarzman Building,L41,The Oculus,5.24,Metrô/ônibus + caminhada,25,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L16-L42,L16,NYPL — Schwarzman Building,L42,9/11 Memorial & Museum,5.32,Metrô/ônibus + caminhada,25,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L16-L43,L16,NYPL — Schwarzman Building,L43,Wall Street / NYSE,5.70,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L16-L44,L16,NYPL — Schwarzman Building,L44,Trinity Church,5.62,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L16-L45,L16,NYPL — Schwarzman Building,L45,Bathhouse Flatiron,1.62,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L17-L33,L17,Grand Central Terminal,L33,Chrysler Building,0.19,Caminhada,4,10,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L17-L34,L17,Grand Central Terminal,L34,Central Park — South / The Pond,1.54,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L17-L35,L17,Grand Central Terminal,L35,Apple Fifth Avenue,1.28,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L17-L36,L17,Grand Central Terminal,L36,SoHo — Prince & Broadway,3.62,Metrô/ônibus + caminhada,20,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L17-L37,L17,Grand Central Terminal,L37,Pearl River Mart,3.90,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L17-L38,L17,Grand Central Terminal,L38,Intrepid Museum,2.30,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L17-L39,L17,Grand Central Terminal,L39,Hudson River Greenway — Midtown,2.45,Metrô/ônibus + caminhada,17,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L17-L40,L17,Grand Central Terminal,L40,Hudson Yards,2.16,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L17-L41,L17,Grand Central Terminal,L41,The Oculus,5.42,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L17-L42,L17,Grand Central Terminal,L42,9/11 Memorial & Museum,5.51,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L17-L43,L17,Grand Central Terminal,L43,Wall Street / NYSE,5.86,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L17-L44,L17,Grand Central Terminal,L44,Trinity Church,5.78,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L17-L45,L17,Grand Central Terminal,L45,Bathhouse Flatiron,1.80,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L18-L33,L18,Tudor City Overpass,L33,Chrysler Building,0.51,Caminhada,8,15,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L18-L34,L18,Tudor City Overpass,L34,Central Park — South / The Pond,1.96,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L18-L35,L18,Tudor City Overpass,L35,Apple Fifth Avenue,1.66,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L18-L36,L18,Tudor City Overpass,L36,SoHo — Prince & Broadway,3.59,Metrô/ônibus + caminhada,20,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L18-L37,L18,Tudor City Overpass,L37,Pearl River Mart,3.88,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L18-L38,L18,Tudor City Overpass,L38,Intrepid Museum,3.00,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L18-L39,L18,Tudor City Overpass,L39,Hudson River Greenway — Midtown,3.08,Metrô/ônibus + caminhada,19,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L18-L40,L18,Tudor City Overpass,L40,Hudson Yards,2.77,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L18-L41,L18,Tudor City Overpass,L41,The Oculus,5.41,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L18-L42,L18,Tudor City Overpass,L42,9/11 Memorial & Museum,5.51,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L18-L43,L18,Tudor City Overpass,L43,Wall Street / NYSE,5.81,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L18-L44,L18,Tudor City Overpass,L44,Trinity Church,5.75,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L18-L45,L18,Tudor City Overpass,L45,Bathhouse Flatiron,1.94,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L19-L33,L19,United Nations Headquarters,L33,Chrysler Building,0.71,Caminhada,11,15,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L19-L34,L19,United Nations Headquarters,L34,Central Park — South / The Pond,1.95,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L19-L35,L19,United Nations Headquarters,L35,Apple Fifth Avenue,1.65,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L19-L36,L19,United Nations Headquarters,L36,SoHo — Prince & Broadway,3.80,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L19-L37,L19,United Nations Headquarters,L37,Pearl River Mart,4.09,Metrô/ônibus + caminhada,22,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L19-L38,L19,United Nations Headquarters,L38,Intrepid Museum,3.17,Metrô/ônibus + caminhada,19,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L19-L39,L19,United Nations Headquarters,L39,Hudson River Greenway — Midtown,3.31,Metrô/ônibus + caminhada,19,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L19-L40,L19,United Nations Headquarters,L40,Hudson Yards,3.00,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L19-L41,L19,United Nations Headquarters,L41,The Oculus,5.62,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L19-L42,L19,United Nations Headquarters,L42,9/11 Memorial & Museum,5.72,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L19-L43,L19,United Nations Headquarters,L43,Wall Street / NYSE,6.01,Metrô + caminhada,32,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L19-L44,L19,United Nations Headquarters,L44,Trinity Church,5.96,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L19-L45,L19,United Nations Headquarters,L45,Bathhouse Flatiron,2.19,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L20-L33,L20,Moynihan Train Hall,L33,Chrysler Building,1.67,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L20-L34,L20,Moynihan Train Hall,L34,Central Park — South / The Pond,2.47,Metrô/ônibus + caminhada,17,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L20-L35,L20,Moynihan Train Hall,L35,Apple Fifth Avenue,2.34,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L20-L36,L20,Moynihan Train Hall,L36,SoHo — Prince & Broadway,3.02,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L20-L37,L20,Moynihan Train Hall,L37,Pearl River Mart,3.25,Metrô/ônibus + caminhada,19,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L20-L38,L20,Moynihan Train Hall,L38,Intrepid Museum,1.51,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L20-L39,L20,Moynihan Train Hall,L39,Hudson River Greenway — Midtown,1.01,Caminhada,15,20,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L20-L40,L20,Moynihan Train Hall,L40,Hudson Yards,0.68,Caminhada,11,15,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L20-L41,L20,Moynihan Train Hall,L41,The Oculus,4.62,Metrô/ônibus + caminhada,23,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L20-L42,L20,Moynihan Train Hall,L42,9/11 Memorial & Museum,4.67,Metrô/ônibus + caminhada,23,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L20-L43,L20,Moynihan Train Hall,L43,Wall Street / NYSE,5.12,Metrô/ônibus + caminhada,25,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L20-L44,L20,Moynihan Train Hall,L44,Trinity Church,5.01,Metrô/ônibus + caminhada,25,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L20-L45,L20,Moynihan Train Hall,L45,Bathhouse Flatiron,1.33,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L21-L33,L21,Herald Square,L33,Chrysler Building,1.03,Caminhada,15,20,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L21-L34,L21,Herald Square,L34,Central Park — South / The Pond,2.14,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L21-L35,L21,Herald Square,L35,Apple Fifth Avenue,1.95,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L21-L36,L21,Herald Square,L36,SoHo — Prince & Broadway,3.02,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L21-L37,L21,Herald Square,L37,Pearl River Mart,3.28,Metrô/ônibus + caminhada,19,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L21-L38,L21,Herald Square,L38,Intrepid Museum,1.88,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L21-L39,L21,Herald Square,L39,Hudson River Greenway — Midtown,1.66,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L21-L40,L21,Herald Square,L40,Hudson Yards,1.33,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L21-L41,L21,Herald Square,L41,The Oculus,4.75,Metrô/ônibus + caminhada,24,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L21-L42,L21,Herald Square,L42,9/11 Memorial & Museum,4.82,Metrô/ônibus + caminhada,24,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L21-L43,L21,Herald Square,L43,Wall Street / NYSE,5.22,Metrô/ônibus + caminhada,25,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L21-L44,L21,Herald Square,L44,Trinity Church,5.13,Metrô/ônibus + caminhada,25,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L21-L45,L21,Herald Square,L45,Bathhouse Flatiron,1.17,Caminhada,17,25,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L22-L33,L22,Empire State Building,L33,Chrysler Building,0.93,Caminhada,14,20,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L22-L34,L22,Empire State Building,L34,Central Park — South / The Pond,2.24,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L22-L35,L22,Empire State Building,L35,Apple Fifth Avenue,2.02,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L22-L36,L22,Empire State Building,L36,SoHo — Prince & Broadway,2.88,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L22-L37,L22,Empire State Building,L37,Pearl River Mart,3.15,Metrô/ônibus + caminhada,19,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L22-L38,L22,Empire State Building,L38,Intrepid Museum,2.14,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L22-L39,L22,Empire State Building,L39,Hudson River Greenway — Midtown,1.89,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L22-L40,L22,Empire State Building,L40,Hudson Yards,1.56,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L22-L41,L22,Empire State Building,L41,The Oculus,4.64,Metrô/ônibus + caminhada,23,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L22-L42,L22,Empire State Building,L42,9/11 Memorial & Museum,4.72,Metrô/ônibus + caminhada,24,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L22-L43,L22,Empire State Building,L43,Wall Street / NYSE,5.10,Metrô/ônibus + caminhada,25,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L22-L44,L22,Empire State Building,L44,Trinity Church,5.02,Metrô/ônibus + caminhada,25,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L22-L45,L22,Empire State Building,L45,Bathhouse Flatiron,1.02,Caminhada,15,20,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L23-L33,L23,Madison Square Garden,L33,Chrysler Building,1.52,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L23-L34,L23,Madison Square Garden,L34,Central Park — South / The Pond,2.43,Metrô/ônibus + caminhada,17,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L23-L35,L23,Madison Square Garden,L35,Apple Fifth Avenue,2.28,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L23-L36,L23,Madison Square Garden,L36,SoHo — Prince & Broadway,2.95,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L23-L37,L23,Madison Square Garden,L37,Pearl River Mart,3.19,Metrô/ônibus + caminhada,19,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L23-L38,L23,Madison Square Garden,L38,Intrepid Museum,1.64,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L23-L39,L23,Madison Square Garden,L39,Hudson River Greenway — Midtown,1.19,Caminhada,17,25,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L23-L40,L23,Madison Square Garden,L40,Hudson Yards,0.86,Caminhada,13,20,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L23-L41,L23,Madison Square Garden,L41,The Oculus,4.59,Metrô/ônibus + caminhada,23,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L23-L42,L23,Madison Square Garden,L42,9/11 Memorial & Museum,4.64,Metrô/ônibus + caminhada,23,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L23-L43,L23,Madison Square Garden,L43,Wall Street / NYSE,5.08,Metrô/ônibus + caminhada,25,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L23-L44,L23,Madison Square Garden,L44,Trinity Church,4.98,Metrô/ônibus + caminhada,24,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L23-L45,L23,Madison Square Garden,L45,Bathhouse Flatiron,1.21,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L24-L33,L24,Gerald Schoenfeld Theatre — Broadway,L33,Chrysler Building,1.26,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L24-L34,L24,Gerald Schoenfeld Theatre — Broadway,L34,Central Park — South / The Pond,1.45,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L24-L35,L24,Gerald Schoenfeld Theatre — Broadway,L35,Apple Fifth Avenue,1.35,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L24-L36,L24,Gerald Schoenfeld Theatre — Broadway,L36,SoHo — Prince & Broadway,3.91,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L24-L37,L24,Gerald Schoenfeld Theatre — Broadway,L37,Pearl River Mart,4.16,Metrô/ônibus + caminhada,22,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L24-L38,L24,Gerald Schoenfeld Theatre — Broadway,L38,Intrepid Museum,1.23,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L24-L39,L24,Gerald Schoenfeld Theatre — Broadway,L39,Hudson River Greenway — Midtown,1.60,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L24-L40,L24,Gerald Schoenfeld Theatre — Broadway,L40,Hudson Yards,1.39,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L24-L41,L24,Gerald Schoenfeld Theatre — Broadway,L41,The Oculus,5.60,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L24-L42,L24,Gerald Schoenfeld Theatre — Broadway,L42,9/11 Memorial & Museum,5.66,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L24-L43,L24,Gerald Schoenfeld Theatre — Broadway,L43,Wall Street / NYSE,6.08,Metrô + caminhada,32,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L24-L44,L24,Gerald Schoenfeld Theatre — Broadway,L44,Trinity Church,5.98,Metrô/ônibus + caminhada,28,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L24-L45,L24,Gerald Schoenfeld Theatre — Broadway,L45,Bathhouse Flatiron,2.08,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L25-L33,L25,Times Square,L33,Chrysler Building,1.08,Caminhada,16,25,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L25-L34,L25,Times Square,L34,Central Park — South / The Pond,1.45,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L25-L35,L25,Times Square,L35,Apple Fifth Avenue,1.32,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L25-L36,L25,Times Square,L36,SoHo — Prince & Broadway,3.81,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L25-L37,L25,Times Square,L37,Pearl River Mart,4.06,Metrô/ônibus + caminhada,22,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L25-L38,L25,Times Square,L38,Intrepid Museum,1.40,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L25-L39,L25,Times Square,L39,Hudson River Greenway — Midtown,1.69,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L25-L40,L25,Times Square,L40,Hudson Yards,1.46,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L25-L41,L25,Times Square,L41,The Oculus,5.51,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L25-L42,L25,Times Square,L42,9/11 Memorial & Museum,5.58,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L25-L43,L25,Times Square,L43,Wall Street / NYSE,5.99,Metrô/ônibus + caminhada,28,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L25-L44,L25,Times Square,L44,Trinity Church,5.90,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L25-L45,L25,Times Square,L45,Bathhouse Flatiron,1.96,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L26-L33,L26,Flatiron Building,L33,Chrysler Building,1.68,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L26-L34,L26,Flatiron Building,L34,Central Park — South / The Pond,3.13,Metrô/ônibus + caminhada,19,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L26-L35,L26,Flatiron Building,L35,Apple Fifth Avenue,2.90,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L26-L36,L26,Flatiron Building,L36,SoHo — Prince & Broadway,1.99,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L26-L37,L26,Flatiron Building,L37,Pearl River Mart,2.26,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L26-L38,L26,Flatiron Building,L38,Intrepid Museum,2.74,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L26-L39,L26,Flatiron Building,L39,Hudson River Greenway — Midtown,2.12,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L26-L40,L26,Flatiron Building,L40,Hudson Yards,1.79,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L26-L41,L26,Flatiron Building,L41,The Oculus,3.75,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L26-L42,L26,Flatiron Building,L42,9/11 Memorial & Museum,3.83,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L26-L43,L26,Flatiron Building,L43,Wall Street / NYSE,4.21,Metrô/ônibus + caminhada,22,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L26-L44,L26,Flatiron Building,L44,Trinity Church,4.13,Metrô/ônibus + caminhada,22,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L26-L45,L26,Flatiron Building,L45,Bathhouse Flatiron,0.13,Caminhada,4,10,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L27-L33,L27,The Battery,L33,Chrysler Building,6.40,Metrô + caminhada,33,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L27-L34,L27,The Battery,L34,Central Park — South / The Pond,7.91,Metrô + caminhada,38,50,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L27-L35,L27,The Battery,L35,Apple Fifth Avenue,7.68,Metrô + caminhada,37,50,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L27-L36,L27,The Battery,L36,SoHo — Prince & Broadway,2.82,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L27-L37,L27,The Battery,L37,Pearl River Mart,2.54,Metrô/ônibus + caminhada,17,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L27-L38,L27,The Battery,L38,Intrepid Museum,7.00,Metrô + caminhada,35,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L27-L39,L27,The Battery,L39,Hudson River Greenway — Midtown,5.92,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L27-L40,L27,The Battery,L40,Hudson Yards,5.77,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L27-L41,L27,The Battery,L41,The Oculus,1.04,Caminhada,15,20,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L27-L42,L27,The Battery,L42,9/11 Memorial & Museum,0.99,Caminhada,14,20,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L27-L43,L27,The Battery,L43,Wall Street / NYSE,0.59,Caminhada,9,15,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L27-L44,L27,The Battery,L44,Trinity Church,0.66,Caminhada,10,15,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L27-L45,L27,The Battery,L45,Bathhouse Flatiron,4.66,Metrô/ônibus + caminhada,23,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L28-L33,L28,Chinatown — Columbus Park,L33,Chrysler Building,4.56,Metrô/ônibus + caminhada,23,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L28-L34,L28,Chinatown — Columbus Park,L34,Central Park — South / The Pond,6.12,Metrô + caminhada,32,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L28-L35,L28,Chinatown — Columbus Park,L35,Apple Fifth Avenue,5.88,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L28-L36,L28,Chinatown — Columbus Park,L36,SoHo — Prince & Broadway,1.03,Caminhada,15,20,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L28-L37,L28,Chinatown — Columbus Park,L37,Pearl River Mart,0.80,Caminhada,12,15,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L28-L38,L28,Chinatown — Columbus Park,L38,Intrepid Museum,5.50,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L28-L39,L28,Chinatown — Columbus Park,L39,Hudson River Greenway — Midtown,4.53,Metrô/ônibus + caminhada,23,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L28-L40,L28,Chinatown — Columbus Park,L40,Hudson Yards,4.30,Metrô/ônibus + caminhada,22,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L28-L41,L28,Chinatown — Columbus Park,L41,The Oculus,1.04,Caminhada,15,20,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L28-L42,L28,Chinatown — Columbus Park,L42,9/11 Memorial & Museum,1.19,Caminhada,17,25,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L28-L43,L28,Chinatown — Columbus Park,L43,Wall Street / NYSE,1.31,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L28-L44,L28,Chinatown — Columbus Park,L44,Trinity Church,1.29,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L28-L45,L28,Chinatown — Columbus Park,L45,Bathhouse Flatiron,2.89,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L29-L33,L29,Brooklyn Bridge,L33,Chrysler Building,5.40,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L29-L34,L29,Brooklyn Bridge,L34,Central Park — South / The Pond,7.02,Metrô + caminhada,35,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L29-L35,L29,Brooklyn Bridge,L35,Apple Fifth Avenue,6.76,Metrô + caminhada,34,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L29-L36,L29,Brooklyn Bridge,L36,SoHo — Prince & Broadway,2.06,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L29-L37,L29,Brooklyn Bridge,L37,Pearl River Mart,1.88,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L29-L38,L29,Brooklyn Bridge,L38,Intrepid Museum,6.55,Metrô + caminhada,34,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L29-L39,L29,Brooklyn Bridge,L39,Hudson River Greenway — Midtown,5.60,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L29-L40,L29,Brooklyn Bridge,L40,Hudson Yards,5.37,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L29-L41,L29,Brooklyn Bridge,L41,The Oculus,1.43,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L29-L42,L29,Brooklyn Bridge,L42,9/11 Memorial & Museum,1.57,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L29-L43,L29,Brooklyn Bridge,L43,Wall Street / NYSE,1.26,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L29-L44,L29,Brooklyn Bridge,L44,Trinity Church,1.36,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L29-L45,L29,Brooklyn Bridge,L45,Bathhouse Flatiron,3.84,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L30-L33,L30,DUMBO — Washington & Water,L33,Chrysler Building,5.51,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L30-L34,L30,DUMBO — Washington & Water,L34,Central Park — South / The Pond,7.15,Metrô + caminhada,35,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L30-L35,L30,DUMBO — Washington & Water,L35,Apple Fifth Avenue,6.88,Metrô + caminhada,35,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L30-L36,L30,DUMBO — Washington & Water,L36,SoHo — Prince & Broadway,2.43,Metrô/ônibus + caminhada,17,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L30-L37,L30,DUMBO — Washington & Water,L37,Pearl River Mart,2.29,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L30-L38,L30,DUMBO — Washington & Water,L38,Intrepid Museum,6.86,Metrô + caminhada,35,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L30-L39,L30,DUMBO — Washington & Water,L39,Hudson River Greenway — Midtown,5.97,Metrô/ônibus + caminhada,28,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L30-L40,L30,DUMBO — Washington & Water,L40,Hudson Yards,5.72,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L30-L41,L30,DUMBO — Washington & Water,L41,The Oculus,2.05,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L30-L42,L30,DUMBO — Washington & Water,L42,9/11 Memorial & Museum,2.20,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L30-L43,L30,DUMBO — Washington & Water,L43,Wall Street / NYSE,1.86,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L30-L44,L30,DUMBO — Washington & Water,L44,Trinity Church,1.97,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L30-L45,L30,DUMBO — Washington & Water,L45,Bathhouse Flatiron,4.08,Metrô/ônibus + caminhada,22,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L31-L33,L31,Brooklyn Bridge Park — Pier 1,L33,Chrysler Building,5.78,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L31-L34,L31,Brooklyn Bridge Park — Pier 1,L34,Central Park — South / The Pond,7.40,Metrô + caminhada,36,50,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L31-L35,L31,Brooklyn Bridge Park — Pier 1,L35,Apple Fifth Avenue,7.14,Metrô + caminhada,35,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L31-L36,L31,Brooklyn Bridge Park — Pier 1,L36,SoHo — Prince & Broadway,2.46,Metrô/ônibus + caminhada,17,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L31-L37,L31,Brooklyn Bridge Park — Pier 1,L37,Pearl River Mart,2.26,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L31-L38,L31,Brooklyn Bridge Park — Pier 1,L38,Intrepid Museum,6.94,Metrô + caminhada,35,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L31-L39,L31,Brooklyn Bridge Park — Pier 1,L39,Hudson River Greenway — Midtown,5.99,Metrô/ônibus + caminhada,28,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L31-L40,L31,Brooklyn Bridge Park — Pier 1,L40,Hudson Yards,5.76,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L31-L41,L31,Brooklyn Bridge Park — Pier 1,L41,The Oculus,1.64,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L31-L42,L31,Brooklyn Bridge Park — Pier 1,L42,9/11 Memorial & Museum,1.76,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L31-L43,L31,Brooklyn Bridge Park — Pier 1,L43,Wall Street / NYSE,1.35,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L31-L44,L31,Brooklyn Bridge Park — Pier 1,L44,Trinity Church,1.48,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L31-L45,L31,Brooklyn Bridge Park — Pier 1,L45,Bathhouse Flatiron,4.24,Metrô/ônibus + caminhada,22,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L32-L33,L32,Brooklyn Heights Promenade,L33,Chrysler Building,6.27,Metrô + caminhada,33,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L32-L34,L32,Brooklyn Heights Promenade,L34,Central Park — South / The Pond,7.90,Metrô + caminhada,38,50,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L32-L35,L32,Brooklyn Heights Promenade,L35,Apple Fifth Avenue,7.63,Metrô + caminhada,37,50,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L32-L36,L32,Brooklyn Heights Promenade,L36,SoHo — Prince & Broadway,2.95,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L32-L37,L32,Brooklyn Heights Promenade,L37,Pearl River Mart,2.75,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L32-L38,L32,Brooklyn Heights Promenade,L38,Intrepid Museum,7.44,Metrô + caminhada,36,50,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L32-L39,L32,Brooklyn Heights Promenade,L39,Hudson River Greenway — Midtown,6.48,Metrô + caminhada,33,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L32-L40,L32,Brooklyn Heights Promenade,L40,Hudson Yards,6.26,Metrô + caminhada,33,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L32-L41,L32,Brooklyn Heights Promenade,L41,The Oculus,1.96,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L32-L42,L32,Brooklyn Heights Promenade,L42,9/11 Memorial & Museum,2.06,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L32-L43,L32,Brooklyn Heights Promenade,L43,Wall Street / NYSE,1.57,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L32-L44,L32,Brooklyn Heights Promenade,L44,Trinity Church,1.72,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L32-L45,L32,Brooklyn Heights Promenade,L45,Bathhouse Flatiron,4.74,Metrô/ônibus + caminhada,24,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L33-L34,L33,Chrysler Building,L34,Central Park — South / The Pond,1.66,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L33-L35,L33,Chrysler Building,L35,Apple Fifth Avenue,1.37,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L33-L36,L33,Chrysler Building,L36,SoHo — Prince & Broadway,3.58,Metrô/ônibus + caminhada,20,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L33-L37,L33,Chrysler Building,L37,Pearl River Mart,3.86,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L33-L38,L33,Chrysler Building,L38,Intrepid Museum,2.49,Metrô/ônibus + caminhada,17,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L33-L39,L33,Chrysler Building,L39,Hudson River Greenway — Midtown,2.61,Metrô/ônibus + caminhada,17,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L33-L40,L33,Chrysler Building,L40,Hudson Yards,2.31,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L33-L41,L33,Chrysler Building,L41,The Oculus,5.38,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L33-L42,L33,Chrysler Building,L42,9/11 Memorial & Museum,5.48,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L33-L43,L33,Chrysler Building,L43,Wall Street / NYSE,5.82,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L33-L44,L33,Chrysler Building,L44,Trinity Church,5.75,Metrô/ônibus + caminhada,27,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L33-L45,L33,Chrysler Building,L45,Bathhouse Flatiron,1.79,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L34-L35,L34,Central Park — South / The Pond,L35,Apple Fifth Avenue,0.30,Caminhada,6,10,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L34-L36,L34,Central Park — South / The Pond,L36,SoHo — Prince & Broadway,5.11,Metrô/ônibus + caminhada,25,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L34-L37,L34,Central Park — South / The Pond,L37,Pearl River Mart,5.39,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L34-L38,L34,Central Park — South / The Pond,L38,Intrepid Museum,2.18,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L34-L39,L34,Central Park — South / The Pond,L39,Hudson River Greenway — Midtown,2.97,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L34-L40,L34,Central Park — South / The Pond,L40,Hudson Yards,2.82,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L34-L41,L34,Central Park — South / The Pond,L41,The Oculus,6.88,Metrô + caminhada,35,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L34-L42,L34,Central Park — South / The Pond,L42,9/11 Memorial & Museum,6.95,Metrô + caminhada,35,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L34-L43,L34,Central Park — South / The Pond,L43,Wall Street / NYSE,7.34,Metrô + caminhada,36,50,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L34-L44,L34,Central Park — South / The Pond,L44,Trinity Church,7.25,Metrô + caminhada,36,50,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L34-L45,L34,Central Park — South / The Pond,L45,Bathhouse Flatiron,3.25,Metrô/ônibus + caminhada,19,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L35-L36,L35,Apple Fifth Avenue,L36,SoHo — Prince & Broadway,4.88,Metrô/ônibus + caminhada,24,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L35-L37,L35,Apple Fifth Avenue,L37,Pearl River Mart,5.15,Metrô/ônibus + caminhada,25,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L35-L38,L35,Apple Fifth Avenue,L38,Intrepid Museum,2.24,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L35-L39,L35,Apple Fifth Avenue,L39,Hudson River Greenway — Midtown,2.93,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L35-L40,L35,Apple Fifth Avenue,L40,Hudson Yards,2.75,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L35-L41,L35,Apple Fifth Avenue,L41,The Oculus,6.65,Metrô + caminhada,34,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L35-L42,L35,Apple Fifth Avenue,L42,9/11 Memorial & Museum,6.73,Metrô + caminhada,34,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L35-L43,L35,Apple Fifth Avenue,L43,Wall Street / NYSE,7.11,Metrô + caminhada,35,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L35-L44,L35,Apple Fifth Avenue,L44,Trinity Church,7.03,Metrô + caminhada,35,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L35-L45,L35,Apple Fifth Avenue,L45,Bathhouse Flatiron,3.03,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L36-L37,L36,SoHo — Prince & Broadway,L37,Pearl River Mart,0.29,Caminhada,6,10,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L36-L38,L36,SoHo — Prince & Broadway,L38,Intrepid Museum,4.49,Metrô/ônibus + caminhada,23,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L36-L39,L36,SoHo — Prince & Broadway,L39,Hudson River Greenway — Midtown,3.55,Metrô/ônibus + caminhada,20,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L36-L40,L36,SoHo — Prince & Broadway,L40,Hudson Yards,3.31,Metrô/ônibus + caminhada,19,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L36-L41,L36,SoHo — Prince & Broadway,L41,The Oculus,1.81,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L36-L42,L36,SoHo — Prince & Broadway,L42,9/11 Memorial & Museum,1.92,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L36-L43,L36,SoHo — Prince & Broadway,L43,Wall Street / NYSE,2.24,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L36-L44,L36,SoHo — Prince & Broadway,L44,Trinity Church,2.17,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L36-L45,L36,SoHo — Prince & Broadway,L45,Bathhouse Flatiron,1.86,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L37-L38,L37,Pearl River Mart,L38,Intrepid Museum,4.69,Metrô/ônibus + caminhada,24,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L37-L39,L37,Pearl River Mart,L39,Hudson River Greenway — Midtown,3.73,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L37-L40,L37,Pearl River Mart,L40,Hudson Yards,3.50,Metrô/ônibus + caminhada,20,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L37-L41,L37,Pearl River Mart,L41,The Oculus,1.53,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L37-L42,L37,Pearl River Mart,L42,9/11 Memorial & Museum,1.63,Metrô/ônibus + caminhada,14,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L37-L43,L37,Pearl River Mart,L43,Wall Street / NYSE,1.96,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L37-L44,L37,Pearl River Mart,L44,Trinity Church,1.88,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L37-L45,L37,Pearl River Mart,L45,Bathhouse Flatiron,2.13,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L38-L39,L38,Intrepid Museum,L39,Hudson River Greenway — Midtown,1.13,Caminhada,16,25,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L38-L40,L38,Intrepid Museum,L40,Hudson Yards,1.23,Metrô/ônibus + caminhada,13,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L38-L41,L38,Intrepid Museum,L41,The Oculus,5.97,Metrô/ônibus + caminhada,28,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L38-L42,L38,Intrepid Museum,L42,9/11 Memorial & Museum,6.00,Metrô + caminhada,32,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L38-L43,L38,Intrepid Museum,L43,Wall Street / NYSE,6.49,Metrô + caminhada,33,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L38-L44,L38,Intrepid Museum,L44,Trinity Church,6.37,Metrô + caminhada,33,45,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L38-L45,L38,Intrepid Museum,L45,Bathhouse Flatiron,2.85,Metrô/ônibus + caminhada,18,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L39-L40,L39,Hudson River Greenway — Midtown,L40,Hudson Yards,0.34,Caminhada,6,10,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L39-L41,L39,Hudson River Greenway — Midtown,L41,The Oculus,4.91,Metrô/ônibus + caminhada,24,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L39-L42,L39,Hudson River Greenway — Midtown,L42,9/11 Memorial & Museum,4.93,Metrô/ônibus + caminhada,24,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L39-L43,L39,Hudson River Greenway — Midtown,L43,Wall Street / NYSE,5.43,Metrô/ônibus + caminhada,26,35,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L39-L44,L39,Hudson River Greenway — Midtown,L44,Trinity Church,5.31,Metrô/ônibus + caminhada,25,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L39-L45,L39,Hudson River Greenway — Midtown,L45,Bathhouse Flatiron,2.19,Metrô/ônibus + caminhada,16,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L40-L41,L40,Hudson Yards,L41,The Oculus,4.75,Metrô/ônibus + caminhada,24,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L40-L42,L40,Hudson Yards,L42,9/11 Memorial & Museum,4.77,Metrô/ônibus + caminhada,24,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L40-L43,L40,Hudson Yards,L43,Wall Street / NYSE,5.26,Metrô/ônibus + caminhada,25,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L40-L44,L40,Hudson Yards,L44,Trinity Church,5.14,Metrô/ônibus + caminhada,25,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L40-L45,L40,Hudson Yards,L45,Bathhouse Flatiron,1.86,Metrô/ônibus + caminhada,15,20,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L41-L42,L41,The Oculus,L42,9/11 Memorial & Museum,0.16,Caminhada,4,10,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L41-L43,L41,The Oculus,L43,Wall Street / NYSE,0.52,Caminhada,9,15,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L41-L44,L41,The Oculus,L44,Trinity Church,0.40,Caminhada,7,10,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L41-L45,L41,The Oculus,L45,Bathhouse Flatiron,3.63,Metrô/ônibus + caminhada,20,25,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L42-L43,L42,9/11 Memorial & Museum,L43,Wall Street / NYSE,0.55,Caminhada,9,15,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L42-L44,L42,9/11 Memorial & Museum,L44,Trinity Church,0.40,Caminhada,7,10,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L42-L45,L42,9/11 Memorial & Museum,L45,Bathhouse Flatiron,3.71,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L43-L44,L43,Wall Street / NYSE,L44,Trinity Church,0.15,Caminhada,4,10,Alta,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L43-L45,L43,Wall Street / NYSE,L45,Bathhouse Flatiron,4.08,Metrô/ônibus + caminhada,22,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.
+L44-L45,L44,Trinity Church,L45,Bathhouse Flatiron,4.00,Metrô/ônibus + caminhada,21,30,Média,Estimativa estrutural adicionada para o plano original; validar no fechamento do roteiro.

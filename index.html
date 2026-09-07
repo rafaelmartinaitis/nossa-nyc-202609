@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="themse-color" content="#203d4d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Nossa NYC">
+  <title>Nossa NYC · Rafael & Lídia</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./assets/icons/icon-180.png">
+  <link rel="icon" href="./assets/icons/icon-192.png">
+  <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <header class="app-header">
+      <div class="brand">
+        <div class="eyebrow">Rafael & Lídia</div>
+        <h1>Nossa NYC</h1>
+        <div class="brand-note">19–26 setembro 2026 · nossa viagem, do nosso jeito</div>
+      </div>
+      <div class="trip-summary" aria-live="polite">
+        <div><strong id="summary-cost">US$ 0</strong><span>casal</span></div>
+        <div><strong id="summary-travel">0 min</strong><span>desloc.</span></div>
+        <div><strong id="summary-count">0</strong><span>passeios</span></div>
+      </div>
+      <div class="header-actions">
+        <button class="ghost-button" id="theme-toggle" type="button" aria-label="Alternar tema">Tema: Colorido</button>
+        <button class="ghost-button" id="load-recommended" type="button">Plano original</button>
+        <button class="ghost-button" id="reset-plan" type="button">Limpar</button>
+      </div>
+    </header>
+
+    <main class="planner-panel" id="planner-panel">
+      <div class="planner-toolbar">
+        <button class="day-nav" id="prev-day" type="button" aria-label="Dia anterior">‹</button>
+        <div class="day-title">
+          <strong id="day-label">19 SET</strong>
+          <span id="day-weekday">SÁB</span>
+        </div>
+        <button class="day-nav" id="next-day" type="button" aria-label="Próximo dia">›</button>
+        <div class="day-metrics">
+          <span id="day-time">0h</span>
+          <span id="day-travel">0 min desloc.</span>
+          <span id="day-cost">US$ 0 casal</span>
+        </div>
+      </div>
+
+      <section class="timeline" id="timeline" aria-label="Planner do dia"></section>
+    </main>
+
+    <section class="places-drawer" id="places-drawer" aria-label="Gaveta de passeios">
+      <div class="drawer-handle" aria-hidden="true"></div>
+      <div class="drawer-header">
+        <div>
+          <strong>Escolha o próximo momento</strong>
+          <span id="drawer-helper">segure e arraste para o planner</span>
+        </div>
+        <div class="drawer-tools">
+          <button class="icon-button" id="drawer-theme-toggle" type="button" title="Alternar tema">◐</button>
+          <button class="person-filter pref-rafael" id="filter-rafael" type="button" aria-pressed="false" title="Mostrar indicados por Rafael"><span class="filter-glyph">♡</span><span class="filter-name">R</span></button>
+          <button class="person-filter pref-lidia" id="filter-lidia" type="button" aria-pressed="false" title="Mostrar indicados por Lídia"><span class="filter-glyph">♡</span><span class="filter-name">L</span></button>
+          <button class="icon-button" id="open-search" type="button" title="Buscar passeio">⌕</button>
+        </div>
+      </div>
+      <div class="search-row" id="search-row" hidden>
+        <input id="place-search" type="search" placeholder="Buscar passeio, bairro ou categoria" autocomplete="off">
+      </div>
+      <div class="places-strip" id="places-strip"></div>
+    </section>
+  </div>
+
+  <div class="modal-backdrop" id="details-backdrop" hidden>
+    <article class="details-modal" role="dialog" aria-modal="true" aria-labelledby="details-title">
+      <button class="modal-close" id="close-details" type="button" aria-label="Fechar">×</button>
+      <div class="details-hero" id="details-hero"></div>
+      <div class="details-body">
+        <div class="details-heading">
+          <div>
+            <div class="eyebrow" id="details-region"></div>
+            <h2 id="details-title"></h2>
+          </div>
+          <div class="details-preferences" aria-label="Quem indicou este passeio">
+            <button class="person-choice pref-rafael" id="details-rafael" type="button" aria-pressed="false"><span class="choice-glyph">♡</span><span>Rafael</span></button>
+            <button class="person-choice pref-lidia" id="details-lidia" type="button" aria-pressed="false"><span class="choice-glyph">♡</span><span>Lídia</span></button>
+          </div>
+        </div>
+        <p id="details-description"></p>
+        <dl class="details-grid">
+          <div><dt>Tempo</dt><dd id="details-duration"></dd></div>
+          <div><dt>Custo do casal</dt><dd id="details-cost"></dd></div>
+          <div><dt>Horário</dt><dd id="details-hours"></dd></div>
+          <div><dt>Região</dt><dd id="details-area"></dd></div>
+        </dl>
+        <div class="details-actions">
+          <a id="details-map" class="primary-link" target="_blank" rel="noopener">Ver mapa / fonte</a>
+          <button id="details-add" class="secondary-button" type="button" hidden>Adicionar a este dia</button>
+          <button id="details-remove" class="danger-button" type="button" hidden>Remover do dia</button>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
