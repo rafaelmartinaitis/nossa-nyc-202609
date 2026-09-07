@@ -5,7 +5,10 @@ const GRID_START = 8 * 60;
 const GRID_END = 26 * 60;
 const DESKTOP_PX_HOUR = 58;
 const MOBILE_PX_HOUR = 62;
-const STORAGE_KEY = "rafael-lidia-nyc-plan-v4";
+const STORAGE_KEY = "rafael-lidia-nyc-plan-v5";
+const SYNC_URL = "https://wqjhhklysjqtxucduyah.supabase.co/functions/v1/trip-sync";
+const SYNC_SESSION_KEY = "nossa-nyc-sync-password";
+const SYNC_POLL_MS = 10000;
 const LEGACY_KEYS = ["rafael-lidia-nyc-plan-v2", "rafael-lidia-nyc-plan-v1"];
 const DESKTOP_QUERY = "(min-width: 681px)";
 
@@ -27,6 +30,18 @@ let dragPoint = null;
 let lastDropTarget = null;
 let press = null;
 let lastDesktop = matchMedia(DESKTOP_QUERY).matches;
+
+let remoteSaveTimer = null;
+let remotePollTimer = null;
+let remoteVersion = null;
+let lastSyncedJSON = "";
+let syncPassword = "";
+let syncAuthenticated = false;
+let syncSaving = false;
+let syncLoading = false;
+let syncConflict = null;
+let firstRemoteLoadDone = false;
+
 
 const toMin = value => {
   const [h,m] = String(value).split(":").map(Number);
@@ -154,6 +169,280 @@ function violatesConstraint(date){
   return s.end > toMin(c.return_to_hotel_by);
 }
 
+function sharedStatePayload(){
+  return {
+    schemaVersion:1,
+    plan:structuredClone(state.plan),
+    preferences:{
+      rafael:[...state.preferences.rafael],
+      lidia:[...state.preferences.lidia]
+    },
+    eventSessions:structuredClone(state.eventSessions)
+  };
+}
+function sharedJSON(){ return JSON.stringify(sharedStatePayload()); }
+
+function hasRemotePlannerData(data){
+  return !!(data && typeof data==="object" && (
+    data.plan ||
+    data.preferences ||
+    data.eventSessions ||
+    data.schemaVersion
+  ));
+}
+function applySharedState(data){
+  if(!data || typeof data!=="object") return;
+  if(data.plan && typeof data.plan==="object"){
+    const next={};
+    state.days.forEach(d=>{
+      const ids=Array.isArray(data.plan[d.date]) ? data.plan[d.date] : [];
+      next[d.date]=ids.filter(id=>state.byId[id]);
+    });
+    state.plan=next;
+  }
+  if(data.preferences?.rafael) state.preferences.rafael=new Set(data.preferences.rafael.filter(id=>state.byId[id]));
+  if(data.preferences?.lidia) state.preferences.lidia=new Set(data.preferences.lidia.filter(id=>state.byId[id]));
+  if(data.eventSessions && typeof data.eventSessions==="object") state.eventSessions=structuredClone(data.eventSessions);
+  invalidateSchedules();
+}
+function syncStatus(kind,text){
+  const main=$("#sync-status"), drawer=$("#drawer-sync-status");
+  if(main){
+    main.dataset.status=kind;
+    const label=$("span",main); if(label) label.textContent=text;
+  }
+  if(drawer){
+    drawer.dataset.status=kind;
+    drawer.title=text;
+  }
+}
+async function syncRequest(action,extra={}){
+  if(!syncPassword) throw new Error("no_password");
+  const response=await fetch(SYNC_URL,{
+    method:"POST",
+    headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({action,password:syncPassword,...extra})
+  });
+  let body={};
+  try{body=await response.json();}catch{}
+  return {response,body};
+}
+function saveLocalOnly(){
+  localStorage.setItem(STORAGE_KEY, JSON.stringify({
+    plan:state.plan,
+    preferences:{rafael:[...state.preferences.rafael],lidia:[...state.preferences.lidia]},
+    selectedDayIndex:state.selectedDayIndex,
+    theme:state.theme,
+    eventSessions:state.eventSessions
+  }));
+}
+function markSynced(){
+  lastSyncedJSON=sharedJSON();
+  syncStatus("synced","sincronizado");
+}
+function hideConflict(){
+  syncConflict=null;
+  const el=$("#sync-conflict"); if(el) el.hidden=true;
+}
+function showConflict(remoteState,version,updatedAt){
+  syncConflict={remoteState,version,updatedAt};
+  const el=$("#sync-conflict"); if(el) el.hidden=false;
+  syncStatus("conflict","conflito");
+}
+async function remoteLoad({background=false}={}){
+  if(!syncAuthenticated || syncLoading || syncSaving || syncConflict || !navigator.onLine) return false;
+  syncLoading=true;
+  if(!background) syncStatus("loading","carregando");
+  try{
+    const {response,body}=await syncRequest("load");
+    if(response.status===401){
+      lockAccess("Senha inválida.");
+      return false;
+    }
+    if(!response.ok) throw new Error(body.error||`HTTP ${response.status}`);
+
+    const serverVersion=Number(body.version)||1;
+    const remoteState=body.state||{};
+    const localNow=sharedJSON();
+    const localDirty=!!lastSyncedJSON && localNow!==lastSyncedJSON;
+
+    if(!firstRemoteLoadDone){
+      firstRemoteLoadDone=true;
+      remoteVersion=serverVersion;
+      if(hasRemotePlannerData(remoteState)){
+        applySharedState(remoteState);
+        lastSyncedJSON=sharedJSON();
+        saveLocalOnly();
+        renderAll();
+        markSynced();
+      }else{
+        // Primeiro uso: o estado já existente neste dispositivo vira a base compartilhada.
+        lastSyncedJSON="";
+        await remoteSave({force:true});
+      }
+      return true;
+    }
+
+    if(serverVersion>Number(remoteVersion||0)){
+      if(localDirty){
+        showConflict(remoteState,serverVersion,body.updatedAt);
+      }else{
+        remoteVersion=serverVersion;
+        applySharedState(remoteState);
+        lastSyncedJSON=sharedJSON();
+        saveLocalOnly();
+        renderAll();
+        showToast("Planner atualizado por outro dispositivo.");
+        markSynced();
+      }
+    }else if(!localDirty){
+      markSynced();
+    }
+    return true;
+  }catch(error){
+    console.warn("sync load",error);
+    syncStatus("offline",navigator.onLine?"erro de sync":"offline");
+    return false;
+  }finally{
+    syncLoading=false;
+  }
+}
+async function remoteSave({force=false}={}){
+  if(!syncAuthenticated || syncSaving || syncConflict || !navigator.onLine) return false;
+  const payload=sharedStatePayload();
+  const payloadJSON=JSON.stringify(payload);
+  if(!force && payloadJSON===lastSyncedJSON) return true;
+
+  if(!Number.isInteger(remoteVersion)){
+    await remoteLoad({background:true});
+    if(!Number.isInteger(remoteVersion) || syncConflict) return false;
+  }
+
+  syncSaving=true;
+  syncStatus("saving","salvando");
+  try{
+    const {response,body}=await syncRequest("save",{state:payload,version:remoteVersion});
+    if(response.status===409){
+      showConflict(body.state||{},Number(body.version)||remoteVersion,body.updatedAt);
+      return false;
+    }
+    if(response.status===401){
+      lockAccess("A sessão expirou. Digite a senha novamente.");
+      return false;
+    }
+    if(!response.ok) throw new Error(body.error||`HTTP ${response.status}`);
+    remoteVersion=Number(body.version)||remoteVersion+1;
+    lastSyncedJSON=payloadJSON;
+    syncStatus("synced","sincronizado");
+    return true;
+  }catch(error){
+    console.warn("sync save",error);
+    syncStatus("offline",navigator.onLine?"não salvo":"offline");
+    return false;
+  }finally{
+    syncSaving=false;
+  }
+}
+function queueRemoteSave(){
+  if(!syncAuthenticated) return;
+  clearTimeout(remoteSaveTimer);
+  remoteSaveTimer=setTimeout(()=>remoteSave(),500);
+}
+function startRemotePolling(){
+  clearInterval(remotePollTimer);
+  remotePollTimer=setInterval(()=>{
+    if(document.visibilityState==="visible") remoteLoad({background:true});
+  },SYNC_POLL_MS);
+}
+function stopRemotePolling(){
+  clearInterval(remotePollTimer);
+  remotePollTimer=null;
+}
+function unlockAccess(){
+  document.body.classList.remove("access-locked");
+  $("#access-gate").hidden=true;
+}
+function lockAccess(message=""){
+  syncAuthenticated=false;
+  syncPassword="";
+  remoteVersion=null;
+  firstRemoteLoadDone=false;
+  lastSyncedJSON="";
+  stopRemotePolling();
+  sessionStorage.removeItem(SYNC_SESSION_KEY);
+  document.body.classList.add("access-locked");
+  $("#access-gate").hidden=false;
+  $("#access-message").textContent=message;
+  syncStatus("locked","bloqueado");
+}
+async function authenticateSync(password,{silent=false}={}){
+  const clean=String(password||"").trim();
+  if(!clean) return false;
+  const submit=$("#access-submit"),message=$("#access-message");
+  if(submit) submit.disabled=true;
+  if(message) message.textContent=silent?"Reconectando…":"Verificando…";
+  syncPassword=clean;
+  syncStatus("loading","conectando");
+  try{
+    const {response,body}=await syncRequest("login");
+    if(!response.ok){
+      syncPassword="";
+      if(message) message.textContent=response.status===401?"Senha incorreta.":"Não foi possível entrar.";
+      syncStatus("locked","bloqueado");
+      return false;
+    }
+    syncAuthenticated=true;
+    sessionStorage.setItem(SYNC_SESSION_KEY,clean);
+    unlockAccess();
+    remoteVersion=null;
+    firstRemoteLoadDone=false;
+    await remoteLoad();
+    startRemotePolling();
+    return true;
+  }catch(error){
+    console.warn("sync login",error);
+    syncPassword="";
+    if(message) message.textContent="Sem conexão com o planner compartilhado.";
+    syncStatus("offline","offline");
+    return false;
+  }finally{
+    if(submit) submit.disabled=false;
+  }
+}
+function setupSyncUI(){
+  $("#access-form").addEventListener("submit",async e=>{
+    e.preventDefault();
+    await authenticateSync($("#access-password").value);
+  });
+  $("#conflict-use-remote").addEventListener("click",()=>{
+    if(!syncConflict) return;
+    remoteVersion=syncConflict.version;
+    applySharedState(syncConflict.remoteState);
+    hideConflict();
+    lastSyncedJSON=sharedJSON();
+    saveLocalOnly();
+    renderAll();
+    markSynced();
+    showToast("Versão compartilhada carregada.");
+  });
+  $("#conflict-keep-local").addEventListener("click",async()=>{
+    if(!syncConflict) return;
+    remoteVersion=syncConflict.version;
+    hideConflict();
+    const ok=await remoteSave({force:true});
+    if(ok) showToast("Este dispositivo passou a ser a versão compartilhada.");
+  });
+  window.addEventListener("online",()=>{
+    syncStatus("loading","reconectando");
+    remoteLoad({background:true});
+    queueRemoteSave();
+  });
+  window.addEventListener("offline",()=>syncStatus("offline","offline"));
+  document.addEventListener("visibilitychange",()=>{
+    if(document.visibilityState==="visible") remoteLoad({background:true});
+  });
+}
+
 function isDesktop(){ return matchMedia(DESKTOP_QUERY).matches; }
 function travelKey(a,b){ return `${a}|${b}`; }
 function getTravel(a,b){
@@ -182,13 +471,8 @@ function preferenceButtons(id){
 }
 
 function saveNow(){
-  localStorage.setItem(STORAGE_KEY, JSON.stringify({
-    plan:state.plan,
-    preferences:{rafael:[...state.preferences.rafael],lidia:[...state.preferences.lidia]},
-    selectedDayIndex:state.selectedDayIndex,
-    theme:state.theme,
-    eventSessions:state.eventSessions
-  }));
+  saveLocalOnly();
+  if(syncAuthenticated && sharedJSON()!==lastSyncedJSON) queueRemoteSave();
 }
 function queueSave(){
   clearTimeout(saveTimer);
@@ -619,6 +903,7 @@ async function init(){
   travelData.forEach(t=>{state.travel.set(travelKey(t.origin_id,t.destination_id),t);state.travel.set(travelKey(t.destination_id,t.origin_id),t);});
   state.days=recommended.days;state.recommended=recommended.plan;state.anchors=recommended.anchors||[];state.constraints=recommended.constraints||{};state.plan=Object.fromEntries(state.days.map(d=>[d.date,[]]));restore();
 
+  setupSyncUI();
   setupDelegatedInteraction();
   $("#prev-day").addEventListener("click",()=>{const i=Math.max(0,state.selectedDayIndex-1);selectDay(state.days[i].date);});
   $("#next-day").addEventListener("click",()=>{const i=Math.min(state.days.length-1,state.selectedDayIndex+1);selectDay(state.days[i].date);});
@@ -651,7 +936,17 @@ async function init(){
   matchMedia(DESKTOP_QUERY).addEventListener("change",e=>{if(e.matches!==lastDesktop){lastDesktop=e.matches;renderActivePlanner();}});
 
   renderAll();
-  // V8: não registramos service worker durante desenvolvimento; removemos versões antigas uma vez.
+
+  const remembered=sessionStorage.getItem(SYNC_SESSION_KEY);
+  if(remembered){
+    $("#access-password").value=remembered;
+    await authenticateSync(remembered,{silent:true});
+  }else{
+    syncStatus("locked","bloqueado");
+    setTimeout(()=>$("#access-password")?.focus(),50);
+  }
+
+  // Enquanto desenvolvemos, removemos SWs antigos para evitar versões misturadas.
   if("serviceWorker" in navigator){navigator.serviceWorker.getRegistrations().then(regs=>regs.forEach(reg=>reg.unregister())).catch(()=>{});}
 }
 

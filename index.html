@@ -11,9 +11,26 @@
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="apple-touch-icon" href="./assets/icons/icon-180.png">
   <link rel="icon" href="./assets/icons/icon-192.png">
-  <link rel="stylesheet" href="./styles.css?v=10">
+  <link rel="stylesheet" href="./styles.css?v=11">
 </head>
-<body>
+<body class="access-locked">
+  <section class="access-gate" id="access-gate" aria-label="Acesso ao planner">
+    <div class="access-card">
+      <div class="access-mark">R <span>♥</span> L</div>
+      <div class="eyebrow">Rafael & Lídia</div>
+      <h1>Nossa NYC</h1>
+      <p>Um único planner, sincronizado entre nossos dispositivos.</p>
+      <form id="access-form">
+        <label for="access-password">Senha da viagem</label>
+        <div class="access-input-row">
+          <input id="access-password" type="password" autocomplete="current-password" enterkeyhint="go" required>
+          <button type="submit" id="access-submit">Entrar</button>
+        </div>
+      </form>
+      <div class="access-message" id="access-message" aria-live="polite"></div>
+      <small>A senha é validada no Supabase e não fica gravada no código público.</small>
+    </div>
+  </section>
   <div id="app" class="app-shell">
     <header class="app-header">
       <div class="brand">
@@ -27,6 +44,7 @@
         <div><strong id="summary-count">0</strong><span>passeios</span></div>
       </div>
       <div class="header-actions">
+        <span class="sync-pill" id="sync-status" title="Status da sincronização"><i></i><span>conectando</span></span>
         <button class="ghost-button" id="theme-toggle" type="button" aria-label="Alternar tema">Tema: Colorido</button>
         <button class="ghost-button" id="load-recommended" type="button">Plano original</button>
         <button class="ghost-button" id="reset-plan" type="button">Limpar</button>
@@ -82,6 +100,7 @@
           <span id="drawer-helper">segure e arraste para o planner</span>
         </div>
         <div class="drawer-tools">
+          <span class="drawer-sync-dot" id="drawer-sync-status" title="Status da sincronização">●</span>
           <button class="icon-button" id="drawer-theme-toggle" type="button" title="Alternar tema">◐</button>
           <button class="person-filter pref-rafael" id="filter-rafael" type="button" aria-pressed="false" title="Mostrar indicados por Rafael"><span class="filter-glyph">♡</span><span class="filter-name">R</span></button>
           <button class="person-filter pref-lidia" id="filter-lidia" type="button" aria-pressed="false" title="Mostrar indicados por Lídia"><span class="filter-glyph">♡</span><span class="filter-name">L</span></button>
@@ -134,7 +153,16 @@
     </article>
   </div>
 
+  <div class="sync-conflict" id="sync-conflict" hidden>
+    <div>
+      <strong>Alterações em dois dispositivos</strong>
+      <span>Escolha qual versão deve prevalecer.</span>
+    </div>
+    <button type="button" id="conflict-use-remote">Usar compartilhada</button>
+    <button type="button" id="conflict-keep-local">Manter este dispositivo</button>
+  </div>
+
   <div class="app-toast" id="app-toast" role="status" aria-live="polite" hidden></div>
-  <script type="module" src="./app.js?v=10"></script>
+  <script type="module" src="./app.js?v=11"></script>
 </body>
 </html>

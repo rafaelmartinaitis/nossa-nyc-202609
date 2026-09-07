@@ -117,3 +117,18 @@ Correção estrutural do planner:
 - MJ (`E01`) e Rangers/MSG (`E02`) permanecem como eventos com sessões reais.
 - Foram adicionados 18 cartões distintos que apareceram em discussões anteriores e não estavam na lista-mestre original, incluindo referências The Division, Outlook Hill e paradas específicas de Chinatown.
 - `data/catalog-audit.json` registra automaticamente a checagem de integridade desta versão.
+
+
+## V11 — sincronização entre dispositivos
+
+Endpoint configurado: `https://wqjhhklysjqtxucduyah.supabase.co/functions/v1/trip-sync`
+
+Fluxo:
+- O site abre bloqueado por uma tela de senha.
+- A senha é enviada à Edge Function; não existe senha hardcoded no JavaScript.
+- Depois do login, `plan`, indicações Rafael/Lídia e sessões de eventos são carregados do Supabase.
+- Alterações são salvas localmente imediatamente e enviadas ao Supabase com debounce.
+- O site consulta mudanças de outro dispositivo a cada 10 segundos e também ao voltar para a aba.
+- `theme` e o dia atualmente selecionado continuam locais por dispositivo.
+- Em conflito de versão, nenhuma alteração é sobrescrita silenciosamente: o site pede para escolher entre a versão compartilhada e a versão deste dispositivo.
+- A senha é mantida apenas em `sessionStorage`, portanto pode ser pedida novamente ao iniciar uma nova sessão do navegador.
