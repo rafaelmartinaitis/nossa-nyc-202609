@@ -92,5 +92,45 @@
     "2026-09-26": [
       "L45"
     ]
+  },
+  "anchors": [
+    {
+      "id": "F01",
+      "date": "2026-09-19",
+      "kind": "flight_arrival",
+      "header": true,
+      "time": "05:29",
+      "label": "Delta 226 · chegada JFK 05:29",
+      "detail": "GRU → JFK · chegada em 19/09 às 05:29",
+      "locked": true
+    },
+    {
+      "id": "F02",
+      "date": "2026-09-26",
+      "kind": "airport_block",
+      "header": true,
+      "start": "17:00",
+      "end": "22:30",
+      "label": "Aeroporto / voo de volta",
+      "detail": "Voltar ao hotel, pegar bagagens, seguir ao JFK e embarcar no Delta 227 às 21:50.",
+      "locked": true
+    },
+    {
+      "id": "F03",
+      "date": "2026-09-26",
+      "kind": "flight_departure",
+      "header": true,
+      "time": "21:50",
+      "label": "Delta 227 · JFK → GRU 21:50",
+      "detail": "JFK → GRU · chegada em 27/09 às 08:50",
+      "locked": true
+    }
+  ],
+  "constraints": {
+    "2026-09-26": {
+      "return_to_hotel_by": "17:00",
+      "label": "Retorno ao hotel até 17:00",
+      "reason": "A partir de 17:00 o dia fica bloqueado para bagagens, deslocamento ao JFK e voo Delta 227 às 21:50."
+    }
   }
 }

@@ -15,7 +15,8 @@
     "close": "23:59",
     "priority": false,
     "desc": "Base logística da viagem em Midtown West.",
-    "image": null
+    "image": null,
+    "wiki_title": "Hell's Kitchen, Manhattan"
   },
   {
     "id": "L02",
@@ -33,7 +34,8 @@
     "close": "20:00",
     "priority": false,
     "desc": "Outlet em New Jersey para concentrar compras. As compras ficam fora do custo fixo do passeio.",
-    "image": null
+    "image": null,
+    "wiki_title": "The Mills at Jersey Gardens"
   },
   {
     "id": "L03",
@@ -51,7 +53,8 @@
     "close": "17:30",
     "priority": true,
     "desc": "Museu de história natural com dinossauros, biodiversidade e ciência. Um dos passeios principais da viagem.",
-    "image": null
+    "image": null,
+    "wiki_title": "American Museum of Natural History"
   },
   {
     "id": "L04",
@@ -69,7 +72,8 @@
     "close": "17:00",
     "priority": true,
     "desc": "Aquário à beira do Atlântico, fácil de combinar com o Boardwalk.",
-    "image": null
+    "image": null,
+    "wiki_title": "New York Aquarium"
   },
   {
     "id": "L05",
@@ -87,7 +91,8 @@
     "close": "22:00",
     "priority": false,
     "desc": "Calçadão clássico de Coney Island para caminhar, ver o mar e descansar.",
-    "image": null
+    "image": null,
+    "wiki_title": "Coney Island"
   },
   {
     "id": "L06",
@@ -105,7 +110,8 @@
     "close": "22:00",
     "priority": true,
     "desc": "Spa em Governors Island com piscinas e vistas de Lower Manhattan. O foco é água quente, ambiente e vista.",
-    "image": null
+    "image": null,
+    "wiki_title": "Governors Island"
   },
   {
     "id": "L07",
@@ -123,7 +129,8 @@
     "close": "22:00",
     "priority": false,
     "desc": "Grande spa no Brooklyn com circuitos termais. Alternativa de chuva ou recuperação.",
-    "image": null
+    "image": null,
+    "wiki_title": "Brooklyn"
   },
   {
     "id": "L08",
@@ -141,7 +148,8 @@
     "close": "21:00",
     "priority": true,
     "desc": "Experiência de arte digital imersiva em Chelsea Piers. Excelente opção para chuva.",
-    "image": null
+    "image": null,
+    "wiki_title": "Chelsea Piers"
   },
   {
     "id": "L09",
@@ -159,7 +167,8 @@
     "close": "22:00",
     "priority": true,
     "desc": "Mercado gastronômico que conecta muito bem High Line, Little Island e Chelsea.",
-    "image": null
+    "image": null,
+    "wiki_title": "Chelsea Market"
   },
   {
     "id": "L10",
@@ -177,7 +186,8 @@
     "close": "23:00",
     "priority": true,
     "desc": "Parque elevado sobre antiga linha ferroviária; um dos melhores passeios lineares de Manhattan.",
-    "image": null
+    "image": null,
+    "wiki_title": "High Line"
   },
   {
     "id": "L11",
@@ -195,7 +205,8 @@
     "close": "23:00",
     "priority": true,
     "desc": "Parque sobre o Hudson com arquitetura marcante, jardins e vistas do rio.",
-    "image": null
+    "image": null,
+    "wiki_title": "Little Island at Pier 55"
   },
   {
     "id": "L12",
@@ -213,7 +224,11 @@
     "close": "17:30",
     "priority": true,
     "desc": "Museu de Arte Moderna. Visita focada para ver os destaques sem consumir o dia inteiro.",
-    "image": null
+    "image": null,
+    "wiki_title": "Museum of Modern Art",
+    "tags": [
+      "division"
+    ]
   },
   {
     "id": "L13",
@@ -231,7 +246,11 @@
     "close": "23:30",
     "priority": false,
     "desc": "Complexo art déco em Midtown, ótimo elo entre MoMA, St. Patrick's e a Quinta Avenida.",
-    "image": null
+    "image": null,
+    "wiki_title": "Rockefeller Center",
+    "tags": [
+      "division"
+    ]
   },
   {
     "id": "L14",
@@ -249,7 +268,11 @@
     "close": "20:45",
     "priority": false,
     "desc": "Catedral neogótica da Quinta Avenida, em frente ao Rockefeller Center.",
-    "image": null
+    "image": null,
+    "wiki_title": "St. Patrick's Cathedral (Midtown Manhattan)",
+    "tags": [
+      "division"
+    ]
   },
   {
     "id": "L15",
@@ -267,7 +290,11 @@
     "close": "23:00",
     "priority": false,
     "desc": "Parque urbano junto à NYPL, boa pausa e conexão natural pela 42nd Street.",
-    "image": null
+    "image": null,
+    "wiki_title": "Bryant Park",
+    "tags": [
+      "division"
+    ]
   },
   {
     "id": "L16",
@@ -285,7 +312,11 @@
     "close": "18:00",
     "priority": true,
     "desc": "Edifício histórico da New York Public Library, com salas monumentais e arquitetura Beaux-Arts.",
-    "image": null
+    "image": null,
+    "wiki_title": "New York Public Library Main Branch",
+    "tags": [
+      "division"
+    ]
   },
   {
     "id": "L17",
@@ -303,7 +334,11 @@
     "close": "23:59",
     "priority": true,
     "desc": "Terminal histórico com o famoso Main Concourse.",
-    "image": null
+    "image": null,
+    "wiki_title": "Grand Central Terminal",
+    "tags": [
+      "division"
+    ]
   },
   {
     "id": "L18",
@@ -321,7 +356,8 @@
     "close": "23:00",
     "priority": true,
     "desc": "Perspectiva clássica da 42nd Street, especialmente interessante pelo vínculo visual com The Division.",
-    "image": null
+    "image": null,
+    "wiki_title": "Tudor City"
   },
   {
     "id": "L19",
@@ -339,7 +375,8 @@
     "close": "17:00",
     "priority": false,
     "desc": "Sede das Nações Unidas às margens do East River.",
-    "image": null
+    "image": null,
+    "wiki_title": "Headquarters of the United Nations"
   },
   {
     "id": "L20",
@@ -357,7 +394,11 @@
     "close": "23:59",
     "priority": false,
     "desc": "Novo hall ferroviário da Penn Station, fácil de combinar com MSG e Midtown South.",
-    "image": null
+    "image": null,
+    "wiki_title": "Moynihan Train Hall",
+    "tags": [
+      "division"
+    ]
   },
   {
     "id": "L21",
@@ -375,7 +416,11 @@
     "close": "23:00",
     "priority": false,
     "desc": "Praça comercial diante da Macy's; funciona como elo entre Penn Station e Empire State.",
-    "image": null
+    "image": null,
+    "wiki_title": "Herald Square",
+    "tags": [
+      "division"
+    ]
   },
   {
     "id": "L22",
@@ -393,7 +438,11 @@
     "close": "23:00",
     "priority": true,
     "desc": "Observatório clássico do Empire State Building.",
-    "image": null
+    "image": null,
+    "wiki_title": "Empire State Building",
+    "tags": [
+      "division"
+    ]
   },
   {
     "id": "L23",
@@ -411,7 +460,11 @@
     "close": "23:30",
     "priority": false,
     "desc": "Arena icônica. O custo fica zerado até um evento específico ser escolhido.",
-    "image": null
+    "image": null,
+    "wiki_title": "Madison Square Garden",
+    "tags": [
+      "division"
+    ]
   },
   {
     "id": "L24",
@@ -430,7 +483,8 @@
     "fixed": "19:00",
     "priority": true,
     "desc": "Bloco de Broadway. Funciona como compromisso fixo às 19h.",
-    "image": null
+    "image": null,
+    "wiki_title": "Gerald Schoenfeld Theatre"
   },
   {
     "id": "L25",
@@ -448,7 +502,11 @@
     "close": "23:59",
     "priority": true,
     "desc": "O centro luminoso do Theater District, ótimo no período noturno.",
-    "image": null
+    "image": null,
+    "wiki_title": "Times Square",
+    "tags": [
+      "division"
+    ]
   },
   {
     "id": "L26",
@@ -466,7 +524,11 @@
     "close": "23:00",
     "priority": false,
     "desc": "Marco arquitetônico do Flatiron District.",
-    "image": null
+    "image": null,
+    "wiki_title": "Flatiron Building",
+    "tags": [
+      "division"
+    ]
   },
   {
     "id": "L27",
@@ -484,7 +546,11 @@
     "close": "23:59",
     "priority": true,
     "desc": "Parque na ponta sul de Manhattan com vistas para o porto e a Estátua da Liberdade.",
-    "image": null
+    "image": null,
+    "wiki_title": "The Battery (Manhattan)",
+    "tags": [
+      "division"
+    ]
   },
   {
     "id": "L28",
@@ -502,7 +568,8 @@
     "close": "21:00",
     "priority": true,
     "desc": "Bloco para explorar Chinatown, comer e procurar itens de feng shui.",
-    "image": null
+    "image": null,
+    "wiki_title": "Chinatown, Manhattan"
   },
   {
     "id": "L29",
@@ -520,7 +587,11 @@
     "close": "23:59",
     "priority": true,
     "desc": "Travessia a pé da ponte entre Manhattan e Brooklyn.",
-    "image": null
+    "image": null,
+    "wiki_title": "Brooklyn Bridge",
+    "tags": [
+      "division"
+    ]
   },
   {
     "id": "L30",
@@ -538,7 +609,8 @@
     "close": "23:00",
     "priority": true,
     "desc": "Trecho clássico de DUMBO com ruas de paralelepípedo e vista da Manhattan Bridge.",
-    "image": null
+    "image": null,
+    "wiki_title": "Dumbo, Brooklyn"
   },
   {
     "id": "L31",
@@ -556,7 +628,8 @@
     "close": "23:59",
     "priority": true,
     "desc": "Parque à beira do East River com vistas de Manhattan e Brooklyn Bridge.",
-    "image": null
+    "image": null,
+    "wiki_title": "Brooklyn Bridge Park"
   },
   {
     "id": "L32",
@@ -574,7 +647,8 @@
     "close": "23:00",
     "priority": true,
     "desc": "Passeio elevado e tranquilo em Brooklyn Heights com vista do skyline.",
-    "image": null
+    "image": null,
+    "wiki_title": "Brooklyn Heights"
   },
   {
     "id": "L33",
@@ -592,7 +666,11 @@
     "close": "23:00",
     "priority": true,
     "desc": "Parada arquitetônica para observar o Chrysler Building durante a caminhada pela 42nd Street.",
-    "image": null
+    "image": null,
+    "wiki_title": "Chrysler Building",
+    "tags": [
+      "division"
+    ]
   },
   {
     "id": "L34",
@@ -610,7 +688,11 @@
     "close": "23:00",
     "priority": true,
     "desc": "Trecho leve do sul do Central Park para equilibrar o dia do Museu de História Natural.",
-    "image": null
+    "image": null,
+    "wiki_title": "The Pond and Hallett Nature Sanctuary",
+    "tags": [
+      "division"
+    ]
   },
   {
     "id": "L35",
@@ -628,7 +710,8 @@
     "close": "22:00",
     "priority": true,
     "desc": "Parada de compras na loja da Apple da Quinta Avenida. Compras não entram no custo fixo.",
-    "image": null
+    "image": null,
+    "wiki_title": "Apple Fifth Avenue"
   },
   {
     "id": "L36",
@@ -646,7 +729,8 @@
     "close": "21:00",
     "priority": true,
     "desc": "Caminhada por SoHo, vitrines e arquitetura cast-iron.",
-    "image": null
+    "image": null,
+    "wiki_title": "SoHo, Manhattan"
   },
   {
     "id": "L37",
@@ -664,7 +748,8 @@
     "close": "19:00",
     "priority": true,
     "desc": "Parada de compras e cultura asiática prevista no bloco de SoHo/Chinatown.",
-    "image": null
+    "image": null,
+    "wiki_title": "Pearl River Mart"
   },
   {
     "id": "L38",
@@ -682,7 +767,8 @@
     "close": "17:00",
     "priority": true,
     "desc": "Museu no porta-aviões Intrepid, previsto como início do dia de Hudson River e e-bike.",
-    "image": null
+    "image": null,
+    "wiki_title": "Intrepid Museum"
   },
   {
     "id": "L39",
@@ -700,7 +786,8 @@
     "close": "23:00",
     "priority": true,
     "desc": "Trecho de e-bike pela Hudson River Greenway.",
-    "image": null
+    "image": null,
+    "wiki_title": "Hudson River Greenway"
   },
   {
     "id": "L40",
@@ -718,7 +805,8 @@
     "close": "22:00",
     "priority": true,
     "desc": "Hudson Yards como parada entre a Greenway e o início da High Line.",
-    "image": null
+    "image": null,
+    "wiki_title": "Hudson Yards, Manhattan"
   },
   {
     "id": "L41",
@@ -736,7 +824,8 @@
     "close": "23:00",
     "priority": true,
     "desc": "Estação e centro arquitetônico do World Trade Center.",
-    "image": null
+    "image": null,
+    "wiki_title": "World Trade Center station (PATH)"
   },
   {
     "id": "L42",
@@ -754,7 +843,8 @@
     "close": "19:00",
     "priority": true,
     "desc": "Museu e memorial do 11 de Setembro no World Trade Center.",
-    "image": null
+    "image": null,
+    "wiki_title": "National September 11 Memorial & Museum"
   },
   {
     "id": "L43",
@@ -772,7 +862,11 @@
     "close": "23:00",
     "priority": true,
     "desc": "Wall Street e NYSE, incluídos também pelo interesse em referências urbanas de The Division.",
-    "image": null
+    "image": null,
+    "wiki_title": "New York Stock Exchange",
+    "tags": [
+      "division"
+    ]
   },
   {
     "id": "L44",
@@ -790,7 +884,11 @@
     "close": "18:00",
     "priority": false,
     "desc": "Igreja histórica de Wall Street, fácil de encaixar no mesmo bloco do Financial District.",
-    "image": null
+    "image": null,
+    "wiki_title": "Trinity Church (Manhattan)",
+    "tags": [
+      "division"
+    ]
   },
   {
     "id": "L45",
@@ -808,6 +906,495 @@
     "close": "22:00",
     "priority": true,
     "desc": "Spa/banhos no Flatiron considerado para o último dia como bloco de descanso antes do voo.",
-    "image": null
+    "image": null,
+    "wiki_title": "Flatiron District"
+  },
+  {
+    "id": "E01",
+    "name": "MJ The Musical — Broadway",
+    "region": "Midtown / Theater District",
+    "category": "Broadway · evento com horário fixo",
+    "status": "opção",
+    "lat": 40.7627,
+    "lon": -73.9847,
+    "address": "Neil Simon Theatre, 250 W 52nd St, New York, NY 10019",
+    "source": "https://newyork.mjthemusical.com/tickets/",
+    "duration": 150,
+    "cost_couple": null,
+    "cost_note": "preço variável",
+    "open": "00:00",
+    "close": "23:59",
+    "priority": "alta",
+    "desc": "MJ The Musical no Neil Simon Theatre. Evento com sessões reais: o planner só permite encaixar o show em uma sessão disponível.",
+    "wiki_title": "MJ the Musical",
+    "event_type": "scheduled",
+    "sessions": [
+      {
+        "date": "2026-09-19",
+        "start": "14:00",
+        "label": "Sáb 19 · 14:00"
+      },
+      {
+        "date": "2026-09-19",
+        "start": "20:00",
+        "label": "Sáb 19 · 20:00"
+      },
+      {
+        "date": "2026-09-20",
+        "start": "15:00",
+        "label": "Dom 20 · 15:00"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "19:00",
+        "label": "Ter 22 · 19:00"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "13:00",
+        "label": "Qua 23 · 13:00"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "19:00",
+        "label": "Qua 23 · 19:00"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "19:00",
+        "label": "Qui 24 · 19:00"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "19:00",
+        "label": "Sex 25 · 19:00"
+      },
+      {
+        "date": "2026-09-26",
+        "start": "14:00",
+        "label": "Sáb 26 · 14:00",
+        "note": "possível, mas exige atenção ao voo noturno"
+      },
+      {
+        "date": "2026-09-26",
+        "start": "20:00",
+        "label": "Sáb 26 · 20:00",
+        "disabled": true,
+        "note": "incompatível com o voo de volta"
+      }
+    ]
+  },
+  {
+    "id": "E02",
+    "name": "New York Rangers — Madison Square Garden",
+    "region": "Midtown / Penn District",
+    "category": "Hóquei · evento com horário fixo",
+    "status": "opção",
+    "lat": 40.7505,
+    "lon": -73.9934,
+    "address": "Madison Square Garden, 4 Pennsylvania Plaza, New York, NY 10001",
+    "source": "https://www.nhl.com/rangers/news/2026-new-york-rangers-preseason-schedule",
+    "duration": 165,
+    "cost_couple": null,
+    "cost_note": "ingressos variam por assento",
+    "open": "00:00",
+    "close": "23:59",
+    "priority": "alta",
+    "desc": "Jogo de pré-temporada do New York Rangers no Madison Square Garden. O planner só aceita os jogos reais da janela da viagem.",
+    "wiki_title": "Madison Square Garden",
+    "event_type": "scheduled",
+    "sessions": [
+      {
+        "date": "2026-09-22",
+        "start": "19:00",
+        "label": "Ter 22 · 19:00 · vs Islanders"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "19:00",
+        "label": "Qui 24 · 19:00 · vs Devils"
+      }
+    ]
+  },
+  {
+    "id": "X01",
+    "name": "Radio City Music Hall",
+    "region": "Midtown",
+    "category": "Marco · The Division",
+    "status": "Considerado",
+    "lat": 40.76,
+    "lon": -73.98,
+    "address": "1260 6th Ave, New York, NY 10020",
+    "source": "https://www.msg.com/radio-city-music-hall",
+    "duration": 25,
+    "cost_couple": 0,
+    "open": "08:00",
+    "close": "23:00",
+    "priority": false,
+    "desc": "Marco de Midtown e ponto associado ao roteiro inspirado em The Division. Pode ser visita externa ou encaixe rápido perto de Rockefeller Center.",
+    "wiki_title": "Radio City Music Hall",
+    "tags": [
+      "division"
+    ],
+    "anchor_id": "L13"
+  },
+  {
+    "id": "X02",
+    "name": "Columbus Circle",
+    "region": "Central Park South",
+    "category": "Marco · The Division",
+    "status": "Considerado",
+    "lat": 40.7681,
+    "lon": -73.9819,
+    "address": "Columbus Circle, New York, NY 10019",
+    "source": "https://www.centralparknyc.org/locations/columbus-circle",
+    "duration": 20,
+    "cost_couple": 0,
+    "open": "06:00",
+    "close": "23:59",
+    "priority": false,
+    "desc": "Entrada sudoeste do Central Park e ponto visual do roteiro inspirado em The Division.",
+    "wiki_title": "Columbus Circle",
+    "tags": [
+      "division"
+    ],
+    "anchor_id": "L34"
+  },
+  {
+    "id": "X03",
+    "name": "Madison Square Park",
+    "region": "Flatiron / NoMad",
+    "category": "Parque · The Division",
+    "status": "Considerado",
+    "lat": 40.742,
+    "lon": -73.9876,
+    "address": "Madison Ave & E 23rd St, New York, NY 10010",
+    "source": "https://madisonsquarepark.org/park/visit/",
+    "duration": 30,
+    "cost_couple": 0,
+    "open": "06:00",
+    "close": "23:59",
+    "priority": false,
+    "desc": "Parque em frente à região do Flatiron, também presente nas referências do roteiro The Division.",
+    "wiki_title": "Madison Square Park",
+    "tags": [
+      "division"
+    ],
+    "anchor_id": "L26"
+  },
+  {
+    "id": "X04",
+    "name": "Gramercy Park — exterior",
+    "region": "Gramercy",
+    "category": "Bairro / marco · The Division",
+    "status": "Considerado",
+    "lat": 40.7376,
+    "lon": -73.986,
+    "address": "Gramercy Park, New York, NY 10003",
+    "source": "https://en.wikipedia.org/wiki/Gramercy_Park",
+    "duration": 20,
+    "cost_couple": 0,
+    "open": "08:00",
+    "close": "22:00",
+    "priority": false,
+    "desc": "Passagem pelo entorno do parque privado e pelo bairro de Gramercy; visita externa.",
+    "wiki_title": "Gramercy Park",
+    "tags": [
+      "division"
+    ],
+    "anchor_id": "L45"
+  },
+  {
+    "id": "X05",
+    "name": "Union Square Park",
+    "region": "Union Square",
+    "category": "Parque · The Division",
+    "status": "Considerado",
+    "lat": 40.7359,
+    "lon": -73.9911,
+    "address": "Union Square, New York, NY 10003",
+    "source": "https://www.unionsquarenyc.org/things-to-do/union-square-park",
+    "duration": 35,
+    "cost_couple": 0,
+    "open": "06:00",
+    "close": "23:59",
+    "priority": false,
+    "desc": "Praça e parque muito usados como referência de deslocamento e atmosfera urbana no roteiro The Division.",
+    "wiki_title": "Union Square, Manhattan",
+    "tags": [
+      "division"
+    ],
+    "anchor_id": "L45"
+  },
+  {
+    "id": "X06",
+    "name": "East Village",
+    "region": "East Village",
+    "category": "Bairro · The Division",
+    "status": "Considerado",
+    "lat": 40.7265,
+    "lon": -73.9815,
+    "address": "East Village, New York, NY",
+    "source": "https://en.wikipedia.org/wiki/East_Village,_Manhattan",
+    "duration": 60,
+    "cost_couple": 0,
+    "open": "08:00",
+    "close": "23:59",
+    "priority": false,
+    "desc": "Passeio de bairro pelo East Village, incluído nas referências urbanas do roteiro The Division.",
+    "wiki_title": "East Village, Manhattan",
+    "tags": [
+      "division"
+    ],
+    "anchor_id": "L45"
+  },
+  {
+    "id": "X07",
+    "name": "Stuyvesant Cove Park",
+    "region": "East River / Stuyvesant Town",
+    "category": "Parque · The Division",
+    "status": "Considerado",
+    "lat": 40.7353,
+    "lon": -73.9737,
+    "address": "E 20th St & East River, New York, NY 10010",
+    "source": "https://stuyvesantcove.org/about/",
+    "duration": 30,
+    "cost_couple": 0,
+    "open": "06:00",
+    "close": "23:00",
+    "priority": false,
+    "desc": "Parque linear no East River, útil para um passeio leve e para referências visuais de The Division.",
+    "wiki_title": "Stuyvesant Cove Park",
+    "tags": [
+      "division"
+    ],
+    "anchor_id": "L19"
+  },
+  {
+    "id": "X08",
+    "name": "Con Edison East River Generating Station — exterior",
+    "region": "East Village / East River",
+    "category": "Marco industrial · The Division",
+    "status": "Considerado",
+    "lat": 40.729,
+    "lon": -73.9733,
+    "address": "E 14th St & Avenue C, New York, NY",
+    "source": "https://en.wikipedia.org/wiki/Consolidated_Edison",
+    "duration": 15,
+    "cost_couple": 0,
+    "open": "08:00",
+    "close": "22:00",
+    "priority": false,
+    "desc": "Ponto externo de referência industrial no East River, relacionado ao roteiro visual inspirado em The Division.",
+    "wiki_title": "Consolidated Edison",
+    "tags": [
+      "division"
+    ],
+    "anchor_id": "X07"
+  },
+  {
+    "id": "X09",
+    "name": "City Hall Park",
+    "region": "Civic Center",
+    "category": "Parque · The Division",
+    "status": "Considerado",
+    "lat": 40.7127,
+    "lon": -74.006,
+    "address": "43 Park Row, New York, NY 10038",
+    "source": "https://www.publicartfund.org/visit/city-hall-park/",
+    "duration": 30,
+    "cost_couple": 0,
+    "open": "06:00",
+    "close": "23:59",
+    "priority": false,
+    "desc": "Parque junto à prefeitura e bom elo entre Lower Manhattan e Brooklyn Bridge.",
+    "wiki_title": "City Hall Park",
+    "tags": [
+      "division"
+    ],
+    "anchor_id": "L41"
+  },
+  {
+    "id": "X10",
+    "name": "Outlook Hill — Governors Island",
+    "region": "Governors Island",
+    "category": "Vista",
+    "status": "Considerado",
+    "lat": 40.6875,
+    "lon": -74.0193,
+    "address": "Outlook Hill, Governors Island, New York, NY",
+    "source": "https://www.govisland.com/the-park",
+    "duration": 45,
+    "cost_couple": 0,
+    "open": "07:00",
+    "close": "22:00",
+    "priority": true,
+    "desc": "Ponto mais alto de Governors Island, com vista de 360° para a Estátua da Liberdade, porto e skyline. Combina especialmente bem com QC NY Spa.",
+    "wiki_title": "Governors Island",
+    "anchor_id": "L06"
+  },
+  {
+    "id": "X11",
+    "name": "New York Magic Feng Shui",
+    "region": "Chinatown",
+    "category": "Feng shui / compras",
+    "status": "Considerado",
+    "lat": 40.717,
+    "lon": -74.0,
+    "address": "234-238 Canal St #110, New York, NY 10013",
+    "source": "https://www.google.com/maps/search/?api=1&query=New+York+Magic+Feng+Shui+234-238+Canal+St+New+York",
+    "duration": 40,
+    "cost_couple": null,
+    "cost_note": "compras variáveis",
+    "open": "10:00",
+    "close": "19:30",
+    "priority": true,
+    "desc": "Loja de artigos de feng shui em Canal Street, um dos pontos específicos que havíamos separado para o passeio de Chinatown.",
+    "wiki_title": "Chinatown, Manhattan",
+    "anchor_id": "L28"
+  },
+  {
+    "id": "X12",
+    "name": "Nom Wah Tea Parlor",
+    "region": "Chinatown",
+    "category": "Comida / história",
+    "status": "Considerado",
+    "lat": 40.7146,
+    "lon": -73.9982,
+    "address": "13 Doyers St, New York, NY 10013",
+    "source": "https://www.nomwah.com/chinatown/",
+    "duration": 75,
+    "cost_couple": null,
+    "cost_note": "consumo variável",
+    "open": "11:00",
+    "close": "21:00",
+    "priority": false,
+    "desc": "Casa histórica de dim sum em Doyers Street; opção para transformar o passeio por Chinatown em uma parada de refeição.",
+    "wiki_title": "Nom Wah Tea Parlor",
+    "anchor_id": "L28"
+  },
+  {
+    "id": "X13",
+    "name": "Grand Tea & Imports",
+    "region": "Chinatown / Lower East Side",
+    "category": "Chá / feng shui",
+    "status": "Considerado",
+    "lat": 40.7178,
+    "lon": -73.9915,
+    "address": "298 Grand St, New York, NY 10002",
+    "source": "https://grandteaimports.com/",
+    "duration": 45,
+    "cost_couple": null,
+    "cost_note": "compras variáveis",
+    "open": "09:00",
+    "close": "19:30",
+    "priority": true,
+    "desc": "Loja familiar de chá, artigos culturais, feng shui e tradição popular chinesa.",
+    "wiki_title": "Chinatown, Manhattan",
+    "anchor_id": "L28"
+  },
+  {
+    "id": "X14",
+    "name": "Guan Gong Temple of USA",
+    "region": "Lower East Side / Chinatown",
+    "category": "Templo",
+    "status": "Considerado",
+    "lat": 40.7184,
+    "lon": -73.9905,
+    "address": "294 Broome St, New York, NY 10002",
+    "source": "https://www.guangongtempleusa.com/contact",
+    "duration": 30,
+    "cost_couple": 0,
+    "open": "09:00",
+    "close": "16:00",
+    "priority": true,
+    "desc": "Templo dedicado a Guan Gong que havia sido considerado no circuito cultural de Chinatown. Horário deve ser reconfirmado perto da viagem.",
+    "wiki_title": "Guan Yu",
+    "anchor_id": "L28",
+    "hours_note": "reconfirmar perto da viagem"
+  },
+  {
+    "id": "X15",
+    "name": "Magic Jewelry — Chinatown",
+    "region": "Chinatown",
+    "category": "Cristais / feng shui",
+    "status": "Considerado",
+    "lat": 40.7158,
+    "lon": -73.998,
+    "address": "15 Elizabeth St, Suite 101, New York, NY 10013",
+    "source": "https://www.magicjewelrynyc.com/",
+    "duration": 45,
+    "cost_couple": null,
+    "cost_note": "compras variáveis",
+    "open": "11:30",
+    "close": "17:30",
+    "priority": true,
+    "desc": "Loja de cristais, leituras de aura e itens ligados a feng shui; parada específica que já havíamos considerado em Chinatown.",
+    "wiki_title": "Chinatown, Manhattan",
+    "anchor_id": "L28",
+    "hours_note": "reconfirmar perto da viagem"
+  },
+  {
+    "id": "X16",
+    "name": "Eastern Bookstore",
+    "region": "Chinatown",
+    "category": "Livraria / caligrafia",
+    "status": "Considerado",
+    "lat": 40.7161,
+    "lon": -73.9976,
+    "address": "13-17 Elizabeth St, 2nd Floor, New York, NY 10013",
+    "source": "https://www.easternbooknyc.com/",
+    "duration": 35,
+    "cost_couple": null,
+    "cost_note": "compras variáveis",
+    "open": "10:00",
+    "close": "18:00",
+    "priority": false,
+    "desc": "Livraria chinesa com livros, materiais de caligrafia e presentes; outra parada específica já considerada para Chinatown.",
+    "wiki_title": "Chinatown, Manhattan",
+    "anchor_id": "L28"
+  },
+  {
+    "id": "X17",
+    "name": "Mott & Pell Streets",
+    "region": "Chinatown",
+    "category": "Rua / passeio",
+    "status": "Considerado",
+    "lat": 40.7146,
+    "lon": -73.9986,
+    "address": "Mott St & Pell St, New York, NY 10013",
+    "source": "https://chinatown.nyc/faqs/",
+    "duration": 45,
+    "cost_couple": 0,
+    "open": "08:00",
+    "close": "23:00",
+    "priority": true,
+    "desc": "Trecho do núcleo histórico de Chinatown para caminhar sem transformar o bairro apenas em uma sequência de lojas.",
+    "wiki_title": "Mott Street",
+    "anchor_id": "L28"
+  },
+  {
+    "id": "X18",
+    "name": "Macy's Herald Square",
+    "region": "Herald Square",
+    "category": "Compras · The Division",
+    "status": "Considerado",
+    "lat": 40.7508,
+    "lon": -73.9895,
+    "address": "151 W 34th St, New York, NY 10001",
+    "source": "https://www.macys.com/stores/ny/newyork/herald-square_3.html",
+    "duration": 60,
+    "cost_couple": null,
+    "cost_note": "compras variáveis",
+    "open": "10:00",
+    "close": "21:00",
+    "priority": false,
+    "desc": "Parada de compras no entorno de Herald Square, também presente como referência urbana no roteiro The Division.",
+    "wiki_title": "Macy's Herald Square",
+    "tags": [
+      "division"
+    ],
+    "anchor_id": "L21",
+    "hours_note": "reconfirmar perto da viagem"
   }
 ]
