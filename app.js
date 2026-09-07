@@ -474,6 +474,13 @@ async function init(){
   });
 
   render();
+  // Durante o desenvolvimento, removemos SWs antigos para não misturar versões.
+  if("serviceWorker" in navigator){
+    navigator.serviceWorker.getRegistrations()
+      .then(regs=>regs.forEach(reg=>reg.unregister()))
+      .catch(()=>{});
+  }
+
   if("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js").then(reg=>reg.update()).catch(()=>{});
 }
 

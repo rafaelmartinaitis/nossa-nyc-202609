@@ -76,3 +76,12 @@ Correção estrutural do planner:
 - **Mobile (até 680 px):** permanece um dia por vez, mas agora também com eixo visual de horário.
 - Os botões `Tema`, `Plano original` e `Limpar` são forçados a permanecer visíveis no desktop.
 - O service worker passou a usar **network-first** durante o desenvolvimento, para reduzir problemas de cache após novos commits.
+
+## V7 — layout travado no viewport
+
+- Header sempre visível.
+- Gaveta sempre visível na parte inferior.
+- Somente o planner central possui scroll.
+- A semana foi compactada para reduzir a rolagem horizontal em desktops comuns.
+- `index.html` usa `app.js` e `styles.css` da raiz para evitar versões duplicadas.
+- Cache offline temporariamente desativado enquanto o layout está sendo refinado.

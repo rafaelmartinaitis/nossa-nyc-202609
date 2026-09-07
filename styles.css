@@ -1233,3 +1233,212 @@ body[data-theme="division"] .axis-label{font-family:ui-monospace,SFMono-Regular,
   .places-drawer{max-height:29vh}
   .place-card{touch-action:none}
 }
+
+
+/* =========================================================
+   V7 — viewport travado
+   Header e gaveta permanecem sempre visíveis.
+   Somente a área central do planner possui scroll.
+   ========================================================= */
+
+html,
+body{
+  width:100%;
+  height:100%;
+  min-height:0!important;
+  max-height:100%;
+  overflow:hidden!important;
+}
+
+body{
+  overscroll-behavior:none;
+}
+
+.app-shell{
+  width:100%;
+  height:100dvh!important;
+  min-height:0!important;
+  max-height:100dvh!important;
+  overflow:hidden!important;
+  grid-template-rows:auto minmax(0,1fr) auto!important;
+}
+
+/* HEADER: nunca participa do scroll do planner */
+.app-header{
+  position:relative;
+  z-index:60;
+  min-width:0;
+  overflow:visible;
+}
+.brand,
+.trip-summary,
+.header-actions{min-width:0}
+.header-actions{
+  display:flex!important;
+  visibility:visible!important;
+  opacity:1!important;
+  flex:0 0 auto;
+  white-space:nowrap;
+}
+.header-actions .ghost-button{
+  display:inline-flex!important;
+  visibility:visible!important;
+  align-items:center;
+  justify-content:center;
+}
+
+/* A área central NÃO rola por si; seu filho .week-scroll é o scroller */
+.planner-panel{
+  min-width:0!important;
+  min-height:0!important;
+  height:100%!important;
+  overflow:hidden!important;
+  display:block;
+  padding:10px 12px 8px!important;
+}
+
+.desktop-week{
+  min-width:0!important;
+  min-height:0!important;
+  height:100%!important;
+  display:flex!important;
+  flex-direction:column;
+  overflow:hidden;
+}
+
+.week-caption{
+  flex:0 0 auto;
+  min-height:0;
+  padding:0 2px 8px!important;
+}
+
+.week-scroll{
+  flex:1 1 auto;
+  min-width:0!important;
+  min-height:0!important;
+  width:100%;
+  height:auto!important;
+  overflow:auto!important;
+  overscroll-behavior:contain;
+  scrollbar-gutter:stable;
+}
+
+/* Mais compacto: em monitores comuns, os oito dias quase sempre cabem. */
+.week-board{
+  min-width:1120px!important;
+  width:max(100%,1120px);
+}
+.week-grid{
+  min-width:1120px!important;
+  width:100%;
+  grid-template-columns:54px repeat(8,minmax(132px,1fr))!important;
+}
+
+/* Cabeçalho semanal continua preso dentro do único scroller */
+.week-corner,
+.week-day-header{
+  top:0!important;
+}
+
+/* Cards mais enxutos para caberem nas colunas menores */
+.calendar-title{
+  font-size:9.4px!important;
+  padding-right:38px!important;
+}
+.calendar-meta{font-size:6.7px!important}
+.activity-block{
+  left:4px!important;
+  right:4px!important;
+}
+
+/* GAVETA: linha fixa inferior, sempre visível */
+.places-drawer{
+  position:relative;
+  z-index:70;
+  height:168px!important;
+  min-height:168px!important;
+  max-height:168px!important;
+  overflow:hidden!important;
+  padding:6px 12px max(8px,env(safe-area-inset-bottom))!important;
+}
+.places-strip{
+  min-height:0!important;
+  height:112px;
+  max-height:112px;
+  overflow-x:auto!important;
+  overflow-y:hidden!important;
+}
+.place-card{
+  height:102px;
+  min-height:102px;
+}
+.place-card .drag-hint{margin-top:4px!important}
+
+/* Quando a busca abre, a gaveta cresce, mas continua dentro do viewport. */
+.places-drawer:has(.search-row:not([hidden])){
+  height:216px!important;
+  min-height:216px!important;
+  max-height:216px!important;
+}
+.places-drawer:has(.search-row:not([hidden])) .places-strip{
+  height:104px;
+  max-height:104px;
+}
+
+/* Desktop estreito: mantém ações visíveis e comprime o resumo. */
+@media (min-width:681px) and (max-width:1180px){
+  .app-header{
+    grid-template-columns:minmax(170px,1fr) auto!important;
+    gap:7px 10px!important;
+    padding:8px 12px!important;
+  }
+  .header-actions{
+    grid-column:1/-1!important;
+    justify-content:flex-end!important;
+  }
+  .trip-summary div{min-width:72px!important;padding:6px 8px!important}
+}
+
+/* Desktop amplo: todos os controles em uma única linha. */
+@media (min-width:1181px){
+  .app-header{
+    grid-template-columns:minmax(185px,1fr) auto auto!important;
+    gap:10px!important;
+    padding:8px 14px!important;
+  }
+  .header-actions{
+    grid-column:auto!important;
+    justify-content:flex-end!important;
+  }
+  .trip-summary div{min-width:76px!important;padding:6px 8px!important}
+  .ghost-button{min-height:38px!important;padding:0 10px!important}
+}
+
+/* Mobile: a mesma regra estrutural — só o centro rola. */
+@media (max-width:680px){
+  .app-header{
+    flex:0 0 auto;
+  }
+  .header-actions{
+    display:none!important;
+  }
+  .planner-panel{
+    overflow:auto!important;
+    padding:6px 7px!important;
+    overscroll-behavior:contain;
+  }
+  .desktop-week{display:none!important}
+  .mobile-day{
+    display:block!important;
+    min-height:0;
+  }
+  .places-drawer{
+    height:29vh!important;
+    min-height:150px!important;
+    max-height:29vh!important;
+  }
+  .places-drawer:has(.search-row:not([hidden])){
+    height:35vh!important;
+    max-height:35vh!important;
+  }
+}
