@@ -878,3 +878,358 @@ body[data-theme="division"] .person-choice span:last-child{
   .details-preferences{justify-content:flex-start;margin-top:12px}
   .person-choice{flex:1;min-width:112px}
 }
+
+
+.mobile-plan-button{
+  display:none;
+  min-height:34px;
+  border:1px solid rgba(169,95,93,.28);
+  border-radius:999px;
+  padding:0 10px;
+  background:color-mix(in srgb,var(--paper) 90%,transparent);
+  color:var(--rose-dark);
+  font-size:9px;
+  font-weight:800;
+  white-space:nowrap;
+}
+body[data-theme="division"] .mobile-plan-button{
+  border-color:rgba(255,126,41,.38);
+  color:var(--champagne);
+  background:rgba(255,126,41,.08);
+  border-radius:5px;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+}
+@media(max-width:760px){
+  .mobile-plan-button{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+  }
+}
+
+/* =========================================================
+   V6 — Planner temporal responsivo
+   Desktop: semana inteira. Mobile: um dia por vez.
+   ========================================================= */
+
+.desktop-week{display:block;min-width:0}
+.mobile-day{display:none}
+
+/* Garante que os controles do header nunca desapareçam no desktop. */
+@media (min-width:681px){
+  .header-actions{
+    display:flex!important;
+    visibility:visible!important;
+    opacity:1!important;
+    align-items:center;
+    flex-wrap:wrap;
+  }
+  .mobile-plan-button{display:none!important}
+}
+
+.week-caption{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:18px;
+  max-width:none;
+  padding:2px 2px 12px;
+}
+.week-caption strong{
+  display:block;
+  margin-top:3px;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:20px;
+  color:var(--nyc-ink);
+  letter-spacing:-.025em;
+}
+.week-legend{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:9px}
+.week-legend span{display:flex;align-items:center;gap:5px}
+.legend-dot{width:8px;height:8px;border-radius:3px;display:inline-block}
+.activity-dot{background:var(--champagne-2)}
+.transit-dot{background:var(--sage)}
+.free-dot{border:1px dashed var(--line-strong);background:transparent}
+
+.week-scroll{
+  overflow:auto;
+  overscroll-behavior:contain;
+  border:1px solid var(--line);
+  border-radius:17px;
+  background:color-mix(in srgb,var(--paper) 38%,transparent);
+  box-shadow:var(--shadow-soft);
+  scrollbar-width:thin;
+}
+.week-board{min-width:1740px}
+.week-grid{
+  display:grid;
+  grid-template-columns:64px repeat(8,minmax(205px,1fr));
+  grid-template-rows:62px auto;
+  min-width:1740px;
+  position:relative;
+}
+.week-corner,
+.week-day-header{
+  position:sticky;
+  top:0;
+  z-index:25;
+  background:color-mix(in srgb,var(--paper) 96%,transparent);
+  backdrop-filter:blur(16px);
+  border-bottom:1px solid var(--line);
+}
+.week-corner{
+  left:0;
+  z-index:30;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--muted);
+  font-size:8px;
+  letter-spacing:.12em;
+  font-weight:800;
+}
+.week-day-header{
+  border:0;
+  border-left:1px solid var(--line);
+  padding:8px 9px 7px;
+  text-align:left;
+  color:var(--text);
+  cursor:pointer;
+}
+.week-day-header:hover{background:color-mix(in srgb,var(--paper) 88%,var(--champagne) 12%)}
+.week-day-header.selected{
+  box-shadow:inset 0 -3px var(--rose);
+  background:color-mix(in srgb,var(--paper) 92%,var(--rose-soft) 8%);
+}
+.week-day-header .week-weekday{
+  display:block;
+  color:var(--muted);
+  font-size:8px;
+  font-weight:800;
+  letter-spacing:.12em;
+}
+.week-day-header strong{
+  display:block;
+  margin-top:2px;
+  font-family:Georgia,"Times New Roman",serif;
+  color:var(--nyc-ink);
+  font-size:15px;
+}
+.week-day-header small{display:block;color:var(--muted);font-size:8px;margin-top:4px;white-space:nowrap}
+
+.calendar-axis{
+  position:relative;
+  background:color-mix(in srgb,var(--paper) 76%,transparent);
+  border-right:1px solid var(--line);
+}
+.week-axis{position:sticky;left:0;z-index:20}
+.axis-label{
+  position:absolute;
+  right:8px;
+  transform:translateY(-50%);
+  color:var(--muted);
+  font-size:8px;
+  font-variant-numeric:tabular-nums;
+}
+.calendar-day-column,
+.timeline{
+  position:relative;
+  background-image:
+    repeating-linear-gradient(to bottom,
+      var(--line) 0,
+      var(--line) 1px,
+      transparent 1px,
+      transparent calc(var(--px-hour) / 2)),
+    repeating-linear-gradient(to bottom,
+      color-mix(in srgb,var(--line) 140%,transparent) 0,
+      color-mix(in srgb,var(--line) 140%,transparent) 1px,
+      transparent 1px,
+      transparent var(--px-hour));
+  background-color:color-mix(in srgb,var(--paper) 38%,transparent);
+}
+.calendar-day-column{
+  border-left:1px solid var(--line);
+  min-width:0;
+  transition:background-color .14s ease, box-shadow .14s ease;
+}
+.calendar-day-column.selected{background-color:color-mix(in srgb,var(--paper) 54%,var(--champagne) 4%)}
+.calendar-day-column.drop-target,
+.timeline.drop-target{
+  background-color:color-mix(in srgb,var(--sage-soft) 55%,var(--paper) 45%);
+  box-shadow:inset 0 0 0 2px var(--sage);
+}
+
+.calendar-block{position:absolute;box-sizing:border-box;overflow:hidden}
+.activity-block{
+  left:5px;
+  right:5px;
+  z-index:6;
+  min-height:23px;
+  border:1px solid color-mix(in srgb,var(--line-strong) 72%,var(--champagne) 28%);
+  border-radius:9px;
+  background:var(--card-bg);
+  box-shadow:0 4px 12px rgba(32,45,49,.08);
+  padding:4px 6px;
+  cursor:grab;
+  touch-action:none;
+  user-select:none;
+  -webkit-user-select:none;
+}
+.activity-block::before{
+  content:"";
+  position:absolute;
+  left:0;top:0;bottom:0;
+  width:3px;
+  background:linear-gradient(180deg,var(--champagne-2),var(--rose));
+}
+.activity-block.held{cursor:grabbing;outline:2px solid var(--rose);z-index:15}
+.activity-block.conflict{background:var(--card-conflict-bg);border-color:color-mix(in srgb,var(--rose) 55%,var(--line) 45%)}
+.calendar-time{
+  padding-left:3px;
+  color:var(--rose-dark);
+  font-size:7.5px;
+  line-height:1.15;
+  font-weight:850;
+  font-variant-numeric:tabular-nums;
+}
+.calendar-title{
+  padding:2px 42px 0 3px;
+  font-family:Georgia,"Times New Roman",serif;
+  font-weight:700;
+  color:var(--nyc-ink);
+  font-size:10px;
+  line-height:1.08;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.calendar-meta{
+  padding:2px 3px 0;
+  color:var(--muted);
+  font-size:7px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.calendar-warning{position:absolute;right:4px;bottom:3px;font-size:9px;color:var(--rose)}
+.activity-block .preference-badges{top:3px;right:3px;gap:2px}
+.activity-block .preference-button{width:19px;height:19px;font-size:10px;border-radius:6px}
+
+.transit-block{
+  left:8px;
+  right:8px;
+  z-index:2;
+  min-height:8px;
+  border-left:2px solid var(--sage);
+  background:color-mix(in srgb,var(--sage-soft) 45%,transparent);
+  color:color-mix(in srgb,var(--nyc-ink-2) 82%,var(--muted));
+  padding:1px 4px;
+  font-size:7px;
+  line-height:1.1;
+}
+.transit-block span{white-space:nowrap}
+.free-block{
+  left:12px;
+  right:12px;
+  z-index:1;
+  min-height:8px;
+  border-left:1px dashed var(--champagne-2);
+  color:var(--muted);
+  padding:1px 4px;
+  font-size:6.5px;
+  opacity:.78;
+}
+
+/* No tema Division, a agenda fica mais próxima de um painel tático. */
+body[data-theme="division"] .week-scroll{border-color:rgba(255,143,51,.22)}
+body[data-theme="division"] .week-day-header.selected{box-shadow:inset 0 -3px var(--champagne)}
+body[data-theme="division"] .activity-block{
+  border-radius:5px;
+  border-color:rgba(255,143,51,.22);
+  box-shadow:inset 0 0 0 1px rgba(255,143,51,.035),0 5px 14px rgba(0,0,0,.22);
+}
+body[data-theme="division"] .activity-block::before{background:linear-gradient(180deg,var(--champagne),var(--sage));box-shadow:0 0 9px rgba(255,143,51,.35)}
+body[data-theme="division"] .calendar-time{color:var(--champagne)}
+body[data-theme="division"] .week-weekday,
+body[data-theme="division"] .week-corner,
+body[data-theme="division"] .calendar-meta,
+body[data-theme="division"] .axis-label{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+
+.empty-calendar,
+.load-error{
+  position:absolute;
+  top:58px;
+  left:12px;
+  right:12px;
+  padding:18px;
+  border:1px dashed var(--line-strong);
+  border-radius:14px;
+  color:var(--muted);
+  text-align:center;
+  background:color-mix(in srgb,var(--paper) 60%,transparent);
+}
+.empty-calendar strong{display:block;color:var(--nyc-ink);font-family:Georgia,"Times New Roman",serif;margin-bottom:4px}
+.empty-calendar span{font-size:9px}
+.drawer-empty{padding:22px;color:var(--muted);font-size:10px;min-width:230px}
+
+/* Desktop amplo */
+@media (min-width:1051px){
+  .app-header{grid-template-columns:minmax(210px,1fr) auto auto!important}
+  .header-actions{grid-column:auto!important;justify-content:flex-end}
+}
+
+/* Desktop / tablet horizontal mais estreito: controles ficam numa segunda linha, mas nunca somem. */
+@media (min-width:681px) and (max-width:1050px){
+  .app-header{grid-template-columns:minmax(180px,1fr) auto!important;row-gap:6px}
+  .header-actions{grid-column:1/-1!important;justify-content:flex-end!important}
+}
+
+/* Mobile vertical */
+@media (max-width:680px){
+  .desktop-week{display:none!important}
+  .mobile-day{display:block!important}
+  .header-actions{display:none!important}
+  .mobile-plan-button{display:inline-flex!important;align-items:center;justify-content:center}
+  .planner-panel{padding:7px 8px 8px!important;overflow:auto}
+  .planner-toolbar{
+    position:sticky!important;
+    top:0;
+    z-index:22;
+    background:linear-gradient(var(--cream) 84%,transparent)!important;
+  }
+  .mobile-time-layout{
+    display:grid;
+    grid-template-columns:43px minmax(0,1fr);
+    align-items:start;
+    min-width:0;
+  }
+  .mobile-time-axis{position:relative;min-width:0}
+  .mobile-time-axis .calendar-axis{height:100%;border-right:0;background:transparent}
+  .mobile-time-axis .axis-label{right:6px;font-size:7px}
+  .timeline{
+    --px-hour:62px;
+    display:block!important;
+    max-width:none!important;
+    margin:0!important;
+    padding:0!important;
+    border-left:1px solid var(--line);
+    border-right:1px solid var(--line);
+    border-radius:9px;
+  }
+  .timeline .activity-block{left:5px;right:5px;padding:5px 7px}
+  .timeline .calendar-title{font-size:11px;padding-right:45px}
+  .timeline .calendar-time{font-size:8px}
+  .timeline .calendar-meta{font-size:7.5px}
+  .timeline .transit-block{left:8px;right:8px}
+  .places-drawer{max-height:30vh!important}
+  .app-shell.dragging .places-drawer{max-height:16vh!important}
+}
+
+/* Acima do breakpoint mobile, a semana é o planner principal. */
+@media (min-width:681px){
+  .desktop-week{display:block!important}
+  .mobile-day{display:none!important}
+  .planner-panel{overflow:auto!important}
+  .places-drawer{max-height:29vh}
+  .place-card{touch-action:none}
+}
