@@ -11,7 +11,7 @@
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="apple-touch-icon" href="./assets/icons/icon-180.png">
   <link rel="icon" href="./assets/icons/icon-192.png">
-  <link rel="stylesheet" href="./styles.css?v=8">
+  <link rel="stylesheet" href="./styles.css?v=10">
 </head>
 <body>
   <div id="app" class="app-shell">
@@ -66,6 +66,7 @@
             <button class="mobile-plan-button" id="mobile-load-recommended" type="button">♥ Plano original</button>
           </div>
         </div>
+        <div class="mobile-day-anchors" id="mobile-day-anchors"></div>
         <div class="mobile-time-layout">
           <aside class="mobile-time-axis" id="mobile-time-axis" aria-hidden="true"></aside>
           <section class="timeline" id="timeline" aria-label="Planner do dia"></section>
@@ -97,7 +98,10 @@
   <div class="modal-backdrop" id="details-backdrop" hidden>
     <article class="details-modal" role="dialog" aria-modal="true" aria-labelledby="details-title">
       <button class="modal-close" id="close-details" type="button" aria-label="Fechar">×</button>
-      <div class="details-hero" id="details-hero"></div>
+      <div class="details-hero" id="details-hero">
+        <span class="details-hero-label" id="details-hero-label"></span>
+        <a class="image-credit" id="details-image-source" target="_blank" rel="noopener" hidden>imagem</a>
+      </div>
       <div class="details-body">
         <div class="details-heading">
           <div>
@@ -110,6 +114,11 @@
           </div>
         </div>
         <p id="details-description"></p>
+        <section class="session-panel" id="details-session-panel" hidden>
+          <div class="session-panel-title">Sessões disponíveis</div>
+          <div class="session-options" id="details-sessions"></div>
+          <div class="session-help">Eventos só podem entrar no planner nestes horários.</div>
+        </section>
         <dl class="details-grid">
           <div><dt>Tempo</dt><dd id="details-duration"></dd></div>
           <div><dt>Custo do casal</dt><dd id="details-cost"></dd></div>
@@ -125,6 +134,7 @@
     </article>
   </div>
 
-  <script type="module" src="./app.js?v=8"></script>
+  <div class="app-toast" id="app-toast" role="status" aria-live="polite" hidden></div>
+  <script type="module" src="./app.js?v=10"></script>
 </body>
 </html>

@@ -5,7 +5,7 @@ const GRID_START = 8 * 60;
 const GRID_END = 26 * 60;
 const DESKTOP_PX_HOUR = 58;
 const MOBILE_PX_HOUR = 62;
-const STORAGE_KEY = "rafael-lidia-nyc-plan-v3";
+const STORAGE_KEY = "rafael-lidia-nyc-plan-v4";
 const LEGACY_KEYS = ["rafael-lidia-nyc-plan-v2", "rafael-lidia-nyc-plan-v1"];
 const DESKTOP_QUERY = "(min-width: 681px)";
 
@@ -14,7 +14,10 @@ const state = {
   preferences: {rafael:new Set(), lidia:new Set()},
   selectedDayIndex: 0, selectedPlaceId: null,
   search: "", filters: {rafael:false,lidia:false}, theme: "colorful",
-  dragging: null
+  dragging: null,
+  eventSessions: {},
+  anchors: [],
+  constraints: {}
 };
 
 let scheduleCache = new Map();
@@ -38,6 +41,118 @@ const fmtDuration = mins => mins >= 60
   : `${mins} min`;
 const fmtMoney = value => `US$ ${Math.round(value).toLocaleString("pt-BR")}`;
 const esc = value => String(value ?? "").replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
+
+const imageCache = new Map();
+let imageObserver = null;
+let toastTimer = null;
+
+function priceLabel(p){
+  if(p.cost_couple === null || p.cost_couple === undefined) return p.cost_note || "preço variável";
+  return Number(p.cost_couple) ? `${fmtMoney(p.cost_couple)} casal` : "grátis";
+}
+function enabledSessions(p,date=null){
+  if(!Array.isArray(p.sessions)) return [];
+  return p.sessions.filter(s=>!s.disabled && (!date || s.date===date));
+}
+function selectedSessionFor(id,date=null){
+  const p=state.byId[id]; if(!p?.sessions) return null;
+  const selected=state.eventSessions[id];
+  if(selected){
+    const hit=p.sessions.find(s=>s.date===selected.date&&s.start===selected.start&&!s.disabled);
+    if(hit && (!date || hit.date===date)) return hit;
+  }
+  return enabledSessions(p,date)[0] || null;
+}
+function showToast(message){
+  const el=$("#app-toast"); if(!el) return;
+  clearTimeout(toastTimer); el.textContent=message; el.hidden=false;
+  requestAnimationFrame(()=>el.classList.add("show"));
+  toastTimer=setTimeout(()=>{el.classList.remove("show");setTimeout(()=>el.hidden=true,180);},2800);
+}
+async function resolvePlaceImage(p){
+  if(!p) return null;
+  if(imageCache.has(p.id)) return imageCache.get(p.id);
+  const storageKey=`nyc-img:${p.id}`;
+  try{
+    const saved=sessionStorage.getItem(storageKey);
+    if(saved){const parsed=JSON.parse(saved);imageCache.set(p.id,parsed);return parsed;}
+  }catch{}
+  const title=p.wiki_title||p.name;
+  let result=null;
+  try{
+    const url=`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title.replaceAll(" ","_"))}`;
+    const r=await fetch(url);
+    if(r.ok){
+      const d=await r.json();
+      if(d.thumbnail?.source) result={src:d.thumbnail.source,source:d.content_urls?.desktop?.page||""};
+    }
+  }catch{}
+  if(!result){
+    try{
+      const q=encodeURIComponent(title);
+      const url=`https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${q}&gsrlimit=1&prop=pageimages%7Cinfo&inprop=url&piprop=thumbnail&pithumbsize=640&format=json&origin=*`;
+      const r=await fetch(url); if(r.ok){
+        const d=await r.json(); const page=Object.values(d.query?.pages||{})[0];
+        if(page?.thumbnail?.source) result={src:page.thumbnail.source,source:page.fullurl||""};
+      }
+    }catch{}
+  }
+  imageCache.set(p.id,result);
+  try{sessionStorage.setItem(storageKey,JSON.stringify(result));}catch{}
+  return result;
+}
+async function hydrateImageElement(img){
+  if(!img || img.dataset.loaded==="1") return;
+  img.dataset.loaded="1";
+  const p=state.byId[img.dataset.imageId]; const found=await resolvePlaceImage(p);
+  const wrap=img.closest(".place-thumb");
+  if(found?.src){img.src=found.src;img.alt=p.name;wrap?.classList.add("has-image");}
+  else wrap?.classList.add("no-image");
+}
+function setupImageObserver(){
+  imageObserver?.disconnect();
+  imageObserver=new IntersectionObserver(entries=>{
+    entries.forEach(entry=>{
+      if(entry.isIntersecting){hydrateImageElement(entry.target);imageObserver.unobserve(entry.target);}
+    });
+  },{root:$("#places-strip"),rootMargin:"180px"});
+  $$("img[data-image-id]").forEach(img=>imageObserver.observe(img));
+}
+function sessionMeta(p){
+  if(!p.sessions) return "";
+  const dates=[...new Set(enabledSessions(p).map(s=>s.date.slice(8)))];
+  return `horários fixos · ${dates.join(", ")} SET`;
+}
+
+
+function anchorsForDate(date){
+  return state.anchors.filter(a=>a.date===date);
+}
+function constraintForDate(date){
+  return state.constraints?.[date] || null;
+}
+function anchorChipsHTML(date){
+  const items=anchorsForDate(date).filter(a=>a.header);
+  if(!items.length) return "";
+  return `<div class="day-anchor-chips">${items.map(a=>`<span class="day-anchor-chip ${a.kind||""}" title="${esc(a.detail||a.label)}">${a.kind?.includes("flight")?"✈":"⛔"} ${esc(a.label)}</span>`).join("")}</div>`;
+}
+function fixedAnchorBlocks(date,pxPerHour){
+  return anchorsForDate(date).filter(a=>a.start&&a.end).map(a=>{
+    const start=toMin(a.start),end=toMin(a.end);
+    return `<div class="calendar-block fixed-anchor-block ${a.kind||""}" style="${blockStyle(start,end,pxPerHour)}" aria-label="${esc(a.label)}">
+      <span class="fixed-anchor-kicker">FIXO</span>
+      <strong>${esc(a.label)}</strong>
+      <small>${esc(a.detail||"")}</small>
+    </div>`;
+  }).join("");
+}
+function violatesConstraint(date){
+  const c=constraintForDate(date);
+  if(!c?.return_to_hotel_by) return false;
+  invalidateSchedules();
+  const s=scheduleFor(date);
+  return s.end > toMin(c.return_to_hotel_by);
+}
 
 function isDesktop(){ return matchMedia(DESKTOP_QUERY).matches; }
 function travelKey(a,b){ return `${a}|${b}`; }
@@ -71,7 +186,8 @@ function saveNow(){
     plan:state.plan,
     preferences:{rafael:[...state.preferences.rafael],lidia:[...state.preferences.lidia]},
     selectedDayIndex:state.selectedDayIndex,
-    theme:state.theme
+    theme:state.theme,
+    eventSessions:state.eventSessions
   }));
 }
 function queueSave(){
@@ -93,6 +209,7 @@ function restore(){
     if(data.preferences?.lidia) state.preferences.lidia=new Set(data.preferences.lidia);
     if(Number.isInteger(data.selectedDayIndex)) state.selectedDayIndex=Math.max(0,Math.min(state.days.length-1,data.selectedDayIndex));
     if(data.theme==="colorful"||data.theme==="division") state.theme=data.theme;
+    if(data.eventSessions && typeof data.eventSessions==="object") state.eventSessions=data.eventSessions;
   }catch{}
 }
 
@@ -107,7 +224,14 @@ function scheduleFor(date){
     totalTravel+=t.planning_min;
     const arrival=cur+t.planning_min;
     let start=arrival,wait=0,conflict=false;
-    if(p.fixed){
+    const eventSession=p.event_type==="scheduled" ? selectedSessionFor(id,date) : null;
+    if(p.event_type==="scheduled"){
+      if(!eventSession){ conflict=true; }
+      else{
+        const fixed=toMin(eventSession.start);
+        if(arrival<=fixed){wait=fixed-arrival;start=fixed;} else {start=fixed;conflict=true;}
+      }
+    }else if(p.fixed){
       const fixed=toMin(p.fixed);
       if(arrival<=fixed){wait=fixed-arrival;start=fixed;} else conflict=true;
     }else{
@@ -115,7 +239,7 @@ function scheduleFor(date){
       if(start<opening){wait=opening-start;start=opening;}
     }
     const end=start+Number(p.duration||0);
-    if(end>toMin(p.close)) conflict=true;
+    if(p.event_type!=="scheduled" && end>toMin(p.close)) conflict=true;
     rows.push({id,p,t,travelStart,arrival,start,end,wait,conflict});
     cur=end;prev=id;
     totalCost+=Number(p.cost_couple||0);
@@ -214,10 +338,11 @@ function calendarBlocks(date,pxPerHour){
       ${preferenceButtons(r.id)}
       <div class="calendar-time">${toTime(r.start)}–${toTime(r.end)}</div>
       <div class="calendar-title">${esc(r.p.name)}</div>
-      <div class="calendar-meta">${fmtDuration(r.p.duration)} · ${r.p.cost_couple?fmtMoney(r.p.cost_couple):"grátis"}</div>
+      <div class="calendar-meta">${fmtDuration(r.p.duration)} · ${priceLabel(r.p)}</div>
       ${r.conflict?`<span class="calendar-warning">⚠</span>`:""}
     </article>`;
   });
+  html += fixedAnchorBlocks(date,pxPerHour);
   return html;
 }
 
@@ -228,6 +353,7 @@ function renderDesktopWeek(){
     const s=scheduleFor(d.date);
     return `<button class="week-day-header ${i===state.selectedDayIndex?"selected":""}" type="button" data-select-date="${d.date}">
       <span class="week-weekday">${d.weekday}</span><strong>${d.label}</strong><small>${fmtDuration(s.totalActivity)} · ${fmtMoney(s.totalCost)}</small>
+      ${anchorChipsHTML(d.date)}
     </button>`;
   }).join("");
   const columns=state.days.map((d,i)=>`<div class="calendar-day-column ${i===state.selectedDayIndex?"selected":""}" data-drop-date="${d.date}" style="height:${height}px;--px-hour:${DESKTOP_PX_HOUR}px">${calendarBlocks(d.date,DESKTOP_PX_HOUR)}</div>`).join("");
@@ -241,6 +367,8 @@ function renderMobileDay(){
   $("#day-time").textContent=fmtDuration(s.totalActivity);
   $("#day-travel").textContent=`${s.totalTravel} min desloc.`;
   $("#day-cost").textContent=`${fmtMoney(s.totalCost)} casal`;
+  const mobileAnchors=$("#mobile-day-anchors");
+  if(mobileAnchors) mobileAnchors.innerHTML=anchorChipsHTML(day.date);
   const axis=$("#mobile-time-axis"), timeline=$("#timeline");
   axis.innerHTML=hourAxisHTML(MOBILE_PX_HOUR,"mobile-axis-inner");axis.style.height=`${height}px`;
   timeline.dataset.dropDate=day.date;timeline.style.height=`${height}px`;
@@ -280,12 +408,16 @@ function renderDrawer(){
     const q=state.search.toLowerCase();
     places=places.filter(p=>(`${p.name} ${p.region} ${p.category}`).toLowerCase().includes(q));
   }
-  $("#places-strip").innerHTML=places.map(p=>`<article class="place-card" data-place-id="${p.id}" tabindex="0">
-    ${preferenceButtons(p.id)}
-    <div class="card-title">${esc(p.name)}</div><div class="card-subtitle">${esc(p.region)} · ${esc(p.category)}</div>
-    <div class="mini-meta">${fmtDuration(p.duration)} · ${p.cost_couple?fmtMoney(p.cost_couple)+" casal":"grátis"}</div><div class="drag-hint">segure e arraste ↑</div>
+  $("#places-strip").innerHTML=places.map(p=>`<article class="place-card ${p.event_type==="scheduled"?"scheduled-card":""}" data-place-id="${p.id}" tabindex="0">
+    <div class="place-thumb"><img data-image-id="${p.id}" alt="" loading="lazy"><span>${esc(p.name).slice(0,1)}</span></div>
+    <div class="place-card-content">
+      ${preferenceButtons(p.id)}
+      <div class="card-title">${esc(p.name)}</div><div class="card-subtitle">${esc(p.region)} · ${esc(p.category)}</div>
+      <div class="mini-meta">${p.event_type==="scheduled"?sessionMeta(p):`${fmtDuration(p.duration)} · ${priceLabel(p)}`}</div>
+      <div class="drag-hint">${p.event_type==="scheduled"?"arraste para um dia com sessão ↑":"segure e arraste ↑"}</div>
+    </div>
   </article>`).join("")||`<div class="drawer-empty">Nenhum passeio neste filtro.</div>`;
-  updateFilterButtons();updateDrawerHelper();
+  updateFilterButtons();updateDrawerHelper();setupImageObserver();
 }
 
 function togglePreference(id,person){
@@ -307,9 +439,18 @@ function openDetails(id){
   const p=state.byId[id];if(!p)return;
   state.selectedPlaceId=id;
   $("#details-title").textContent=p.name;$("#details-region").textContent=`${p.region} · ${p.category}`;$("#details-description").textContent=p.desc;
-  $("#details-duration").textContent=fmtDuration(p.duration);$("#details-cost").textContent=p.cost_couple?fmtMoney(p.cost_couple):"gratuito / sem ingresso";
-  $("#details-hours").textContent=`${p.open}–${p.close}`;$("#details-area").textContent=p.region;
-  $("#details-map").href=p.source||`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.name)}`;$("#details-hero").textContent=p.name;
+  $("#details-duration").textContent=fmtDuration(p.duration);$("#details-cost").textContent=priceLabel(p);
+  $("#details-hours").textContent=p.event_type==="scheduled"?"sessões fixas":`${p.open}–${p.close}`;$("#details-area").textContent=p.region;
+  $("#details-map").href=p.source||`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.name)}`;
+  const hero=$("#details-hero"); hero.style.backgroundImage=""; $("#details-hero-label").textContent=p.name;
+  const credit=$("#details-image-source"); credit.hidden=true;
+  resolvePlaceImage(p).then(found=>{if(state.selectedPlaceId!==id||!found?.src)return;hero.style.backgroundImage=`linear-gradient(180deg,rgba(10,20,24,.05),rgba(10,20,24,.58)),url("${found.src}")`;if(found.source){credit.href=found.source;credit.hidden=false;}});
+  const panel=$("#details-session-panel"),options=$("#details-sessions");
+  if(p.event_type==="scheduled"){
+    panel.hidden=false;
+    const selected=state.eventSessions[id];
+    options.innerHTML=p.sessions.map(s=>`<button type="button" class="session-option ${selected?.date===s.date&&selected?.start===s.start?"selected":""}" data-session-id="${id}" data-session-date="${s.date}" data-session-start="${s.start}" ${s.disabled?"disabled":""}>${esc(s.label)}${s.note?`<small>${esc(s.note)}</small>`:""}</button>`).join("");
+  }else{panel.hidden=true;options.innerHTML="";}
   $("#details-remove").hidden=!isInPlan(id);$("#details-add").hidden=isInPlan(id);updateDetailsPreferences(id);$("#details-backdrop").hidden=false;
 }
 function closeDetails(){$("#details-backdrop").hidden=true;state.selectedPlaceId=null;}
@@ -322,13 +463,36 @@ function removeFromPlan(id){
   Object.keys(state.plan).forEach(date=>{const i=state.plan[date].indexOf(id);if(i>=0)state.plan[date].splice(i,1);});
   invalidateSchedules();
 }
-function addToPlan(id,index,date=dayDate()){
+function addToPlan(id,index,date=dayDate(),sessionStart=null){
+  const p=state.byId[id];
+  const planSnapshot=structuredClone(state.plan);
+  const sessionSnapshot=structuredClone(state.eventSessions);
+
+  if(p?.event_type==="scheduled"){
+    const valid=enabledSessions(p,date);
+    if(!valid.length){showToast(`${p.name} não tem sessão disponível em ${date.slice(8)}/09.`);return false;}
+    let chosen=sessionStart ? valid.find(s=>s.start===sessionStart) : selectedSessionFor(id,date);
+    if(!chosen) chosen=valid[0];
+    state.eventSessions[id]={date:chosen.date,start:chosen.start};
+  }
+
   const old=findPlanLocation(id);removeFromPlan(id);
   const list=state.plan[date]||[];let target=Math.max(0,Math.min(index,list.length));
   if(old.date===date&&old.index>=0&&old.index<index)target=Math.max(0,target-1);
   list.splice(target,0,id);state.plan[date]=list;
-  const idx=state.days.findIndex(d=>d.date===date);if(idx>=0)state.selectedDayIndex=idx;
   invalidateSchedules();
+
+  if(violatesConstraint(date)){
+    const c=constraintForDate(date);
+    state.plan=planSnapshot;
+    state.eventSessions=sessionSnapshot;
+    invalidateSchedules();
+    showToast(c?.reason || "Este item ultrapassa uma janela fixa da viagem.");
+    return false;
+  }
+
+  const idx=state.days.findIndex(d=>d.date===date);if(idx>=0)state.selectedDayIndex=idx;
+  return true;
 }
 
 function beginDrag(id,source,event){
@@ -336,7 +500,7 @@ function beginDrag(id,source,event){
   state.dragging={id,source,pointerId:event.pointerId,origin:findPlanLocation(id)};
   $("#app").classList.add("dragging");
   const p=state.byId[id],ghost=document.createElement("div");ghost.className="drag-ghost";ghost.id="drag-ghost";
-  ghost.innerHTML=`<strong>${esc(p.name)}</strong><span>${fmtDuration(p.duration)} · ${p.cost_couple?fmtMoney(p.cost_couple)+" casal":"grátis"}</span>`;
+  ghost.innerHTML=`<strong>${esc(p.name)}</strong><span>${fmtDuration(p.duration)} · ${priceLabel(p)}</span>`;
   document.body.appendChild(ghost);moveGhost(event.clientX,event.clientY);
   try{press?.el?.setPointerCapture(event.pointerId);}catch{}
 }
@@ -373,7 +537,13 @@ function endDrag(event){
   if(event.clientY>=drawerTop){if(source==="planner")removeFromPlan(id);}
   else{
     const column=under?.closest?.("[data-drop-date]");
-    if(column)addToPlan(id,insertionIndex(column,event.clientY),column.dataset.dropDate);
+    if(column){
+      const date=column.dataset.dropDate,p=state.byId[id];
+      const ok=addToPlan(id,insertionIndex(column,event.clientY),date);
+      if(ok && p?.event_type==="scheduled" && enabledSessions(p,date).length>1){
+        setTimeout(()=>openDetails(id),0);
+      }
+    }
   }
   $("#drag-ghost")?.remove();$("#app").classList.remove("dragging","return-mode");setDropTarget(null);state.dragging=null;renderAfterPlanChange();
 }
@@ -386,6 +556,15 @@ function setupDelegatedInteraction(){
   document.addEventListener("click",e=>{
     const pref=e.target.closest("[data-pref-person][data-pref-id]");
     if(pref){e.stopPropagation();togglePreference(pref.dataset.prefId,pref.dataset.prefPerson);return;}
+    const session=e.target.closest("[data-session-id]");
+    if(session && !session.disabled){
+      const id=session.dataset.sessionId,date=session.dataset.sessionDate,start=session.dataset.sessionStart;
+      state.eventSessions[id]={date,start};
+      if(isInPlan(id)){
+        const loc=findPlanLocation(id); addToPlan(id,loc.index,date,start); renderAfterPlanChange();
+      }
+      openDetails(id); queueSave(); return;
+    }
     const day=e.target.closest("[data-select-date]");
     if(day){selectDay(day.dataset.selectDate);return;}
   });
@@ -438,7 +617,7 @@ async function init(){
   ]);
   state.places=places;state.byId=Object.fromEntries(places.map(p=>[p.id,p]));
   travelData.forEach(t=>{state.travel.set(travelKey(t.origin_id,t.destination_id),t);state.travel.set(travelKey(t.destination_id,t.origin_id),t);});
-  state.days=recommended.days;state.recommended=recommended.plan;state.plan=Object.fromEntries(state.days.map(d=>[d.date,[]]));restore();
+  state.days=recommended.days;state.recommended=recommended.plan;state.anchors=recommended.anchors||[];state.constraints=recommended.constraints||{};state.plan=Object.fromEntries(state.days.map(d=>[d.date,[]]));restore();
 
   setupDelegatedInteraction();
   $("#prev-day").addEventListener("click",()=>{const i=Math.max(0,state.selectedDayIndex-1);selectDay(state.days[i].date);});
@@ -453,7 +632,20 @@ async function init(){
   $("#close-details").addEventListener("click",closeDetails);$("#details-backdrop").addEventListener("click",e=>{if(e.target.id==="details-backdrop")closeDetails();});
   $("#details-rafael").addEventListener("click",()=>{if(state.selectedPlaceId)togglePreference(state.selectedPlaceId,"rafael");});
   $("#details-lidia").addEventListener("click",()=>{if(state.selectedPlaceId)togglePreference(state.selectedPlaceId,"lidia");});
-  $("#details-add").addEventListener("click",()=>{const id=state.selectedPlaceId;if(!id)return;addToPlan(id,(state.plan[dayDate()]||[]).length);closeDetails();renderAfterPlanChange();});
+  $("#details-add").addEventListener("click",()=>{
+    const id=state.selectedPlaceId;if(!id)return;const p=state.byId[id];
+    let date=dayDate(),start=null;
+    if(p?.event_type==="scheduled"){
+      const selected=state.eventSessions[id];
+      if(selected){date=selected.date;start=selected.start;}
+      else{
+        const candidate=enabledSessions(p,date)[0]||enabledSessions(p)[0];
+        if(!candidate){showToast("Nenhuma sessão disponível.");return;}
+        date=candidate.date;start=candidate.start;
+      }
+    }
+    if(addToPlan(id,(state.plan[date]||[]).length,date,start)){closeDetails();renderAfterPlanChange();}
+  });
   $("#details-remove").addEventListener("click",()=>{const id=state.selectedPlaceId;if(!id)return;removeFromPlan(id);closeDetails();renderAfterPlanChange();});
 
   matchMedia(DESKTOP_QUERY).addEventListener("change",e=>{if(e.matches!==lastDesktop){lastDesktop=e.matches;renderActivePlanner();}});

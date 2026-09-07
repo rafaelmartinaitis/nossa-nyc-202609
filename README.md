@@ -95,3 +95,25 @@ Correção estrutural do planner:
 - Remove `backdrop-filter`, sombras e camadas fixas caras da área de scroll.
 - Usa `content-visibility`/`contain` para pular pintura de colunas e cards fora da tela.
 - Service worker permanece desativado durante desenvolvimento.
+
+
+## V9 — imagens e eventos com sessões reais
+
+- Miniaturas são carregadas sob demanda via Wikipedia/Wikimedia para preservar desempenho.
+- O modal carrega uma imagem maior somente quando aberto.
+- `MJ The Musical` é um evento programado: só entra em sessões existentes.
+- `New York Rangers — Madison Square Garden` só entra nos dois jogos reais dentro da viagem.
+- Quando há mais de uma sessão no mesmo dia, o modal permite escolher.
+- A sessão de MJ de 26/09 às 20h aparece desabilitada por conflitar com o voo de volta.
+
+
+## V10 — voos fixos e auditoria de catálogo
+
+- Chegada Delta 226 em JFK (19/09 05:29) aparece como âncora fixa.
+- Em 26/09, o planner bloqueia a viagem a partir de 17:00 para retorno ao hotel, bagagens, deslocamento ao JFK e Delta 227 às 21:50.
+- O planner rejeita qualquer alteração que faça o retorno ao hotel ultrapassar 17:00 no último dia.
+- ARTE MUSEUM New York permanece no catálogo como `L08`, categoria “Exposição imersiva”.
+- A lista-mestre L01–L45 foi validada sem itens ausentes.
+- MJ (`E01`) e Rangers/MSG (`E02`) permanecem como eventos com sessões reais.
+- Foram adicionados 18 cartões distintos que apareceram em discussões anteriores e não estavam na lista-mestre original, incluindo referências The Division, Outlook Hill e paradas específicas de Chinatown.
+- `data/catalog-audit.json` registra automaticamente a checagem de integridade desta versão.
