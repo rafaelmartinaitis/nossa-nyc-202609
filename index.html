@@ -34,22 +34,43 @@
     </header>
 
     <main class="planner-panel" id="planner-panel">
-      <div class="planner-toolbar">
-        <button class="day-nav" id="prev-day" type="button" aria-label="Dia anterior">‹</button>
-        <div class="day-title">
-          <strong id="day-label">19 SET</strong>
-          <span id="day-weekday">SÁB</span>
+      <section class="desktop-week" id="desktop-week" aria-label="Planner semanal">
+        <div class="week-caption">
+          <div>
+            <span class="eyebrow">Planner semanal</span>
+            <strong>19–26 SET · todos os dias</strong>
+          </div>
+          <div class="week-legend">
+            <span><i class="legend-dot activity-dot"></i> passeio</span>
+            <span><i class="legend-dot transit-dot"></i> deslocamento</span>
+            <span><i class="legend-dot free-dot"></i> tempo livre</span>
+          </div>
         </div>
-        <button class="day-nav" id="next-day" type="button" aria-label="Próximo dia">›</button>
-        <div class="day-metrics">
-          <span id="day-time">0h</span>
-          <span id="day-travel">0 min desloc.</span>
-          <span id="day-cost">US$ 0 casal</span>
-          <button class="mobile-plan-button" id="mobile-load-recommended" type="button">♥ Plano original</button>
+        <div class="week-scroll" id="week-scroll">
+          <div class="week-board" id="week-board"></div>
         </div>
-      </div>
+      </section>
 
-      <section class="timeline" id="timeline" aria-label="Planner do dia"></section>
+      <section class="mobile-day" id="mobile-day">
+        <div class="planner-toolbar">
+          <button class="day-nav" id="prev-day" type="button" aria-label="Dia anterior">‹</button>
+          <div class="day-title">
+            <strong id="day-label">19 SET</strong>
+            <span id="day-weekday">SÁB</span>
+          </div>
+          <button class="day-nav" id="next-day" type="button" aria-label="Próximo dia">›</button>
+          <div class="day-metrics">
+            <span id="day-time">0h</span>
+            <span id="day-travel">0 min desloc.</span>
+            <span id="day-cost">US$ 0 casal</span>
+            <button class="mobile-plan-button" id="mobile-load-recommended" type="button">♥ Plano original</button>
+          </div>
+        </div>
+        <div class="mobile-time-layout">
+          <aside class="mobile-time-axis" id="mobile-time-axis" aria-hidden="true"></aside>
+          <section class="timeline" id="timeline" aria-label="Planner do dia"></section>
+        </div>
+      </section>
     </main>
 
     <section class="places-drawer" id="places-drawer" aria-label="Gaveta de passeios">

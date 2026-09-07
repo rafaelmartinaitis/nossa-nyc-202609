@@ -61,3 +61,18 @@ Não existe mais um favorito genérico.
 - Um passeio pode estar marcado por Rafael, Lídia, pelos dois ou por nenhum.
 - Na gaveta, os botões R e L filtram as indicações de cada um; os dois filtros juntos mostram somente os passeios indicados pelos dois.
 - No tema **Division-inspired**, os corações são substituídos por marcadores táticos próprios: um losango azul/ciano para Rafael e um hexágono laranja para Lídia, mantendo a identidade de cada pessoa sem copiar ícones oficiais do jogo.
+
+## V6 — planner semanal com faixas de horário
+
+Correção estrutural do planner:
+
+- **Desktop (acima de 680 px):** os oito dias, de 19 a 26 de setembro, aparecem lado a lado em uma grade semanal horizontal.
+- **Eixo temporal:** 08:00 até 02:00 do dia seguinte, com linhas a cada meia hora e rótulos de hora em hora.
+- A altura visual dos passeios é proporcional à duração real.
+- Deslocamentos aparecem como faixas próprias antes do passeio.
+- Esperas/tempo livre relevantes também aparecem no eixo do dia.
+- Cards podem ser arrastados de uma coluna para outra e reordenados pelo ponto de soltura.
+- A gaveta inferior continua sendo o banco de passeios; arrastar um card planejado de volta para ela remove do dia.
+- **Mobile (até 680 px):** permanece um dia por vez, mas agora também com eixo visual de horário.
+- Os botões `Tema`, `Plano original` e `Limpar` são forçados a permanecer visíveis no desktop.
+- O service worker passou a usar **network-first** durante o desenvolvimento, para reduzir problemas de cache após novos commits.
