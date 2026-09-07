@@ -85,3 +85,13 @@ Correção estrutural do planner:
 - A semana foi compactada para reduzir a rolagem horizontal em desktops comuns.
 - `index.html` usa `app.js` e `styles.css` da raiz para evitar versões duplicadas.
 - Cache offline temporariamente desativado enquanto o layout está sendo refinado.
+
+## V8 — otimização de performance
+
+- Renderiza somente desktop **ou** mobile, nunca os dois ao mesmo tempo.
+- Cacheia os cálculos de agenda por dia e só invalida quando o plano muda.
+- Substitui centenas de listeners por delegação global de eventos.
+- Drag é processado no máximo uma vez por frame com `requestAnimationFrame`.
+- Remove `backdrop-filter`, sombras e camadas fixas caras da área de scroll.
+- Usa `content-visibility`/`contain` para pular pintura de colunas e cards fora da tela.
+- Service worker permanece desativado durante desenvolvimento.

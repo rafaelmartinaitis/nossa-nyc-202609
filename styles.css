@@ -1442,3 +1442,82 @@ body{
     max-height:35vh!important;
   }
 }
+
+/* =========================================================
+   V8 — performance first
+   ========================================================= */
+
+/* Evita repinturas caras enquanto a agenda rola. */
+.app-shell::before,
+.planner-panel::after{display:none!important}
+
+.app-header,
+.week-day-header,
+.drag-ghost,
+.modal-backdrop{
+  backdrop-filter:none!important;
+  -webkit-backdrop-filter:none!important;
+}
+
+.week-scroll{
+  contain:layout paint style;
+  overscroll-behavior:contain;
+}
+
+.calendar-day-column{
+  contain:layout paint style;
+  content-visibility:auto;
+  contain-intrinsic-size:132px 1044px;
+}
+
+.calendar-block,
+.activity-block,
+.transit-block,
+.free-block{
+  transition:none!important;
+  box-shadow:none!important;
+  contain:layout paint style;
+}
+
+.week-day-header{
+  background:var(--paper)!important;
+  box-shadow:none!important;
+}
+
+.place-card{
+  transition:none!important;
+  content-visibility:auto;
+  contain:layout paint style;
+  contain-intrinsic-size:190px 102px;
+}
+
+/* Hover continua informativo sem elevar/recompor o card. */
+@media (pointer:fine){
+  .timeline-card:hover,.place-card:hover{
+    transform:none!important;
+    box-shadow:none!important;
+  }
+  .place-card:hover,.activity-block:hover{
+    outline:1px solid color-mix(in srgb,var(--champagne) 44%,transparent);
+    outline-offset:-1px;
+  }
+}
+
+/* O ghost usa translate3d via JS; top/left não são animados. */
+.drag-ghost{
+  left:0!important;
+  top:0!important;
+  will-change:transform;
+  transform:translate3d(-9999px,-9999px,0);
+}
+
+body[data-theme="division"] .activity-block::before{
+  box-shadow:none!important;
+}
+body[data-theme="division"] .trip-summary div,
+body[data-theme="division"] .day-metrics span,
+body[data-theme="division"] .ghost-button,
+body[data-theme="division"] .icon-button,
+body[data-theme="division"] .day-nav{
+  box-shadow:none!important;
+}
