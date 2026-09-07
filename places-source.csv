@@ -1,0 +1,46 @@
+﻿ID,Local,Região,Categoria,Status,Latitude,Longitude,Endereço,Fonte / mapa
+L01,Hotel — 340 W 40th St,Midtown West,Base,Base logística,40.75694,-73.99316,"340 W 40th St, New York, NY 10018",https://www.google.com/maps/search/?api=1&query=340+W+40th+St+New+York+NY+10018
+L02,The Mills at Jersey Gardens,"Elizabeth, NJ",Compras,Considerado,40.66006,-74.17153,"651 Kapkowski Rd, Elizabeth, NJ 07201",https://www.wikidata.org/wiki/Q6184865
+L03,American Museum of Natural History,Upper West Side,Museu,Considerado,40.78132,-73.97399,"200 Central Park W, New York, NY 10024",https://www.amnh.org/plan-your-visit
+L04,New York Aquarium,Coney Island,Aquário,Considerado,40.57437,-73.97541,"602 Surf Ave, Brooklyn, NY 11224",https://nyaquarium.com/plan-your-visit
+L05,Coney Island Boardwalk,Coney Island,Passeio,Considerado,40.5733,-73.9788,"Riegelmann Boardwalk, Brooklyn, NY",https://www.wikidata.org/wiki/Q4380603
+L06,QC NY Spa,Governors Island,Spa,Considerado,40.6929,-74.01782,"112 Andes Rd, Governors Island, New York, NY 10004",https://www.qcny.com/contacts
+L07,WORLD SPA,"Midwood, Brooklyn",Spa,Alternativa,40.61532,-73.9764,"1571 McDonald Ave, Brooklyn, NY 11230",https://worldspa.com/hours-and-directions/
+L08,ARTE MUSEUM New York,Chelsea Piers,Exposição imersiva,Adicionado,40.74755,-74.01055,"61 Chelsea Piers, New York, NY 10011",https://newyork.artemuseum.com/visit
+L09,Chelsea Market,Chelsea,Mercado / gastronomia,Considerado,40.74205,-74.0049,"75 9th Ave, New York, NY 10011",https://www.chelseamarket.com/visit
+L10,High Line — Chelsea/Gansevoort,Chelsea,Parque / caminhada,Considerado,40.74218,-74.0078,"High Line, Chelsea, New York, NY",https://maps.apple.com/place?place-id=ID3231FEF41AC9097
+L11,Little Island,Hudson River / Chelsea,Parque,Considerado,40.74201,-74.01061,"Pier 55, Hudson River Park, New York, NY 10014",https://mapcarta.com/W833335529
+L12,MoMA,Midtown,Museu,Considerado,40.76161,-73.97755,"11 W 53rd St, New York, NY 10019",https://www.moma.org/visit/
+L13,Rockefeller Center,Midtown,Marco / passeio,Considerado,40.75885,-73.9788,"45 Rockefeller Plaza, New York, NY 10111",https://mapcarta.com/22614096
+L14,St. Patrick's Cathedral,Midtown,Igreja / marco,Considerado,40.75859,-73.9763,"625 5th Ave, New York, NY 10022",https://www.wikidata.org/wiki/Q624556
+L15,Bryant Park,Midtown,Parque,Considerado,40.75375,-73.98354,"Bryant Park, New York, NY 10018",https://www.wikidata.org/wiki/Q995174
+L16,NYPL — Schwarzman Building,Midtown,Biblioteca / marco,Considerado,40.75322,-73.98225,"476 5th Ave, New York, NY 10018",https://www.nypl.org/locations/schwarzman
+L17,Grand Central Terminal,Midtown East,Marco / estação,Considerado,40.75281,-73.97718,"89 E 42nd St, New York, NY 10017",https://mapcarta.com/22583710
+L18,Tudor City Overpass,Midtown East,Mirante / The Division,Considerado,40.749023,-73.970487,"Tudor City Overpass at E 42nd St, New York, NY",https://biophony.metropolisensemble.org/locations/tudor-city-overpass-at-42-street
+L19,United Nations Headquarters,Midtown East,Marco,Considerado,40.7496,-73.96755,"405 E 42nd St, New York, NY 10017",https://mapcarta.com/22629572
+L20,Moynihan Train Hall,Penn / Midtown West,Marco / estação,Considerado,40.7513,-73.99534,"421 8th Ave, New York, NY 10001",https://www.wikidata.org/wiki/Q104536857
+L21,Herald Square,Midtown South,Praça / compras,Considerado,40.75026,-73.98763,"Herald Square, New York, NY 10001",https://www.wikidata.org/wiki/Q109982
+L22,Empire State Building,Midtown South,Marco / observatório,Considerado,40.74844,-73.98566,"350 5th Ave, New York, NY 10118",https://mapcarta.com/22578872
+L23,Madison Square Garden,Penn / Midtown West,Arena / evento,Considerado,40.75052,-73.99351,"4 Pennsylvania Plaza, New York, NY 10001",https://mapcarta.com/22596958
+L24,Gerald Schoenfeld Theatre — Broadway,Theater District,Broadway,Considerado,40.7585,-73.98743,"236 W 45th St, New York, NY 10036",https://mapcarta.com/27390730
+L25,Times Square,Theater District,Praça / The Division,Considerado,40.75726,-73.98601,"Times Square, New York, NY 10036",https://mapcarta.com/22627724
+L26,Flatiron Building,Flatiron,Marco / The Division,Considerado,40.74103,-73.98969,"175 5th Ave, New York, NY 10010",https://www.wikidata.org/wiki/Q220728
+L27,The Battery,Lower Manhattan,Parque / vista Estátua,Considerado,40.70281,-74.01578,"The Battery, New York, NY 10004",https://mapcarta.com/22561946
+L28,Chinatown — Columbus Park,Chinatown,Bairro / compras,Considerado,40.71509,-74.00005,"Columbus Park, New York, NY 10013",https://mapcarta.com/W66374787
+L29,Brooklyn Bridge,Lower Manhattan / Brooklyn,Ponte / passeio,Considerado,40.70569,-73.99636,"Brooklyn Bridge, New York, NY",https://mapcarta.com/22566290
+L30,DUMBO — Washington & Water,"DUMBO, Brooklyn",Bairro / foto,Considerado,40.70326,-73.9897,"Washington St & Water St, Brooklyn, NY 11201",https://www.google.com/maps/search/?api=1&query=Washington+St+%26+Water+St+DUMBO+Brooklyn
+L31,Brooklyn Bridge Park — Pier 1,Brooklyn Heights / DUMBO,Parque / vista,Considerado,40.70214,-73.99648,"Pier 1, Furman St, Brooklyn, NY 11201",https://mapcarta.com/W1257997467
+L32,Brooklyn Heights Promenade,Brooklyn Heights,Mirante / caminhada,Considerado,40.69765,-73.9971,"Brooklyn Heights Promenade, Brooklyn, NY",https://www.wikidata.org/wiki/Q15205111
+L33,Chrysler Building,Midtown East,Marco / arquitetura,Plano original,40.75162,-73.9755,"405 Lexington Ave, New York, NY 10174",https://www.google.com/maps/search/?api=1&query=Chrysler+Building+New+York
+L34,Central Park — South / The Pond,Central Park,Parque / caminhada,Plano original,40.76645,-73.97382,"Central Park South, New York, NY",https://www.google.com/maps/search/?api=1&query=Central+Park+South+New+York
+L35,Apple Fifth Avenue,Midtown,Compras,Plano original,40.76383,-73.97298,"767 5th Ave, New York, NY 10153",https://www.google.com/maps/search/?api=1&query=Apple+Fifth+Avenue+New+York
+L36,SoHo — Prince & Broadway,SoHo,Bairro / compras,Plano original,40.7242,-73.9978,"Prince St & Broadway, New York, NY 10012",https://www.google.com/maps/search/?api=1&query=Prince+Street+Broadway+SoHo+New+York
+L37,Pearl River Mart,SoHo,Compras / cultura,Plano original,40.72231,-74.00015,"SoHo, New York, NY",https://www.google.com/maps/search/?api=1&query=Pearl+River+Mart+SoHo+New+York
+L38,Intrepid Museum,Hudson River / Midtown West,Museu,Plano original,40.76453,-73.99961,"Pier 86, W 46th St, New York, NY 10036",https://www.google.com/maps/search/?api=1&query=Intrepid+Museum+New+York
+L39,Hudson River Greenway — Midtown,Hudson River,E-bike / passeio,Plano original,40.75555,-74.006,"Hudson River Greenway, Midtown Manhattan, New York, NY",https://www.google.com/maps/search/?api=1&query=Hudson+River+Greenway+Midtown+New+York
+L40,Hudson Yards,Hudson Yards,Bairro / passeio,Plano original,40.75374,-74.00275,"20 Hudson Yards, New York, NY 10001",https://www.google.com/maps/search/?api=1&query=Hudson+Yards+New+York
+L41,The Oculus,World Trade Center,Marco / arquitetura,Plano original,40.71157,-74.01142,"185 Greenwich St, New York, NY 10007",https://www.google.com/maps/search/?api=1&query=Oculus+New+York
+L42,9/11 Memorial & Museum,World Trade Center,Museu / memorial,Plano original,40.71156,-74.01333,"180 Greenwich St, New York, NY 10007",https://www.google.com/maps/search/?api=1&query=9%2F11+Memorial+Museum+New+York
+L43,Wall Street / NYSE,Financial District,Marco / The Division,Plano original,40.70688,-74.01127,"11 Wall St, New York, NY 10005",https://www.google.com/maps/search/?api=1&query=New+York+Stock+Exchange
+L44,Trinity Church,Financial District,Igreja / marco,Plano original,40.70806,-74.01217,"89 Broadway, New York, NY 10006",https://www.google.com/maps/search/?api=1&query=Trinity+Church+Wall+Street+New+York
+L45,Bathhouse Flatiron,Flatiron,Spa,Plano original,40.73995,-73.9902,"Flatiron District, New York, NY",https://www.google.com/maps/search/?api=1&query=Bathhouse+Flatiron+New+York

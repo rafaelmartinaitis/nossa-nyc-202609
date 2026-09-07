@@ -1,0 +1,7922 @@
+[
+  {
+    "origin_id": "L01",
+    "destination_id": "L02",
+    "estimated_min": 40,
+    "planning_min": 45,
+    "mode": "Ônibus intermunicipal / shuttle",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L03",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L04",
+    "estimated_min": 80,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L05",
+    "estimated_min": 80,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L06",
+    "estimated_min": 49,
+    "planning_min": 60,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L07",
+    "estimated_min": 66,
+    "planning_min": 85,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L08",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L09",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L10",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L11",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L12",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L13",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L14",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L15",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L16",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L17",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L18",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L19",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L20",
+    "estimated_min": 12,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L21",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L22",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L23",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L24",
+    "estimated_min": 6,
+    "planning_min": 8,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L25",
+    "estimated_min": 8,
+    "planning_min": 10,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L26",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L27",
+    "estimated_min": 29,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L28",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L29",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L30",
+    "estimated_min": 32,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L31",
+    "estimated_min": 32,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L32",
+    "estimated_min": 34,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L03",
+    "estimated_min": 54,
+    "planning_min": 65,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L04",
+    "estimated_min": 96,
+    "planning_min": 110,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L05",
+    "estimated_min": 97,
+    "planning_min": 110,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L06",
+    "estimated_min": 70,
+    "planning_min": 80,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L07",
+    "estimated_min": 86,
+    "planning_min": 100,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L08",
+    "estimated_min": 51,
+    "planning_min": 65,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L09",
+    "estimated_min": 51,
+    "planning_min": 65,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L10",
+    "estimated_min": 52,
+    "planning_min": 65,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L11",
+    "estimated_min": 52,
+    "planning_min": 65,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L12",
+    "estimated_min": 50,
+    "planning_min": 65,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L13",
+    "estimated_min": 56,
+    "planning_min": 70,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L14",
+    "estimated_min": 50,
+    "planning_min": 65,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L15",
+    "estimated_min": 52,
+    "planning_min": 65,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L16",
+    "estimated_min": 54,
+    "planning_min": 65,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L17",
+    "estimated_min": 50,
+    "planning_min": 65,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L18",
+    "estimated_min": 52,
+    "planning_min": 65,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L19",
+    "estimated_min": 52,
+    "planning_min": 65,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L20",
+    "estimated_min": 49,
+    "planning_min": 60,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L21",
+    "estimated_min": 52,
+    "planning_min": 65,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L22",
+    "estimated_min": 55,
+    "planning_min": 70,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L23",
+    "estimated_min": 50,
+    "planning_min": 65,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L24",
+    "estimated_min": 48,
+    "planning_min": 60,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L25",
+    "estimated_min": 49,
+    "planning_min": 60,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L26",
+    "estimated_min": 51,
+    "planning_min": 65,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L27",
+    "estimated_min": 61,
+    "planning_min": 75,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L28",
+    "estimated_min": 58,
+    "planning_min": 70,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L29",
+    "estimated_min": 60,
+    "planning_min": 75,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L30",
+    "estimated_min": 64,
+    "planning_min": 75,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L31",
+    "estimated_min": 64,
+    "planning_min": 75,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L32",
+    "estimated_min": 65,
+    "planning_min": 80,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L04",
+    "estimated_min": 88,
+    "planning_min": 105,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L05",
+    "estimated_min": 88,
+    "planning_min": 105,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L06",
+    "estimated_min": 58,
+    "planning_min": 70,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L07",
+    "estimated_min": 74,
+    "planning_min": 90,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L08",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L09",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L10",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L11",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L12",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L13",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L14",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L15",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L16",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L17",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L18",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L19",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L20",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L21",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L22",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L23",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L24",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L25",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L26",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L27",
+    "estimated_min": 38,
+    "planning_min": 50,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L28",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L29",
+    "estimated_min": 36,
+    "planning_min": 50,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L30",
+    "estimated_min": 40,
+    "planning_min": 50,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L31",
+    "estimated_min": 41,
+    "planning_min": 55,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L32",
+    "estimated_min": 43,
+    "planning_min": 55,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L05",
+    "estimated_min": 3,
+    "planning_min": 5,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L06",
+    "estimated_min": 78,
+    "planning_min": 90,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L07",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô (F) + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L08",
+    "estimated_min": 77,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L09",
+    "estimated_min": 75,
+    "planning_min": 90,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L10",
+    "estimated_min": 76,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L11",
+    "estimated_min": 76,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L12",
+    "estimated_min": 81,
+    "planning_min": 100,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L13",
+    "estimated_min": 81,
+    "planning_min": 100,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L14",
+    "estimated_min": 80,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L15",
+    "estimated_min": 79,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L16",
+    "estimated_min": 79,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L17",
+    "estimated_min": 79,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L18",
+    "estimated_min": 77,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L19",
+    "estimated_min": 77,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L20",
+    "estimated_min": 78,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L21",
+    "estimated_min": 78,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L22",
+    "estimated_min": 77,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L23",
+    "estimated_min": 78,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L24",
+    "estimated_min": 80,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L25",
+    "estimated_min": 80,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L26",
+    "estimated_min": 75,
+    "planning_min": 90,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L27",
+    "estimated_min": 63,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L28",
+    "estimated_min": 66,
+    "planning_min": 85,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L29",
+    "estimated_min": 63,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L30",
+    "estimated_min": 59,
+    "planning_min": 70,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L31",
+    "estimated_min": 59,
+    "planning_min": 70,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L32",
+    "estimated_min": 57,
+    "planning_min": 70,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L06",
+    "estimated_min": 78,
+    "planning_min": 90,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L07",
+    "estimated_min": 22,
+    "planning_min": 27,
+    "mode": "Metrô (F) + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L08",
+    "estimated_min": 78,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L09",
+    "estimated_min": 76,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L10",
+    "estimated_min": 76,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L11",
+    "estimated_min": 76,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L12",
+    "estimated_min": 82,
+    "planning_min": 100,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L13",
+    "estimated_min": 81,
+    "planning_min": 100,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L14",
+    "estimated_min": 81,
+    "planning_min": 100,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L15",
+    "estimated_min": 79,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L16",
+    "estimated_min": 79,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L17",
+    "estimated_min": 79,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L18",
+    "estimated_min": 78,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L19",
+    "estimated_min": 78,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L20",
+    "estimated_min": 79,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L21",
+    "estimated_min": 78,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L22",
+    "estimated_min": 77,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L23",
+    "estimated_min": 78,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L24",
+    "estimated_min": 81,
+    "planning_min": 100,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L25",
+    "estimated_min": 80,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L26",
+    "estimated_min": 75,
+    "planning_min": 90,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L27",
+    "estimated_min": 63,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L28",
+    "estimated_min": 67,
+    "planning_min": 85,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L29",
+    "estimated_min": 63,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L30",
+    "estimated_min": 59,
+    "planning_min": 70,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L31",
+    "estimated_min": 59,
+    "planning_min": 70,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L32",
+    "estimated_min": 58,
+    "planning_min": 70,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L07",
+    "estimated_min": 65,
+    "planning_min": 75,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L08",
+    "estimated_min": 44,
+    "planning_min": 55,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L09",
+    "estimated_min": 43,
+    "planning_min": 55,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L10",
+    "estimated_min": 43,
+    "planning_min": 55,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L11",
+    "estimated_min": 43,
+    "planning_min": 55,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L12",
+    "estimated_min": 52,
+    "planning_min": 65,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L13",
+    "estimated_min": 51,
+    "planning_min": 65,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L14",
+    "estimated_min": 51,
+    "planning_min": 65,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L15",
+    "estimated_min": 48,
+    "planning_min": 60,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L16",
+    "estimated_min": 48,
+    "planning_min": 60,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L17",
+    "estimated_min": 49,
+    "planning_min": 60,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L18",
+    "estimated_min": 49,
+    "planning_min": 60,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L19",
+    "estimated_min": 49,
+    "planning_min": 60,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L20",
+    "estimated_min": 47,
+    "planning_min": 60,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L21",
+    "estimated_min": 47,
+    "planning_min": 60,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L22",
+    "estimated_min": 47,
+    "planning_min": 60,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L23",
+    "estimated_min": 46,
+    "planning_min": 60,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L24",
+    "estimated_min": 50,
+    "planning_min": 60,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L25",
+    "estimated_min": 49,
+    "planning_min": 60,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L26",
+    "estimated_min": 44,
+    "planning_min": 55,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L27",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Ferry + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L28",
+    "estimated_min": 35,
+    "planning_min": 45,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L29",
+    "estimated_min": 34,
+    "planning_min": 45,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L30",
+    "estimated_min": 41,
+    "planning_min": 55,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L31",
+    "estimated_min": 39,
+    "planning_min": 50,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L32",
+    "estimated_min": 39,
+    "planning_min": 50,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L08",
+    "estimated_min": 64,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L09",
+    "estimated_min": 62,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L10",
+    "estimated_min": 62,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L11",
+    "estimated_min": 62,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L12",
+    "estimated_min": 68,
+    "planning_min": 85,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L13",
+    "estimated_min": 67,
+    "planning_min": 85,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L14",
+    "estimated_min": 67,
+    "planning_min": 85,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L15",
+    "estimated_min": 65,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L16",
+    "estimated_min": 65,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L17",
+    "estimated_min": 65,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L18",
+    "estimated_min": 64,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L19",
+    "estimated_min": 64,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L20",
+    "estimated_min": 65,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L21",
+    "estimated_min": 64,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L22",
+    "estimated_min": 63,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L23",
+    "estimated_min": 64,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L24",
+    "estimated_min": 67,
+    "planning_min": 85,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L25",
+    "estimated_min": 66,
+    "planning_min": 85,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L26",
+    "estimated_min": 61,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L27",
+    "estimated_min": 50,
+    "planning_min": 60,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L28",
+    "estimated_min": 53,
+    "planning_min": 65,
+    "mode": "Metrô + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L29",
+    "estimated_min": 50,
+    "planning_min": 60,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L30",
+    "estimated_min": 46,
+    "planning_min": 60,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L31",
+    "estimated_min": 45,
+    "planning_min": 55,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L32",
+    "estimated_min": 44,
+    "planning_min": 55,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L09",
+    "estimated_min": 10,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L10",
+    "estimated_min": 10,
+    "planning_min": 12,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L11",
+    "estimated_min": 6,
+    "planning_min": 8,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L12",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L13",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L14",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L15",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L16",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L17",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L18",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L19",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L20",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L21",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L22",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L23",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L24",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L25",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L26",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L27",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L28",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L29",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L30",
+    "estimated_min": 30,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L31",
+    "estimated_min": 30,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L32",
+    "estimated_min": 31,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L10",
+    "estimated_min": 4,
+    "planning_min": 6,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L11",
+    "estimated_min": 7,
+    "planning_min": 9,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L12",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L13",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L14",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L15",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L16",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L17",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L18",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L19",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L20",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L21",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L22",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L23",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L24",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L25",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L26",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L27",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L28",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L29",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L30",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L31",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L32",
+    "estimated_min": 29,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L11",
+    "estimated_min": 3,
+    "planning_min": 5,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L12",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L13",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L14",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L15",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L16",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L17",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L18",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L19",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L20",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L21",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L22",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L23",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L24",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L25",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L26",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L27",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L28",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L29",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L30",
+    "estimated_min": 28,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L31",
+    "estimated_min": 28,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L32",
+    "estimated_min": 29,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L12",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L13",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L14",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L15",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L16",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L17",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L18",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L19",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L20",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L21",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L22",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L23",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L24",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L25",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L26",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L27",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L28",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L29",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L30",
+    "estimated_min": 28,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L31",
+    "estimated_min": 28,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L32",
+    "estimated_min": 29,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L13",
+    "estimated_min": 4,
+    "planning_min": 6,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L14",
+    "estimated_min": 5,
+    "planning_min": 7,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L15",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L16",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L17",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L18",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L19",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L20",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L21",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L22",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L23",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L24",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L25",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L26",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L27",
+    "estimated_min": 32,
+    "planning_min": 45,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L28",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L29",
+    "estimated_min": 29,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L30",
+    "estimated_min": 34,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L31",
+    "estimated_min": 34,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L32",
+    "estimated_min": 36,
+    "planning_min": 50,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L14",
+    "estimated_min": 3,
+    "planning_min": 4,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L15",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L16",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L17",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L18",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L19",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L20",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L21",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L22",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L23",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L24",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L25",
+    "estimated_min": 12,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L26",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L27",
+    "estimated_min": 31,
+    "planning_min": 45,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L28",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L29",
+    "estimated_min": 28,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L30",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L31",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L32",
+    "estimated_min": 35,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L15",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L16",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L17",
+    "estimated_min": 12,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L18",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L19",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L20",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L21",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L22",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L23",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L24",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L25",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L26",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L27",
+    "estimated_min": 31,
+    "planning_min": 45,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L28",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L29",
+    "estimated_min": 28,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L30",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L31",
+    "estimated_min": 34,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L32",
+    "estimated_min": 35,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L16",
+    "estimated_min": 3,
+    "planning_min": 3,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L17",
+    "estimated_min": 8,
+    "planning_min": 10,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L18",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L19",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L20",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L21",
+    "estimated_min": 10,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L22",
+    "estimated_min": 12,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L23",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L24",
+    "estimated_min": 12,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L25",
+    "estimated_min": 9,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L26",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L27",
+    "estimated_min": 28,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L28",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L29",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L30",
+    "estimated_min": 31,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L31",
+    "estimated_min": 32,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L32",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L17",
+    "estimated_min": 6,
+    "planning_min": 8,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L18",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L19",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L20",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L21",
+    "estimated_min": 11,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L22",
+    "estimated_min": 12,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L23",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L24",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L25",
+    "estimated_min": 11,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L26",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L27",
+    "estimated_min": 28,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L28",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L29",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L30",
+    "estimated_min": 31,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L31",
+    "estimated_min": 31,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L32",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L18",
+    "estimated_min": 9,
+    "planning_min": 11,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L19",
+    "estimated_min": 10,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L20",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L21",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L22",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L23",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L24",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L25",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L26",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L27",
+    "estimated_min": 29,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L28",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L29",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L30",
+    "estimated_min": 31,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L31",
+    "estimated_min": 32,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L32",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L19",
+    "estimated_min": 3,
+    "planning_min": 5,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L20",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L21",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L22",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L23",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L24",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L25",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L26",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L27",
+    "estimated_min": 29,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L28",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L29",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L30",
+    "estimated_min": 30,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L31",
+    "estimated_min": 31,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L32",
+    "estimated_min": 32,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L20",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L21",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L22",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L23",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L24",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L25",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L26",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L27",
+    "estimated_min": 29,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L28",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L29",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L30",
+    "estimated_min": 30,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L31",
+    "estimated_min": 31,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L32",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L21",
+    "estimated_min": 8,
+    "planning_min": 10,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L22",
+    "estimated_min": 12,
+    "planning_min": 14,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L23",
+    "estimated_min": 3,
+    "planning_min": 4,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L24",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L25",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L26",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L27",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L28",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L29",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L30",
+    "estimated_min": 30,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L31",
+    "estimated_min": 30,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L32",
+    "estimated_min": 32,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L22",
+    "estimated_min": 4,
+    "planning_min": 6,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L23",
+    "estimated_min": 6,
+    "planning_min": 8,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L24",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L25",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L26",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L27",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L28",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L29",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L30",
+    "estimated_min": 30,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L31",
+    "estimated_min": 30,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L32",
+    "estimated_min": 32,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L23",
+    "estimated_min": 10,
+    "planning_min": 12,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L24",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L25",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L26",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L27",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L28",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L29",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L30",
+    "estimated_min": 29,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L31",
+    "estimated_min": 30,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L32",
+    "estimated_min": 31,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L24",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L25",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L26",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L27",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L28",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L29",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L30",
+    "estimated_min": 30,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L31",
+    "estimated_min": 30,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L32",
+    "estimated_min": 32,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L25",
+    "estimated_min": 3,
+    "planning_min": 4,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L26",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L27",
+    "estimated_min": 30,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L28",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L29",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L30",
+    "estimated_min": 32,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L31",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L32",
+    "estimated_min": 34,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L26",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L27",
+    "estimated_min": 29,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L28",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L29",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L30",
+    "estimated_min": 32,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L31",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L32",
+    "estimated_min": 34,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L27",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L28",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L29",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L30",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L31",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L32",
+    "estimated_min": 29,
+    "planning_min": 35,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L27",
+    "destination_id": "L28",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L27",
+    "destination_id": "L29",
+    "estimated_min": 17,
+    "planning_min": 22,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L27",
+    "destination_id": "L30",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L27",
+    "destination_id": "L31",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L27",
+    "destination_id": "L32",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L28",
+    "destination_id": "L29",
+    "estimated_min": 10,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L28",
+    "destination_id": "L30",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L28",
+    "destination_id": "L31",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L28",
+    "destination_id": "L32",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L29",
+    "destination_id": "L30",
+    "estimated_min": 12,
+    "planning_min": 14,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L29",
+    "destination_id": "L31",
+    "estimated_min": 10,
+    "planning_min": 12,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L29",
+    "destination_id": "L32",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L30",
+    "destination_id": "L31",
+    "estimated_min": 8,
+    "planning_min": 10,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L30",
+    "destination_id": "L32",
+    "estimated_min": 10,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L31",
+    "destination_id": "L32",
+    "estimated_min": 10,
+    "planning_min": 12,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L33",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L34",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L35",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L36",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L37",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L38",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L39",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L40",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L41",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L42",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L43",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L44",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L01",
+    "destination_id": "L45",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L33",
+    "estimated_min": 72,
+    "planning_min": 90,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L34",
+    "estimated_min": 74,
+    "planning_min": 90,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L35",
+    "estimated_min": 73,
+    "planning_min": 90,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L36",
+    "estimated_min": 68,
+    "planning_min": 85,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L37",
+    "estimated_min": 67,
+    "planning_min": 85,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L38",
+    "estimated_min": 71,
+    "planning_min": 90,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L39",
+    "estimated_min": 70,
+    "planning_min": 85,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L40",
+    "estimated_min": 70,
+    "planning_min": 85,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L41",
+    "estimated_min": 66,
+    "planning_min": 85,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L42",
+    "estimated_min": 65,
+    "planning_min": 80,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L43",
+    "estimated_min": 65,
+    "planning_min": 80,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L44",
+    "estimated_min": 65,
+    "planning_min": 80,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L02",
+    "destination_id": "L45",
+    "estimated_min": 70,
+    "planning_min": 85,
+    "mode": "Ônibus intermunicipal + caminhada",
+    "confidence": "Baixa/Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L33",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L34",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L35",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L36",
+    "estimated_min": 34,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L37",
+    "estimated_min": 35,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L38",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L39",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L40",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L41",
+    "estimated_min": 39,
+    "planning_min": 50,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L42",
+    "estimated_min": 39,
+    "planning_min": 50,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L43",
+    "estimated_min": 41,
+    "planning_min": 55,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L44",
+    "estimated_min": 40,
+    "planning_min": 50,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L03",
+    "destination_id": "L45",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L33",
+    "estimated_min": 73,
+    "planning_min": 90,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L34",
+    "estimated_min": 78,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L35",
+    "estimated_min": 77,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L36",
+    "estimated_min": 64,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L37",
+    "estimated_min": 64,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L38",
+    "estimated_min": 78,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L39",
+    "estimated_min": 75,
+    "planning_min": 90,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L40",
+    "estimated_min": 74,
+    "planning_min": 90,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L41",
+    "estimated_min": 61,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L42",
+    "estimated_min": 61,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L43",
+    "estimated_min": 59,
+    "planning_min": 70,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L44",
+    "estimated_min": 60,
+    "planning_min": 70,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L04",
+    "destination_id": "L45",
+    "estimated_min": 69,
+    "planning_min": 85,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L33",
+    "estimated_min": 73,
+    "planning_min": 90,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L34",
+    "estimated_min": 78,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L35",
+    "estimated_min": 78,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L36",
+    "estimated_min": 65,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L37",
+    "estimated_min": 64,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L38",
+    "estimated_min": 78,
+    "planning_min": 95,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L39",
+    "estimated_min": 75,
+    "planning_min": 90,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L40",
+    "estimated_min": 74,
+    "planning_min": 90,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L41",
+    "estimated_min": 61,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L42",
+    "estimated_min": 61,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L43",
+    "estimated_min": 59,
+    "planning_min": 70,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L44",
+    "estimated_min": 60,
+    "planning_min": 70,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L05",
+    "destination_id": "L45",
+    "estimated_min": 70,
+    "planning_min": 85,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L33",
+    "estimated_min": 52,
+    "planning_min": 65,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L34",
+    "estimated_min": 57,
+    "planning_min": 70,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L35",
+    "estimated_min": 56,
+    "planning_min": 70,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L36",
+    "estimated_min": 42,
+    "planning_min": 55,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L37",
+    "estimated_min": 41,
+    "planning_min": 55,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L38",
+    "estimated_min": 54,
+    "planning_min": 65,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L39",
+    "estimated_min": 51,
+    "planning_min": 65,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L40",
+    "estimated_min": 51,
+    "planning_min": 65,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L41",
+    "estimated_min": 36,
+    "planning_min": 50,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L42",
+    "estimated_min": 36,
+    "planning_min": 50,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L43",
+    "estimated_min": 35,
+    "planning_min": 45,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L44",
+    "estimated_min": 35,
+    "planning_min": 45,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L06",
+    "destination_id": "L45",
+    "estimated_min": 47,
+    "planning_min": 60,
+    "mode": "Ferry + metrô/ônibus/caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L33",
+    "estimated_min": 59,
+    "planning_min": 70,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L34",
+    "estimated_min": 64,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L35",
+    "estimated_min": 64,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L36",
+    "estimated_min": 51,
+    "planning_min": 65,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L37",
+    "estimated_min": 50,
+    "planning_min": 60,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L38",
+    "estimated_min": 64,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L39",
+    "estimated_min": 61,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L40",
+    "estimated_min": 61,
+    "planning_min": 80,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L41",
+    "estimated_min": 47,
+    "planning_min": 60,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L42",
+    "estimated_min": 47,
+    "planning_min": 60,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L43",
+    "estimated_min": 46,
+    "planning_min": 60,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L44",
+    "estimated_min": 46,
+    "planning_min": 60,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L07",
+    "destination_id": "L45",
+    "estimated_min": 56,
+    "planning_min": 70,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L33",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L34",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L35",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L36",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L37",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L38",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L39",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L40",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L41",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L42",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L43",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L44",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L08",
+    "destination_id": "L45",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L33",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L34",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L35",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L36",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L37",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L38",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L39",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L40",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L41",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L42",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L43",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L44",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L09",
+    "destination_id": "L45",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L33",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L34",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L35",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L36",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L37",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L38",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L39",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L40",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L41",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L42",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L43",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L44",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L10",
+    "destination_id": "L45",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L33",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L34",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L35",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L36",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L37",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L38",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L39",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L40",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L41",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L42",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L43",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L44",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L11",
+    "destination_id": "L45",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L33",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L34",
+    "estimated_min": 10,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L35",
+    "estimated_min": 8,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L36",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L37",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L38",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L39",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L40",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L41",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L42",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L43",
+    "estimated_min": 34,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L44",
+    "estimated_min": 34,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L12",
+    "destination_id": "L45",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L33",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L34",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L35",
+    "estimated_min": 11,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L36",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L37",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L38",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L39",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L40",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L41",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L42",
+    "estimated_min": 32,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L43",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L44",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L13",
+    "destination_id": "L45",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L33",
+    "estimated_min": 12,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L34",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L35",
+    "estimated_min": 10,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L36",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L37",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L38",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L39",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L40",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L41",
+    "estimated_min": 32,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L42",
+    "estimated_min": 32,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L43",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L44",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L14",
+    "destination_id": "L45",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L33",
+    "estimated_min": 11,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L34",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L35",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L36",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L37",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L38",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L39",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L40",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L41",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L42",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L43",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L44",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L15",
+    "destination_id": "L45",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L33",
+    "estimated_min": 9,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L34",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L35",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L36",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L37",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L38",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L39",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L40",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L41",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L42",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L43",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L44",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L16",
+    "destination_id": "L45",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L33",
+    "estimated_min": 4,
+    "planning_min": 10,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L34",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L35",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L36",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L37",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L38",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L39",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L40",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L41",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L42",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L43",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L44",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L17",
+    "destination_id": "L45",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L33",
+    "estimated_min": 8,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L34",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L35",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L36",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L37",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L38",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L39",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L40",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L41",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L42",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L43",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L44",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L18",
+    "destination_id": "L45",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L33",
+    "estimated_min": 11,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L34",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L35",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L36",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L37",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L38",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L39",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L40",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L41",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L42",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L43",
+    "estimated_min": 32,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L44",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L19",
+    "destination_id": "L45",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L33",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L34",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L35",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L36",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L37",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L38",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L39",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L40",
+    "estimated_min": 11,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L41",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L42",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L43",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L44",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L20",
+    "destination_id": "L45",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L33",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L34",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L35",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L36",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L37",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L38",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L39",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L40",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L41",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L42",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L43",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L44",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L21",
+    "destination_id": "L45",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L33",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L34",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L35",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L36",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L37",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L38",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L39",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L40",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L41",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L42",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L43",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L44",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L22",
+    "destination_id": "L45",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L33",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L34",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L35",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L36",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L37",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L38",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L39",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L40",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L41",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L42",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L43",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L44",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L23",
+    "destination_id": "L45",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L33",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L34",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L35",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L36",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L37",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L38",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L39",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L40",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L41",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L42",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L43",
+    "estimated_min": 32,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L44",
+    "estimated_min": 28,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L24",
+    "destination_id": "L45",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L33",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L34",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L35",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L36",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L37",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L38",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L39",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L40",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L41",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L42",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L43",
+    "estimated_min": 28,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L44",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L25",
+    "destination_id": "L45",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L33",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L34",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L35",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L36",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L37",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L38",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L39",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L40",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L41",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L42",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L43",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L44",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L26",
+    "destination_id": "L45",
+    "estimated_min": 4,
+    "planning_min": 10,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L27",
+    "destination_id": "L33",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L27",
+    "destination_id": "L34",
+    "estimated_min": 38,
+    "planning_min": 50,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L27",
+    "destination_id": "L35",
+    "estimated_min": 37,
+    "planning_min": 50,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L27",
+    "destination_id": "L36",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L27",
+    "destination_id": "L37",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L27",
+    "destination_id": "L38",
+    "estimated_min": 35,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L27",
+    "destination_id": "L39",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L27",
+    "destination_id": "L40",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L27",
+    "destination_id": "L41",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L27",
+    "destination_id": "L42",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L27",
+    "destination_id": "L43",
+    "estimated_min": 9,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L27",
+    "destination_id": "L44",
+    "estimated_min": 10,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L27",
+    "destination_id": "L45",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L28",
+    "destination_id": "L33",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L28",
+    "destination_id": "L34",
+    "estimated_min": 32,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L28",
+    "destination_id": "L35",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L28",
+    "destination_id": "L36",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L28",
+    "destination_id": "L37",
+    "estimated_min": 12,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L28",
+    "destination_id": "L38",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L28",
+    "destination_id": "L39",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L28",
+    "destination_id": "L40",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L28",
+    "destination_id": "L41",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L28",
+    "destination_id": "L42",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L28",
+    "destination_id": "L43",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L28",
+    "destination_id": "L44",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L28",
+    "destination_id": "L45",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L29",
+    "destination_id": "L33",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L29",
+    "destination_id": "L34",
+    "estimated_min": 35,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L29",
+    "destination_id": "L35",
+    "estimated_min": 34,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L29",
+    "destination_id": "L36",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L29",
+    "destination_id": "L37",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L29",
+    "destination_id": "L38",
+    "estimated_min": 34,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L29",
+    "destination_id": "L39",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L29",
+    "destination_id": "L40",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L29",
+    "destination_id": "L41",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L29",
+    "destination_id": "L42",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L29",
+    "destination_id": "L43",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L29",
+    "destination_id": "L44",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L29",
+    "destination_id": "L45",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L30",
+    "destination_id": "L33",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L30",
+    "destination_id": "L34",
+    "estimated_min": 35,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L30",
+    "destination_id": "L35",
+    "estimated_min": 35,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L30",
+    "destination_id": "L36",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L30",
+    "destination_id": "L37",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L30",
+    "destination_id": "L38",
+    "estimated_min": 35,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L30",
+    "destination_id": "L39",
+    "estimated_min": 28,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L30",
+    "destination_id": "L40",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L30",
+    "destination_id": "L41",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L30",
+    "destination_id": "L42",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L30",
+    "destination_id": "L43",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L30",
+    "destination_id": "L44",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L30",
+    "destination_id": "L45",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L31",
+    "destination_id": "L33",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L31",
+    "destination_id": "L34",
+    "estimated_min": 36,
+    "planning_min": 50,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L31",
+    "destination_id": "L35",
+    "estimated_min": 35,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L31",
+    "destination_id": "L36",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L31",
+    "destination_id": "L37",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L31",
+    "destination_id": "L38",
+    "estimated_min": 35,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L31",
+    "destination_id": "L39",
+    "estimated_min": 28,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L31",
+    "destination_id": "L40",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L31",
+    "destination_id": "L41",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L31",
+    "destination_id": "L42",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L31",
+    "destination_id": "L43",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L31",
+    "destination_id": "L44",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L31",
+    "destination_id": "L45",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L32",
+    "destination_id": "L33",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L32",
+    "destination_id": "L34",
+    "estimated_min": 38,
+    "planning_min": 50,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L32",
+    "destination_id": "L35",
+    "estimated_min": 37,
+    "planning_min": 50,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L32",
+    "destination_id": "L36",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L32",
+    "destination_id": "L37",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L32",
+    "destination_id": "L38",
+    "estimated_min": 36,
+    "planning_min": 50,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L32",
+    "destination_id": "L39",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L32",
+    "destination_id": "L40",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L32",
+    "destination_id": "L41",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L32",
+    "destination_id": "L42",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L32",
+    "destination_id": "L43",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L32",
+    "destination_id": "L44",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L32",
+    "destination_id": "L45",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L33",
+    "destination_id": "L34",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L33",
+    "destination_id": "L35",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L33",
+    "destination_id": "L36",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L33",
+    "destination_id": "L37",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L33",
+    "destination_id": "L38",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L33",
+    "destination_id": "L39",
+    "estimated_min": 17,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L33",
+    "destination_id": "L40",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L33",
+    "destination_id": "L41",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L33",
+    "destination_id": "L42",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L33",
+    "destination_id": "L43",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L33",
+    "destination_id": "L44",
+    "estimated_min": 27,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L33",
+    "destination_id": "L45",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L34",
+    "destination_id": "L35",
+    "estimated_min": 6,
+    "planning_min": 10,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L34",
+    "destination_id": "L36",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L34",
+    "destination_id": "L37",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L34",
+    "destination_id": "L38",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L34",
+    "destination_id": "L39",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L34",
+    "destination_id": "L40",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L34",
+    "destination_id": "L41",
+    "estimated_min": 35,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L34",
+    "destination_id": "L42",
+    "estimated_min": 35,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L34",
+    "destination_id": "L43",
+    "estimated_min": 36,
+    "planning_min": 50,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L34",
+    "destination_id": "L44",
+    "estimated_min": 36,
+    "planning_min": 50,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L34",
+    "destination_id": "L45",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L35",
+    "destination_id": "L36",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L35",
+    "destination_id": "L37",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L35",
+    "destination_id": "L38",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L35",
+    "destination_id": "L39",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L35",
+    "destination_id": "L40",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L35",
+    "destination_id": "L41",
+    "estimated_min": 34,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L35",
+    "destination_id": "L42",
+    "estimated_min": 34,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L35",
+    "destination_id": "L43",
+    "estimated_min": 35,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L35",
+    "destination_id": "L44",
+    "estimated_min": 35,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L35",
+    "destination_id": "L45",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L36",
+    "destination_id": "L37",
+    "estimated_min": 6,
+    "planning_min": 10,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L36",
+    "destination_id": "L38",
+    "estimated_min": 23,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L36",
+    "destination_id": "L39",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L36",
+    "destination_id": "L40",
+    "estimated_min": 19,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L36",
+    "destination_id": "L41",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L36",
+    "destination_id": "L42",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L36",
+    "destination_id": "L43",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L36",
+    "destination_id": "L44",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L36",
+    "destination_id": "L45",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L37",
+    "destination_id": "L38",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L37",
+    "destination_id": "L39",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L37",
+    "destination_id": "L40",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L37",
+    "destination_id": "L41",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L37",
+    "destination_id": "L42",
+    "estimated_min": 14,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L37",
+    "destination_id": "L43",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L37",
+    "destination_id": "L44",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L37",
+    "destination_id": "L45",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L38",
+    "destination_id": "L39",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L38",
+    "destination_id": "L40",
+    "estimated_min": 13,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L38",
+    "destination_id": "L41",
+    "estimated_min": 28,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L38",
+    "destination_id": "L42",
+    "estimated_min": 32,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L38",
+    "destination_id": "L43",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L38",
+    "destination_id": "L44",
+    "estimated_min": 33,
+    "planning_min": 45,
+    "mode": "Metrô + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L38",
+    "destination_id": "L45",
+    "estimated_min": 18,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L39",
+    "destination_id": "L40",
+    "estimated_min": 6,
+    "planning_min": 10,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L39",
+    "destination_id": "L41",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L39",
+    "destination_id": "L42",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L39",
+    "destination_id": "L43",
+    "estimated_min": 26,
+    "planning_min": 35,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L39",
+    "destination_id": "L44",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L39",
+    "destination_id": "L45",
+    "estimated_min": 16,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L40",
+    "destination_id": "L41",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L40",
+    "destination_id": "L42",
+    "estimated_min": 24,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L40",
+    "destination_id": "L43",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L40",
+    "destination_id": "L44",
+    "estimated_min": 25,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L40",
+    "destination_id": "L45",
+    "estimated_min": 15,
+    "planning_min": 20,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L41",
+    "destination_id": "L42",
+    "estimated_min": 4,
+    "planning_min": 10,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L41",
+    "destination_id": "L43",
+    "estimated_min": 9,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L41",
+    "destination_id": "L44",
+    "estimated_min": 7,
+    "planning_min": 10,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L41",
+    "destination_id": "L45",
+    "estimated_min": 20,
+    "planning_min": 25,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L42",
+    "destination_id": "L43",
+    "estimated_min": 9,
+    "planning_min": 15,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L42",
+    "destination_id": "L44",
+    "estimated_min": 7,
+    "planning_min": 10,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L42",
+    "destination_id": "L45",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L43",
+    "destination_id": "L44",
+    "estimated_min": 4,
+    "planning_min": 10,
+    "mode": "Caminhada",
+    "confidence": "Alta"
+  },
+  {
+    "origin_id": "L43",
+    "destination_id": "L45",
+    "estimated_min": 22,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  },
+  {
+    "origin_id": "L44",
+    "destination_id": "L45",
+    "estimated_min": 21,
+    "planning_min": 30,
+    "mode": "Metrô/ônibus + caminhada",
+    "confidence": "Média"
+  }
+]

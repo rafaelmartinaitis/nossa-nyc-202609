@@ -1,0 +1,910 @@
+
+:root{
+  --radius:18px;
+}
+
+/* Tema 1 — Colorido / especial para a viagem */
+body[data-theme="colorful"], body:not([data-theme]){
+  --nyc-ink:#17333c;
+  --nyc-ink-2:#234b55;
+  --cream:#f7f1e7;
+  --cream-2:#efe5d7;
+  --paper:#fffaf2;
+  --paper-2:#fbf5ec;
+  --champagne:#d8c3a5;
+  --champagne-2:#b89a74;
+  --rose:#a95f5d;
+  --rose-dark:#7d4544;
+  --rose-soft:#f2dcda;
+  --sage:#718b7f;
+  --sage-soft:#dfe7df;
+  --gold:#b99157;
+  --text:#1b2529;
+  --muted:#6f7777;
+  --line:rgba(39,57,61,.14);
+  --line-strong:rgba(39,57,61,.22);
+  --shadow:0 16px 40px rgba(32,45,49,.12);
+  --shadow-soft:0 8px 24px rgba(32,45,49,.08);
+  --body-bg:
+    radial-gradient(circle at 14% 7%,rgba(185,145,87,.10),transparent 24rem),
+    radial-gradient(circle at 88% 16%,rgba(113,139,127,.09),transparent 22rem),
+    linear-gradient(180deg,#f8f2e8 0%,#f4ede2 54%,#efe7db 100%);
+  --header-bg:
+    linear-gradient(90deg,rgba(255,250,242,.97),rgba(247,241,231,.95)),
+    radial-gradient(circle at 10% 0,rgba(185,145,87,.12),transparent 18rem);
+  --planner-overlay:rgba(223,231,223,.7);
+  --drawer-bg:linear-gradient(180deg,rgba(239,229,215,.96),rgba(233,221,204,.98));
+  --drawer-return-bg:linear-gradient(180deg,#f0ddd9,#ead1cc);
+  --hero-bg:
+    radial-gradient(circle at 18% 18%,rgba(216,195,165,.34),transparent 17rem),
+    linear-gradient(135deg,#17333c 0%,#2f5960 54%,#718b7f 100%);
+  --grid-line:rgba(39,57,61,.025);
+  --watermark:rgba(32,61,77,.025);
+  --chip-bg:rgba(239,229,215,.74);
+  --card-bg:linear-gradient(145deg,rgba(255,253,248,.98),rgba(251,245,236,.96));
+  --card-conflict-bg:linear-gradient(145deg,#fff8f5,#f6e1dd);
+  --drop-bg:rgba(255,250,242,.46);
+  --accent-contrast:#ffffff;
+}
+
+/* Tema 2 — inspirado em The Division, sem copiar marcas/artes oficiais */
+body[data-theme="division"]{
+  --nyc-ink:#dde6eb;
+  --nyc-ink-2:#8bc9d3;
+  --cream:#111820;
+  --cream-2:#17222d;
+  --paper:#18232d;
+  --paper-2:#202e3a;
+  --champagne:#ff8f33;
+  --champagne-2:#ff6f1a;
+  --rose:#ff7e29;
+  --rose-dark:#ff9f52;
+  --rose-soft:#3a2518;
+  --sage:#4ec0cf;
+  --sage-soft:#173843;
+  --gold:#ff8a2a;
+  --text:#edf5f7;
+  --muted:#9cb2bd;
+  --line:rgba(131,161,176,.18);
+  --line-strong:rgba(255,143,51,.32);
+  --shadow:0 18px 48px rgba(0,0,0,.34);
+  --shadow-soft:0 10px 26px rgba(0,0,0,.24);
+  --body-bg:
+    radial-gradient(circle at 15% 10%,rgba(255,126,41,.10),transparent 22rem),
+    radial-gradient(circle at 86% 18%,rgba(78,192,207,.08),transparent 20rem),
+    linear-gradient(180deg,#0e141b 0%,#121a23 48%,#0f161e 100%);
+  --header-bg:
+    linear-gradient(90deg,rgba(17,24,32,.96),rgba(23,34,45,.97)),
+    linear-gradient(180deg,rgba(255,143,51,.07),transparent);
+  --planner-overlay:rgba(29,48,61,.72);
+  --drawer-bg:
+    linear-gradient(180deg,rgba(20,30,39,.98),rgba(16,24,31,.99));
+  --drawer-return-bg:
+    linear-gradient(180deg,rgba(57,31,18,.98),rgba(34,20,13,.99));
+  --hero-bg:
+    radial-gradient(circle at 18% 18%,rgba(255,143,51,.16),transparent 17rem),
+    linear-gradient(135deg,#121b23 0%,#1d3340 54%,#22313d 100%);
+  --grid-line:rgba(255,255,255,.02);
+  --watermark:rgba(255,143,51,.05);
+  --chip-bg:rgba(255,143,51,.10);
+  --card-bg:linear-gradient(145deg,rgba(25,36,45,.98),rgba(28,41,52,.96));
+  --card-conflict-bg:linear-gradient(145deg,#34221a,#2b1a16);
+  --drop-bg:rgba(255,143,51,.07);
+  --accent-contrast:#091116;
+}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;color:var(--text);font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--cream)}
+body{
+  background:var(--body-bg);
+}
+button,input{font:inherit}
+button{cursor:pointer}
+a{color:inherit}
+[hidden]{display:none!important}
+
+.app-shell{
+  min-height:100dvh;
+  display:grid;
+  grid-template-rows:auto minmax(0,1fr) auto;
+  overflow:hidden;
+  position:relative;
+}
+.app-shell::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  opacity:.28;
+  background-image:
+    linear-gradient(var(--grid-line) 1px,transparent 1px),
+    linear-gradient(90deg,var(--grid-line) 1px,transparent 1px);
+  background-size:28px 28px;
+  mask-image:linear-gradient(to bottom,black,transparent 75%);
+}
+
+/* HEADER — editorial, compacto e afetivo */
+.app-header{
+  min-height:82px;
+  padding:11px 18px max(11px,env(safe-area-inset-top));
+  display:grid;
+  grid-template-columns:minmax(220px,1fr) auto auto;
+  gap:18px;
+  align-items:center;
+  border-bottom:1px solid var(--line);
+  background:var(--header-bg);
+  backdrop-filter:blur(18px);
+  z-index:20;
+  box-shadow:0 6px 24px rgba(32,45,49,.045);
+}
+.brand{min-width:0;position:relative;padding-left:15px}
+.brand::before{
+  content:"";
+  position:absolute;
+  left:0;top:2px;bottom:2px;width:3px;border-radius:999px;
+  background:linear-gradient(180deg,var(--rose),var(--gold));
+}
+.brand h1{
+  font-family:Georgia,"Times New Roman",serif;
+  font-weight:600;
+  font-size:25px;
+  line-height:.96;
+  letter-spacing:-.035em;
+  margin:2px 0 3px;
+  color:var(--nyc-ink);
+}
+.eyebrow{
+  font-size:9px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--rose-dark);
+  font-weight:800
+}
+.brand-note{
+  font-size:9px;
+  color:var(--muted);
+  letter-spacing:.025em;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis
+}
+.trip-summary{display:flex;gap:7px}
+.trip-summary div{
+  min-width:88px;
+  padding:8px 11px;
+  border:1px solid rgba(184,154,116,.28);
+  border-radius:13px;
+  background:color-mix(in srgb, var(--paper) 85%, transparent);
+  text-align:center;
+  box-shadow:inset 0 1px rgba(255,255,255,.8)
+}
+.trip-summary strong{
+  display:block;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:14px;
+  color:var(--nyc-ink)
+}
+.trip-summary span{
+  display:block;
+  font-size:8px;
+  color:var(--muted);
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  margin-top:2px
+}
+.header-actions{display:flex;gap:7px}
+.ghost-button,.icon-button,.day-nav{
+  border:1px solid var(--line-strong);
+  background:color-mix(in srgb, var(--paper) 82%, transparent);
+  color:var(--nyc-ink);
+  border-radius:12px;
+  min-height:42px;
+  padding:0 12px;
+  transition:.18s ease;
+  box-shadow:0 2px 8px rgba(32,45,49,.035)
+}
+.icon-button,.day-nav{min-width:42px;padding:0}
+.ghost-button:hover,.icon-button:hover,.day-nav:hover{
+  border-color:rgba(169,95,93,.42);
+  background:color-mix(in srgb, var(--paper) 88%, transparent);
+  transform:translateY(-1px)
+}
+
+/* PLANNER — o palco principal */
+.planner-panel{
+  min-height:0;
+  overflow:auto;
+  padding:14px 18px 18px;
+  transition:background-color .2s ease;
+  position:relative
+}
+.planner-panel::after{
+  content:"NYC";
+  position:fixed;
+  right:2.5vw;
+  top:24vh;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:clamp(72px,12vw,180px);
+  font-weight:700;
+  letter-spacing:-.08em;
+  color:var(--watermark);
+  pointer-events:none;
+  z-index:0
+}
+.app-shell.dragging .planner-panel{
+  background:linear-gradient(180deg,var(--planner-overlay), color-mix(in srgb, var(--cream) 65%, transparent))
+}
+.planner-toolbar{
+  position:sticky;top:0;z-index:10;
+  display:grid;
+  grid-template-columns:44px auto 44px 1fr;
+  gap:9px;
+  align-items:center;
+  padding:9px 0 14px;
+  background:linear-gradient(var(--cream) 72%,rgba(247,241,231,0));
+}
+.day-title{display:flex;align-items:baseline;gap:8px}
+.day-title strong{
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:24px;
+  color:var(--nyc-ink);
+  letter-spacing:-.035em
+}
+.day-title span{
+  font-size:9px;
+  color:var(--rose-dark);
+  letter-spacing:.13em;
+  font-weight:800
+}
+.day-metrics{justify-self:end;display:flex;gap:6px;flex-wrap:wrap}
+.day-metrics span{
+  font-size:9px;
+  padding:6px 8px;
+  border-radius:999px;
+  background:color-mix(in srgb, var(--paper) 82%, transparent);
+  border:1px solid rgba(184,154,116,.24);
+  color:var(--muted)
+}
+.timeline{
+  max-width:880px;
+  margin:0 auto;
+  display:flex;
+  flex-direction:column;
+  gap:7px;
+  padding-bottom:36px;
+  position:relative;
+  z-index:1
+}
+.empty-plan{
+  min-height:200px;
+  border:1px dashed rgba(184,154,116,.5);
+  border-radius:22px;
+  display:grid;
+  place-items:center;
+  text-align:center;
+  color:var(--muted);
+  padding:26px;
+  background:color-mix(in srgb, var(--paper) 36%, transparent)
+}
+.empty-plan strong{
+  display:block;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:20px;
+  color:var(--nyc-ink);
+  margin-bottom:5px
+}
+.travel-row{
+  display:flex;
+  align-items:center;
+  gap:9px;
+  color:var(--muted);
+  font-size:9px;
+  padding:3px 11px
+}
+.travel-row .line{
+  height:1px;
+  background:linear-gradient(90deg,transparent,var(--champagne),transparent);
+  flex:1
+}
+.travel-row strong{color:var(--nyc-ink-2);font-weight:700}
+
+/* Cards do planner */
+.timeline-card,.place-card{
+  border:1px solid rgba(39,57,61,.13);
+  background:var(--card-bg);
+  border-radius:16px;
+  position:relative;
+  box-shadow:var(--shadow-soft);
+  transition:.18s ease
+}
+.timeline-card{
+  padding:13px 15px;
+  touch-action:none;
+  overflow:hidden
+}
+.timeline-card::before{
+  content:"";
+  position:absolute;
+  inset:0 auto 0 0;
+  width:4px;
+  background:linear-gradient(180deg,var(--champagne),var(--rose));
+  opacity:.58
+}
+.timeline-card.conflict{
+  border-color:rgba(169,95,93,.42);
+  background:var(--card-conflict-bg)
+}
+.timeline-card .time{
+  font-size:10px;
+  color:var(--rose-dark);
+  font-weight:850;
+  margin-bottom:5px;
+  letter-spacing:.02em
+}
+.card-title{
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:15px;
+  font-weight:700;
+  line-height:1.2;
+  padding-right:28px;
+  color:var(--nyc-ink)
+}
+.card-subtitle{
+  font-size:9px;
+  color:var(--muted);
+  margin-top:4px
+}
+.card-pills{
+  display:flex;
+  gap:5px;
+  flex-wrap:wrap;
+  margin-top:9px
+}
+.pill{
+  font-size:8.5px;
+  border-radius:999px;
+  background:var(--chip-bg);
+  border:1px solid rgba(184,154,116,.18);
+  padding:4px 7px;
+  color:#596365
+}
+.card-heart{
+  position:absolute;
+  right:9px;
+  top:8px;
+  border:0;
+  background:color-mix(in srgb, var(--paper) 75%, transparent);
+  border-radius:999px;
+  font-size:17px;
+  color:var(--rose);
+  padding:5px 7px;
+  line-height:1
+}
+.card-heart:hover{background:var(--rose-soft)}
+
+.drop-marker{
+  min-height:46px;
+  border:1px dashed transparent;
+  border-radius:14px;
+  display:grid;
+  place-items:center;
+  font-size:9px;
+  color:transparent;
+  transition:.15s
+}
+.app-shell.dragging .drop-marker{
+  border-color:rgba(113,139,127,.56);
+  color:var(--nyc-ink-2);
+  background:var(--drop-bg)
+}
+.drop-marker.active{
+  background:#fffaf2;
+  border-color:var(--sage);
+  color:var(--nyc-ink);
+  font-weight:800;
+  box-shadow:0 8px 22px rgba(113,139,127,.14)
+}
+
+/* GAVETA — descoberta, sempre presente */
+.places-drawer{
+  border-top:1px solid rgba(184,154,116,.34);
+  background:var(--drawer-bg);
+  padding:7px 15px max(13px,env(safe-area-inset-bottom));
+  transition:max-height .22s ease,opacity .2s ease,background-color .2s ease;
+  max-height:35vh;
+  box-shadow:0 -12px 30px rgba(32,45,49,.08);
+  z-index:30
+}
+.app-shell.dragging .places-drawer{max-height:20vh;opacity:.70}
+.app-shell.dragging.return-mode .places-drawer{
+  background:var(--drawer-return-bg);
+  opacity:1
+}
+.drawer-handle{
+  width:44px;height:4px;border-radius:999px;
+  background:color-mix(in srgb, var(--nyc-ink) 24%, transparent);
+  margin:0 auto 9px
+}
+.drawer-header{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.drawer-header strong{
+  display:block;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:15px;
+  color:var(--nyc-ink)
+}
+.drawer-header span{display:block;color:var(--muted);font-size:8.5px;margin-top:2px}
+.drawer-tools{display:flex;gap:5px}
+.search-row{padding:8px 0 4px}
+.search-row input{
+  width:100%;min-height:44px;
+  border:1px solid rgba(184,154,116,.34);
+  border-radius:12px;
+  background:color-mix(in srgb, var(--paper) 94%, transparent);
+  padding:0 13px;
+  font-size:16px;
+  color:var(--text);
+  outline:none
+}
+.search-row input:focus{
+  border-color:var(--rose);
+  box-shadow:0 0 0 3px rgba(169,95,93,.10)
+}
+.places-strip{
+  display:flex;
+  gap:9px;
+  overflow-x:auto;
+  overflow-y:hidden;
+  padding:9px 1px 3px;
+  scroll-snap-type:x proximity;
+  scrollbar-width:thin;
+  min-height:116px
+}
+.place-card{
+  width:192px;
+  flex:0 0 192px;
+  padding:12px;
+  touch-action:pan-x;
+  user-select:none;
+  -webkit-user-select:none;
+  scroll-snap-align:start;
+  overflow:hidden
+}
+.place-card::after{
+  content:"";
+  position:absolute;
+  right:-28px;bottom:-32px;
+  width:85px;height:85px;
+  border-radius:50%;
+  background:radial-gradient(circle, color-mix(in srgb, var(--champagne) 18%, transparent), transparent 68%);
+  pointer-events:none
+}
+.place-card.held{
+  box-shadow:var(--shadow);
+  outline:2px solid rgba(169,95,93,.70);
+  transform:scale(1.025) rotate(-.2deg)
+}
+.place-card .mini-meta{font-size:8.5px;color:var(--muted);margin-top:8px}
+.place-card .drag-hint{
+  font-size:8.5px;
+  color:var(--rose-dark);
+  margin-top:7px;
+  font-weight:700
+}
+.place-card .card-heart{top:6px;right:6px}
+
+/* Drag card */
+.drag-ghost{
+  position:fixed;z-index:80;pointer-events:none;
+  width:min(270px,76vw);
+  padding:13px 15px;
+  border:1px solid rgba(169,95,93,.55);
+  border-radius:16px;
+  background:color-mix(in srgb, var(--paper) 98%, transparent);
+  box-shadow:0 20px 50px rgba(32,45,49,.20);
+  transform:translate(-50%,-50%) rotate(-.6deg);
+  backdrop-filter:blur(12px)
+}
+.drag-ghost strong{
+  display:block;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:14px;
+  color:var(--nyc-ink)
+}
+.drag-ghost span{display:block;font-size:8.5px;color:var(--muted);margin-top:5px}
+
+/* Modal de detalhes */
+.modal-backdrop{
+  position:fixed;inset:0;z-index:120;
+  background:rgba(12,18,23,.56);
+  display:grid;place-items:center;padding:18px;
+  backdrop-filter:blur(8px)
+}
+.details-modal{
+  width:min(630px,100%);
+  max-height:90dvh;
+  overflow:auto;
+  background:var(--paper);
+  border-radius:24px;
+  box-shadow:0 28px 80px rgba(16,24,27,.30);
+  position:relative;
+  border:1px solid rgba(255,255,255,.5)
+}
+.modal-close{
+  position:sticky;
+  float:right;
+  top:12px;
+  margin:12px 12px -54px 0;
+  z-index:3;
+  width:44px;height:44px;
+  border:1px solid rgba(255,255,255,.66);
+  border-radius:50%;
+  background:color-mix(in srgb, var(--paper) 94%, transparent);
+  color:var(--nyc-ink);
+  font-size:25px;
+  line-height:1;
+  box-shadow:0 7px 20px rgba(21,31,35,.10)
+}
+.details-hero{
+  height:220px;
+  background:var(--hero-bg);
+  display:flex;
+  align-items:flex-end;
+  padding:20px;
+  color:var(--accent-contrast);
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:18px;
+  letter-spacing:-.02em;
+  position:relative
+}
+.details-hero::after{
+  content:"R & L · NYC";
+  position:absolute;right:18px;bottom:18px;
+  font-family:Inter,sans-serif;
+  font-size:8px;
+  letter-spacing:.18em;
+  opacity:.58
+}
+.details-body{padding:20px}
+.details-heading{display:flex;gap:12px;justify-content:space-between;align-items:flex-start}
+.details-heading h2{
+  margin:3px 0 0;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:26px;
+  color:var(--nyc-ink);
+  letter-spacing:-.03em
+}
+.heart-button{
+  border:1px solid rgba(169,95,93,.28);
+  background:color-mix(in srgb, var(--paper) 88%, transparent);
+  min-width:48px;
+  height:48px;
+  border-radius:14px;
+  font-size:21px;
+  color:var(--rose)
+}
+.details-body p{font-size:12.5px;line-height:1.6;color:#3d484b}
+.details-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:17px 0}
+.details-grid div{
+  background:linear-gradient(145deg,color-mix(in srgb, var(--paper) 90%, var(--cream-2)), color-mix(in srgb, var(--cream-2) 88%, var(--paper)));
+  border:1px solid rgba(184,154,116,.18);
+  border-radius:12px;
+  padding:11px
+}
+.details-grid dt{font-size:8px;color:var(--muted);text-transform:uppercase;letter-spacing:.09em}
+.details-grid dd{margin:5px 0 0;font-size:11.5px;font-weight:750;color:var(--nyc-ink)}
+.details-actions{display:flex;gap:8px;flex-wrap:wrap}
+.primary-link,.danger-button{
+  min-height:46px;border-radius:11px;padding:0 15px;
+  display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-size:12px;font-weight:700
+}
+.primary-link{
+  background:linear-gradient(135deg,var(--champagne-2), var(--nyc-ink-2));
+  color:var(--accent-contrast);
+  box-shadow:0 8px 20px rgba(32,61,77,.16)
+}
+.danger-button{
+  border:1px solid rgba(169,95,93,.34);
+  color:var(--rose-dark);
+  background:#fff8f6
+}
+
+/* Desktop: planner sofisticado sem perder lógica */
+@media (min-width:900px){
+  .timeline-card:hover,.place-card:hover{
+    border-color:rgba(184,154,116,.46);
+    box-shadow:0 13px 30px rgba(32,45,49,.10);
+    transform:translateY(-1px)
+  }
+  .places-strip{padding-bottom:7px}
+}
+
+/* Mobile vertical: as três faixas ficam muito claras */
+@media (max-width:760px){
+  body{background:var(--body-bg)}
+  .app-header{
+    min-height:68px;
+    padding:8px 10px max(8px,env(safe-area-inset-top));
+    grid-template-columns:1fr auto;
+    gap:8px;
+    box-shadow:0 4px 18px rgba(32,45,49,.05)
+  }
+  .brand{padding-left:11px}
+  .brand h1{font-size:20px}
+  .brand-note{font-size:8px;max-width:205px}
+  .trip-summary{gap:4px}
+  .trip-summary div{min-width:62px;padding:5px 6px}
+  .trip-summary strong{font-size:10.5px}
+  .trip-summary span{font-size:7px}
+  .header-actions{grid-column:1/-1;display:none}
+
+  .planner-panel{
+    padding:8px 10px 10px;
+    background:
+      radial-gradient(circle at 100% 0,rgba(185,145,87,.05),transparent 16rem),
+      transparent
+  }
+  .planner-panel::after{display:none}
+  .planner-toolbar{
+    grid-template-columns:42px auto 42px;
+    gap:6px;
+    padding-top:6px
+  }
+  .day-title strong{font-size:21px}
+  .day-metrics{
+    grid-column:1/-1;
+    justify-self:stretch;
+    justify-content:center;
+    gap:4px
+  }
+  .day-metrics span{font-size:8px;padding:5px 7px}
+  .timeline{padding-bottom:12px}
+  .timeline-card{padding:12px 13px}
+  .card-title{font-size:14px}
+  .travel-row{font-size:8px;padding-left:6px;padding-right:6px}
+  .empty-plan{min-height:145px;border-radius:18px}
+
+  .places-drawer{
+    max-height:31vh;
+    padding:7px 10px max(10px,env(safe-area-inset-bottom));
+    border-radius:20px 20px 0 0
+  }
+  .app-shell.dragging .places-drawer{max-height:17vh}
+  .drawer-header strong{font-size:14px}
+  .place-card{
+    width:164px;
+    flex-basis:164px;
+    padding:10px
+  }
+  .place-card .card-title{font-size:13px}
+  .places-strip{min-height:106px}
+  .details-modal{
+    width:100%;
+    max-height:92dvh;
+    border-radius:24px 24px 0 0;
+    align-self:end
+  }
+  .modal-backdrop{place-items:end center;padding:0}
+  .details-hero{height:178px}
+  .details-grid{grid-template-columns:1fr 1fr}
+}
+
+/* Acessibilidade e foco */
+button:focus-visible,a:focus-visible,input:focus-visible,.place-card:focus-visible{
+  outline:3px solid rgba(169,95,93,.22);
+  outline-offset:2px
+}
+@media (prefers-reduced-motion:reduce){
+  *{scroll-behavior:auto!important;transition:none!important}
+}
+
+
+/* Reforços específicos do tema Division */
+body[data-theme="division"] .brand::before{
+  background:linear-gradient(180deg,var(--champagne),var(--sage));
+  box-shadow:0 0 18px rgba(255,143,51,.22);
+}
+body[data-theme="division"] .timeline-card::before{
+  width:5px;
+  opacity:.95;
+  box-shadow:0 0 10px rgba(255,143,51,.35);
+}
+body[data-theme="division"] .timeline-card::after,
+body[data-theme="division"] .place-card::before{
+  content:"";
+  position:absolute;
+  inset:auto 12px 10px auto;
+  width:48px;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(78,192,207,.7));
+  opacity:.65;
+}
+body[data-theme="division"] .trip-summary div,
+body[data-theme="division"] .day-metrics span,
+body[data-theme="division"] .ghost-button,
+body[data-theme="division"] .icon-button,
+body[data-theme="division"] .day-nav{
+  box-shadow:inset 0 0 0 1px rgba(255,143,51,.06), 0 6px 16px rgba(0,0,0,.14);
+}
+body[data-theme="division"] .pill{
+  color:#d7e7ed;
+}
+body[data-theme="division"] .card-heart,
+body[data-theme="division"] .heart-button{
+  color:var(--champagne);
+}
+body[data-theme="division"] .modal-close{
+  color:var(--champagne);
+  border-color:rgba(255,143,51,.24);
+}
+body[data-theme="division"] .primary-link{
+  box-shadow:0 8px 20px rgba(255,143,51,.18);
+}
+
+
+/* Preferências pessoais — somente Rafael e Lídia */
+.preference-badges{
+  position:absolute;
+  right:8px;
+  top:8px;
+  display:flex;
+  gap:3px;
+  z-index:3;
+}
+.preference-button{
+  width:30px;
+  height:30px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:color-mix(in srgb,var(--paper) 86%,transparent);
+  display:grid;
+  place-items:center;
+  font-size:15px;
+  line-height:1;
+  padding:0;
+  transition:.15s ease;
+}
+.pref-rafael{color:#3277c7}
+.pref-lidia{color:#c45252}
+.preference-button.active.pref-rafael{
+  border-color:rgba(50,119,199,.35);
+  background:rgba(50,119,199,.10);
+}
+.preference-button.active.pref-lidia{
+  border-color:rgba(196,82,82,.35);
+  background:rgba(196,82,82,.10);
+}
+.timeline-card .card-title,
+.place-card .card-title{padding-right:68px}
+.person-filter{
+  min-width:42px;
+  min-height:42px;
+  border:1px solid var(--line-strong);
+  border-radius:11px;
+  background:color-mix(in srgb,var(--paper) 82%,transparent);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:2px;
+  padding:0 7px;
+  font-weight:800;
+}
+.person-filter .filter-glyph{font-size:15px}
+.person-filter .filter-name{font-size:8px;color:var(--muted)}
+.person-filter.active.pref-rafael{
+  border-color:rgba(50,119,199,.45);
+  box-shadow:inset 0 0 0 1px rgba(50,119,199,.10);
+}
+.person-filter.active.pref-lidia{
+  border-color:rgba(196,82,82,.45);
+  box-shadow:inset 0 0 0 1px rgba(196,82,82,.10);
+}
+.details-preferences{
+  display:flex;
+  gap:7px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+}
+.person-choice{
+  min-width:74px;
+  min-height:48px;
+  border:1px solid var(--line);
+  border-radius:13px;
+  background:color-mix(in srgb,var(--paper) 90%,transparent);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+  padding:0 10px;
+  font-size:10px;
+  font-weight:800;
+}
+.person-choice .choice-glyph{font-size:18px}
+.person-choice.active.pref-rafael{
+  border-color:rgba(50,119,199,.42);
+  background:rgba(50,119,199,.10);
+}
+.person-choice.active.pref-lidia{
+  border-color:rgba(196,82,82,.42);
+  background:rgba(196,82,82,.10);
+}
+.secondary-button{
+  min-height:46px;
+  border-radius:11px;
+  padding:0 15px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border:1px solid var(--line-strong);
+  background:color-mix(in srgb,var(--paper) 90%,transparent);
+  color:var(--nyc-ink);
+  font-size:12px;
+  font-weight:700;
+}
+
+/* No tema Division, os corações viram marcadores táticos distintos */
+body[data-theme="division"] .pref-rafael{color:#53b9d0}
+body[data-theme="division"] .pref-lidia{color:#ff7e29}
+body[data-theme="division"] .preference-button,
+body[data-theme="division"] .person-filter,
+body[data-theme="division"] .person-choice{
+  border-radius:6px;
+  background:rgba(16,25,33,.86);
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+body[data-theme="division"] .preference-button.active.pref-rafael,
+body[data-theme="division"] .person-filter.active.pref-rafael,
+body[data-theme="division"] .person-choice.active.pref-rafael{
+  border-color:rgba(83,185,208,.54);
+  background:rgba(83,185,208,.10);
+  box-shadow:0 0 14px rgba(83,185,208,.08);
+}
+body[data-theme="division"] .preference-button.active.pref-lidia,
+body[data-theme="division"] .person-filter.active.pref-lidia,
+body[data-theme="division"] .person-choice.active.pref-lidia{
+  border-color:rgba(255,126,41,.58);
+  background:rgba(255,126,41,.10);
+  box-shadow:0 0 14px rgba(255,126,41,.10);
+}
+body[data-theme="division"] .person-choice span:last-child{
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  font-size:8px;
+}
+
+/* Neutraliza estilos antigos do coração único, que não é mais usado */
+.card-heart,.heart-button{display:none!important}
+
+@media(max-width:760px){
+  .preference-button{width:29px;height:29px}
+  .details-heading{display:block}
+  .details-preferences{justify-content:flex-start;margin-top:12px}
+  .person-choice{flex:1;min-width:112px}
+}
+
+
+.mobile-plan-button{
+  display:none;
+  min-height:34px;
+  border:1px solid rgba(169,95,93,.28);
+  border-radius:999px;
+  padding:0 10px;
+  background:color-mix(in srgb,var(--paper) 90%,transparent);
+  color:var(--rose-dark);
+  font-size:9px;
+  font-weight:800;
+  white-space:nowrap;
+}
+body[data-theme="division"] .mobile-plan-button{
+  border-color:rgba(255,126,41,.38);
+  color:var(--champagne);
+  background:rgba(255,126,41,.08);
+  border-radius:5px;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+}
+@media(max-width:760px){
+  .mobile-plan-button{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+  }
+}
