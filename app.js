@@ -939,7 +939,7 @@ function loadRecommendedPlan(){state.plan=structuredClone(state.recommended);sta
 
 async function init(){
   const [places,travelData,recommended]=await Promise.all([
-    fetch("./data/places.json?v=15").then(r=>r.json()),fetch("./data/travel-times.json?v=15").then(r=>r.json()),fetch("./data/recommended-plan.json?v=15").then(r=>r.json())
+    fetch("./data/places.json?v=17").then(r=>r.json()),fetch("./data/travel-times.json?v=17").then(r=>r.json()),fetch("./data/recommended-plan.json?v=17").then(r=>r.json())
   ]);
   state.places=places;state.byId=Object.fromEntries(places.map(p=>[p.id,p]));
   travelData.forEach(t=>{state.travel.set(travelKey(t.origin_id,t.destination_id),t);state.travel.set(travelKey(t.destination_id,t.origin_id),t);});

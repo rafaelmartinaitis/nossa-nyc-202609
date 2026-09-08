@@ -188,3 +188,12 @@ Esses campos ficam prontos para uma próxima evolução: o planner calcular o �
 - A ordenação usa o `planning_min` da matriz de deslocamentos, não distância em linha reta.
 - Referência: último passeio já colocado no dia atualmente selecionado; se o dia estiver vazio, usa o hotel.
 - Quando a ordenação está ativa, cada card mostra também quantos minutos está da referência atual.
+
+
+## V17 — Brooklyn Botanic Garden
+
+- Garantido o card do Brooklyn Botanic Garden no catálogo.
+- BBG foi diferenciado explicitamente do New York Botanical Garden do Bronx.
+- Resumo editorial:
+  - NYBG: maior, mais de dia inteiro, conservatory + tram, experiência mais “instituição botânica”.
+  - BBG: menor, mais fácil de encaixar, mais desenhado e urbano, forte no Japanese Hill-and-Pond Garden.
