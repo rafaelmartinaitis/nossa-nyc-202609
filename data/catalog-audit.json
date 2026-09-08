@@ -1,13 +1,18 @@
 {
-  "catalog_version": 10,
+  "catalog_version": 15,
   "generated_for": "Nossa NYC · Rafael & Lídia",
   "trip_dates": "2026-09-19 to 2026-09-26",
   "counts": {
     "core_master_places": 45,
     "scheduled_events": 2,
     "additional_previously_discussed_places": 18,
-    "total_drawer_catalog": 65,
-    "fixed_trip_anchors": 3
+    "total_drawer_catalog": 112,
+    "fixed_trip_anchors": 3,
+    "immersive_experiences": 12,
+    "arcades_and_games": 8,
+    "shopping_places": 15,
+    "trip_milestones": 6,
+    "relax_options": 17
   },
   "immersive_experience": {
     "id": "L08",
@@ -98,5 +103,418 @@
     "return_to_hotel_by": "17:00",
     "label": "Retorno ao hotel até 17:00",
     "reason": "A partir de 17:00 o dia fica bloqueado para bagagens, deslocamento ao JFK e voo Delta 227 às 21:50."
-  }
+  },
+  "immersive_experiences": [
+    {
+      "id": "L08",
+      "name": "ARTE MUSEUM New York",
+      "type": "arte digital multissensorial"
+    },
+    {
+      "id": "X19",
+      "name": "SUMMIT One Vanderbilt",
+      "type": "arte + observatório multissensorial"
+    },
+    {
+      "id": "X20",
+      "name": "Mercer Labs — Museum of Art and Technology",
+      "type": "arte + tecnologia multissensorial"
+    },
+    {
+      "id": "X21",
+      "name": "ARTECHOUSE NYC",
+      "type": "arte digital audiovisual"
+    },
+    {
+      "id": "X22",
+      "name": "RiseNY",
+      "type": "museu interativo + ride 4D"
+    },
+    {
+      "id": "X23",
+      "name": "Color Factory NYC",
+      "type": "arte interativa + fotografia"
+    },
+    {
+      "id": "X24",
+      "name": "Museum of Illusions New York",
+      "type": "ilusões + percepção interativa"
+    },
+    {
+      "id": "X25",
+      "name": "SPYSCAPE New York",
+      "type": "missões interativas + espionagem"
+    }
+  ],
+  "added_immersive_ids": [
+    "X19",
+    "X20",
+    "X21",
+    "X22",
+    "X23",
+    "X24",
+    "X25"
+  ],
+  "missing_immersive_ids": [],
+  "excluded_currently": [
+    {
+      "name": "INTER_",
+      "reason": "listagem atual indica permanentemente fechado"
+    }
+  ],
+  "added_v14_ids": [
+    "X26",
+    "X27",
+    "X28",
+    "X29",
+    "X30",
+    "X31",
+    "X32",
+    "X33",
+    "X34",
+    "X35",
+    "X36",
+    "X37",
+    "X38",
+    "X39",
+    "X40",
+    "X41",
+    "X42",
+    "X43",
+    "X44",
+    "X45",
+    "X46",
+    "X47",
+    "X48",
+    "X49",
+    "X50",
+    "X51",
+    "X52",
+    "X53",
+    "X54",
+    "X55",
+    "X56",
+    "X57",
+    "X58",
+    "X59"
+  ],
+  "bauhaus": {
+    "id": "X59",
+    "available_during_trip": false,
+    "reason": "Fechado durante 19–26/09/2026; Design Shop reabre 01/10 e galerias 12/11."
+  },
+  "artechouse": {
+    "id": "X21",
+    "present": true,
+    "exhibition": "Twilight Zone: Hidden Wonders of the Ocean",
+    "opens": "2026-09-19"
+  },
+  "arcades": [
+    {
+      "id": "X36",
+      "name": "Dave & Buster's — Times Square",
+      "style": "arcade moderno grande"
+    },
+    {
+      "id": "X37",
+      "name": "Chinatown Fair Family Fun Center",
+      "style": "arcade clássico + rhythm/import"
+    },
+    {
+      "id": "X38",
+      "name": "Activate Games — Union Square",
+      "style": "salas físicas interativas"
+    },
+    {
+      "id": "X39",
+      "name": "Immersive Gamebox — Essex Crossing",
+      "style": "game room projetada"
+    },
+    {
+      "id": "X40",
+      "name": "Beat The Bomb — Brooklyn",
+      "style": "missões high-tech + arcade battle"
+    },
+    {
+      "id": "X41",
+      "name": "Barcade — Chelsea",
+      "style": "arcade retrô + bar"
+    },
+    {
+      "id": "X42",
+      "name": "Gaming City — Astoria",
+      "style": "arcade grande + AR"
+    },
+    {
+      "id": "X43",
+      "name": "Quackade — Long Island City",
+      "style": "arcade japonês/moderno + VR"
+    }
+  ],
+  "shopping": [
+    {
+      "id": "X44",
+      "name": "Sephora — Times Square",
+      "targets": [
+        "skincare",
+        "maquiagem",
+        "beleza"
+      ]
+    },
+    {
+      "id": "X45",
+      "name": "Sephora — Fifth Avenue",
+      "targets": [
+        "skincare",
+        "maquiagem",
+        "beleza"
+      ]
+    },
+    {
+      "id": "X46",
+      "name": "Dyson Store — Fifth Avenue",
+      "targets": [
+        "Dyson V15",
+        "acessórios Dyson"
+      ]
+    },
+    {
+      "id": "X47",
+      "name": "Nintendo NEW YORK",
+      "targets": [
+        "Nintendo Switch 2",
+        "jogos",
+        "acessórios"
+      ]
+    },
+    {
+      "id": "X48",
+      "name": "Longchamp — Fifth Avenue",
+      "targets": [
+        "Longchamp"
+      ]
+    },
+    {
+      "id": "X49",
+      "name": "Lacoste — Fifth Avenue",
+      "targets": [
+        "Lacoste"
+      ]
+    },
+    {
+      "id": "X50",
+      "name": "The North Face — Fifth Avenue",
+      "targets": [
+        "The North Face"
+      ]
+    },
+    {
+      "id": "X51",
+      "name": "Best Buy — Midtown 5th Avenue",
+      "targets": [
+        "Switch 2",
+        "Apple",
+        "eletrônicos"
+      ]
+    },
+    {
+      "id": "X52",
+      "name": "B&H Photo Video — NYC SuperStore",
+      "targets": [
+        "eletrônicos",
+        "computadores",
+        "acessórios"
+      ]
+    },
+    {
+      "id": "X53",
+      "name": "Samsonite — Jersey Gardens",
+      "targets": [
+        "mala grande despachável"
+      ]
+    },
+    {
+      "id": "X54",
+      "name": "LACOSTE Outlet — Jersey Gardens",
+      "targets": [
+        "Lacoste"
+      ]
+    },
+    {
+      "id": "X55",
+      "name": "The North Face Outlets — Jersey Gardens",
+      "targets": [
+        "The North Face"
+      ]
+    },
+    {
+      "id": "X56",
+      "name": "Sephora — Jersey Gardens",
+      "targets": [
+        "skincare",
+        "maquiagem",
+        "beleza"
+      ]
+    },
+    {
+      "id": "X57",
+      "name": "Ulta Beauty — Jersey Gardens",
+      "targets": [
+        "skincare",
+        "maquiagem",
+        "beleza"
+      ]
+    },
+    {
+      "id": "X58",
+      "name": "TUMI — Jersey Gardens",
+      "targets": [
+        "mala grande"
+      ]
+    }
+  ],
+  "trip_milestones": [
+    {
+      "id": "X26",
+      "name": "Liberty Island + Ellis Island — ferry oficial",
+      "type": "desembarque na Estátua + Ellis Island"
+    },
+    {
+      "id": "X27",
+      "name": "Staten Island Ferry — ida e volta pela Estátua",
+      "type": "balsa panorâmica gratuita"
+    },
+    {
+      "id": "X28",
+      "name": "Circle Line — Liberty Midtown Cruise",
+      "type": "cruzeiro rápido dedicado à Estátua"
+    },
+    {
+      "id": "X29",
+      "name": "Circle Line — Landmarks Cruise",
+      "type": "cruzeiro panorâmico de Manhattan"
+    },
+    {
+      "id": "X30",
+      "name": "Circle Line — Harbor Lights",
+      "type": "cruzeiro de entardecer/noite"
+    },
+    {
+      "id": "X31",
+      "name": "Circle Line — Liberty Super Express",
+      "type": "cruzeiro expresso à Estátua"
+    }
+  ],
+  "relax_options": [
+    {
+      "id": "L06",
+      "name": "QC NY Spa",
+      "relax_score": 5,
+      "energy_level": "very_low"
+    },
+    {
+      "id": "L07",
+      "name": "WORLD SPA",
+      "relax_score": 5,
+      "energy_level": "very_low"
+    },
+    {
+      "id": "L11",
+      "name": "Little Island",
+      "relax_score": 4,
+      "energy_level": "very_low"
+    },
+    {
+      "id": "L27",
+      "name": "The Battery",
+      "relax_score": 3,
+      "energy_level": "low"
+    },
+    {
+      "id": "L31",
+      "name": "Brooklyn Bridge Park — Pier 1",
+      "relax_score": 4,
+      "energy_level": "low"
+    },
+    {
+      "id": "L32",
+      "name": "Brooklyn Heights Promenade",
+      "relax_score": 4,
+      "energy_level": "very_low"
+    },
+    {
+      "id": "L34",
+      "name": "Central Park — South / The Pond",
+      "relax_score": 4,
+      "energy_level": "low"
+    },
+    {
+      "id": "L39",
+      "name": "Hudson River Greenway — Midtown",
+      "relax_score": 3,
+      "energy_level": "medium"
+    },
+    {
+      "id": "L45",
+      "name": "Bathhouse Flatiron",
+      "relax_score": 5,
+      "energy_level": "very_low"
+    },
+    {
+      "id": "X10",
+      "name": "Outlook Hill — Governors Island",
+      "relax_score": 4,
+      "energy_level": "low"
+    },
+    {
+      "id": "X27",
+      "name": "Staten Island Ferry — ida e volta pela Estátua",
+      "relax_score": 3,
+      "energy_level": "very_low"
+    },
+    {
+      "id": "X60",
+      "name": "New York Botanical Garden",
+      "relax_score": 5,
+      "energy_level": "low"
+    },
+    {
+      "id": "X61",
+      "name": "Brooklyn Botanic Garden",
+      "relax_score": 5,
+      "energy_level": "low"
+    },
+    {
+      "id": "X62",
+      "name": "Wave Hill",
+      "relax_score": 5,
+      "energy_level": "low"
+    },
+    {
+      "id": "X63",
+      "name": "Conservatory Garden — Central Park",
+      "relax_score": 5,
+      "energy_level": "very_low"
+    },
+    {
+      "id": "X64",
+      "name": "Roosevelt Island Tram + waterfront",
+      "relax_score": 4,
+      "energy_level": "low"
+    },
+    {
+      "id": "X65",
+      "name": "Gantry Plaza State Park",
+      "relax_score": 4,
+      "energy_level": "very_low"
+    }
+  ],
+  "added_v15_ids": [
+    "X60",
+    "X61",
+    "X62",
+    "X63",
+    "X64",
+    "X65"
+  ]
 }
