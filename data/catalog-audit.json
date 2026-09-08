@@ -1,5 +1,5 @@
 {
-  "catalog_version": 15,
+  "catalog_version": 17,
   "generated_for": "Nossa NYC · Rafael & Lídia",
   "trip_dates": "2026-09-19 to 2026-09-26",
   "counts": {
@@ -516,5 +516,15 @@
     "X63",
     "X64",
     "X65"
-  ]
+  ],
+  "brooklyn_botanic_garden": {
+    "present": true,
+    "id": "X60",
+    "name": "Brooklyn Botanic Garden"
+  },
+  "garden_comparison": {
+    "bronx_nybg_id": null,
+    "brooklyn_bbg_id": "X60",
+    "summary": "NYBG = maior e mais profundo; BBG = mais compacto e fácil de encaixar."
+  }
 }

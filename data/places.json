@@ -2619,35 +2619,36 @@
   },
   {
     "id": "X60",
-    "name": "New York Botanical Garden",
-    "region": "Bronx",
-    "category": "Relax · jardim botânico",
+    "name": "Brooklyn Botanic Garden",
+    "region": "Prospect Park / Brooklyn Museum",
+    "category": "Jardim botânico · relax",
     "status": "Considerado",
-    "lat": 40.8623,
-    "lon": -73.8801,
-    "address": "2900 Southern Blvd, Bronx, NY 10458",
-    "source": "https://www.nybg.org/visit/",
-    "duration": 180,
-    "cost_couple": 70,
-    "cost_note": "estimativa: All-Garden Pass adulto ~US$35 cada; confirmar a data",
+    "lat": 40.6694,
+    "lon": -73.9624,
+    "address": "990 Washington Ave, Brooklyn, NY 11225",
+    "source": "https://www.bbg.org/visit",
+    "duration": 150,
+    "cost_couple": 44,
+    "cost_note": "US$ 22 por adulto (referência atual)",
     "open": "10:00",
-    "close": "18:00",
+    "close": "19:00",
     "priority": true,
-    "desc": "250 acres de jardins, floresta, estufas e coleções botânicas. Ótimo candidato a meio dia deliberadamente tranquilo; há tram interno para reduzir caminhada.",
-    "wiki_title": "New York Botanical Garden",
-    "anchor_id": "L03",
+    "desc": "Jardim botânico mais compacto e urbano que o do Bronx, conhecido pela escala mais fácil de percorrer, pelo Japanese Hill-and-Pond Garden e pela proximidade de Prospect Park e Brooklyn Museum. Boa opção relax sem ocupar um dia tão inteiro quanto o NYBG.",
+    "wiki_title": "Brooklyn Botanic Garden",
+    "anchor_id": "L30",
     "tags": [
       "relax",
       "garden",
-      "nature",
-      "bronx"
+      "botanic",
+      "nature"
     ],
     "relax_score": 5,
     "energy_level": "low",
     "indoor_outdoor": "majoritariamente outdoor",
     "reservation_recommended": true,
-    "timed_entry": true,
-    "hours_note": "Ter–dom 10:00–18:00; fechado segunda, inclusive 21/09."
+    "timed_entry": false,
+    "hours_note": "Em setembro costuma abrir terça–quinta 10h–19h e sexta–domingo 10h–18h; fechado às segundas.",
+    "comparison_hint": "mais compacto e fácil de encaixar que o NYBG"
   },
   {
     "id": "X61",
@@ -2669,17 +2670,19 @@
     "wiki_title": "Brooklyn Botanic Garden",
     "anchor_id": "L31",
     "tags": [
-      "relax",
+      "botanic",
+      "brooklyn",
       "garden",
       "nature",
-      "brooklyn"
+      "relax"
     ],
     "relax_score": 5,
     "energy_level": "low",
     "indoor_outdoor": "outdoor + estufas",
     "reservation_recommended": true,
     "timed_entry": false,
-    "hours_note": "Fechado às segundas. Setembro: ter–qui 10–19; sex–dom 10–18."
+    "hours_note": "Fechado às segundas. Setembro: ter–qui 10–19; sex–dom 10–18.",
+    "comparison_hint": "mais compacto e fácil de encaixar que o NYBG"
   },
   {
     "id": "X62",
