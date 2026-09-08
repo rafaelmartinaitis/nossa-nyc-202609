@@ -132,3 +132,59 @@ Fluxo:
 - `theme` e o dia atualmente selecionado continuam locais por dispositivo.
 - Em conflito de versão, nenhuma alteração é sobrescrita silenciosamente: o site pede para escolher entre a versão compartilhada e a versão deste dispositivo.
 - A senha é mantida apenas em `sessionStorage`, portanto pode ser pedida novamente ao iniciar uma nova sessão do navegador.
+
+
+## V12 — experiências imersivas
+
+Grupo imersivo atualizado e auditado:
+- ARTE MUSEUM New York
+- SUMMIT One Vanderbilt
+- Mercer Labs
+- ARTECHOUSE NYC
+- RiseNY
+- Color Factory NYC
+- Museum of Illusions New York
+- SPYSCAPE New York
+
+Esses itens usam a tag `immersive` e campos de tipo, entrada com horário e recomendação de reserva.
+`INTER_` não foi incluído porque a listagem atual consultada indica que a atração está permanentemente fechada.
+
+## V14 — catálogo ampliado
+
+Adicionados e/ou atualizados:
+- ARTECHOUSE com a exposição `Twilight Zone: Hidden Wonders of the Ocean`, abrindo em 19/09/2026.
+- Eclipso, Sloomoo Institute, FRIENDS Experience e Museum of Broadway.
+- Arcades/gaming: Dave & Buster's Times Square, Chinatown Fair, Activate Union Square, Immersive Gamebox, Beat The Bomb, Barcade Chelsea, Gaming City Astoria e Quackade LIC.
+- Compras: Sephora Times Square/Fifth Ave, Dyson Fifth Ave, Nintendo NEW YORK, Longchamp Fifth Ave, Lacoste Fifth Ave, The North Face Fifth Ave, Best Buy Midtown, B&H SuperStore e lojas-alvo no Jersey Gardens.
+- Marcos de barco: Liberty Island/Ellis Island, Staten Island Ferry e quatro opções Circle Line.
+- Bauhaus/Neue Galerie aparece no catálogo, mas bloqueado como indisponível nas datas da viagem.
+
+A busca da gaveta agora também procura tags e alvos de compra: `arcade`, `games`, `immersive`, `Dyson`, `mala`, `Sephora`, etc.
+
+## V15 — experiências relax e equilíbrio dos dias
+
+Novos cartões:
+- New York Botanical Garden
+- Brooklyn Botanic Garden
+- Wave Hill
+- Conservatory Garden (Central Park)
+- Roosevelt Island Tram + waterfront
+- Gantry Plaza State Park
+
+Atributos novos:
+- `tags: ["relax", ...]`
+- `relax_score` de 1 a 5
+- `energy_level` (`very_low`, `low`, `medium`)
+
+Também foram classificados como relax opções já existentes como QC NY Spa, WORLD SPA, Little Island, Brooklyn Heights Promenade, Bathhouse Flatiron, Outlook Hill e Staten Island Ferry.
+
+Esses campos ficam prontos para uma próxima evolução: o planner calcular o “peso” do dia e sugerir automaticamente blocos de recuperação.
+
+## V16 — detalhes e proximidade
+
+- Cada card da gaveta e do planner ganhou um botão explícito `ⓘ` para abrir os detalhes.
+- O uso do duplo clique deixa de ser necessário.
+- A gaveta ganhou o botão `⌖` para ordenar por proximidade.
+- A ordenação usa o `planning_min` da matriz de deslocamentos, não distância em linha reta.
+- Referência: último passeio já colocado no dia atualmente selecionado; se o dia estiver vazio, usa o hotel.
+- Quando a ordenação está ativa, cada card mostra também quantos minutos está da referência atual.

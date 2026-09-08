@@ -1951,3 +1951,68 @@ body[data-theme="division"] .access-input-row button{
   .sync-conflict>div{grid-column:1/-1}
   .access-card{padding:24px 18px}
 }
+
+/* V14 — itens indisponíveis permanecem visíveis, mas não entram no planner */
+.unavailable-card{
+  opacity:.55;
+  filter:saturate(.45);
+  border-style:dashed!important;
+}
+.unavailable-card .drag-hint{
+  color:var(--rose-dark)!important;
+}
+
+
+/* V16 — detalhes explícitos + ordenação por proximidade */
+.details-icon{
+  position:absolute;
+  top:7px;
+  right:72px;
+  width:28px;
+  height:28px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:color-mix(in srgb,var(--paper) 86%,transparent);
+  color:var(--nyc-ink-2);
+  display:grid;
+  place-items:center;
+  padding:0;
+  font-size:14px;
+  line-height:1;
+  z-index:5;
+}
+.details-icon:hover{
+  border-color:var(--champagne-2);
+  color:var(--rose-dark);
+  transform:translateY(-1px);
+}
+.planner-details-icon{
+  right:74px;
+  top:8px;
+}
+#sort-distance.active{
+  border-color:var(--sage);
+  background:color-mix(in srgb,var(--sage-soft) 72%,var(--paper));
+  color:var(--nyc-ink);
+  box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--sage) 24%,transparent);
+}
+body[data-theme="division"] .details-icon{
+  border-radius:4px;
+  color:#79c8d6;
+  border-color:rgba(79,200,214,.28);
+  background:rgba(14,24,31,.88);
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+body[data-theme="division"] #sort-distance.active{
+  color:#79c8d6;
+  border-color:rgba(79,200,214,.48);
+  background:rgba(79,200,214,.08);
+}
+@media(max-width:680px){
+  .details-icon{
+    width:30px;
+    height:30px;
+    font-size:15px;
+    right:70px;
+  }
+}

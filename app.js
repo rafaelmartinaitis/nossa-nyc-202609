@@ -683,25 +683,61 @@ function updateDrawerHelper(){
   const helper=$("#drawer-helper"),day=state.days[state.selectedDayIndex];
   if(helper) helper.textContent=`arraste para qualquer dia · selecionado: ${day?.label||""}`;
 }
+function drawerReferencePlaceId(){
+  const date=dayDate();
+  const ids=state.plan[date]||[];
+  return ids.length ? ids[ids.length-1] : "L01";
+}
+function drawerDistanceMinutes(placeId){
+  return getTravel(drawerReferencePlaceId(),placeId)?.planning_min ?? 9999;
+}
+function distanceSortLabel(){
+  const refId=drawerReferencePlaceId();
+  const ref=state.byId[refId];
+  return refId==="L01" ? "do hotel" : `de ${ref?.name||"última parada"}`;
+}
+
 function renderDrawer(){
   const used=currentPlanIds();
   let places=state.places.filter(p=>p.id!=="L01"&&!used.has(p.id));
   if(state.filters.rafael) places=places.filter(p=>indicatedBy(p.id,"rafael"));
   if(state.filters.lidia) places=places.filter(p=>indicatedBy(p.id,"lidia"));
+  if(state.sortByDistance){
+    places=places.slice().sort((a,b)=>{
+      const da=drawerDistanceMinutes(a.id), db=drawerDistanceMinutes(b.id);
+      if(da!==db) return da-db;
+      return a.name.localeCompare(b.name,"pt-BR");
+    });
+  }
   if(state.search){
     const q=state.search.toLowerCase();
-    places=places.filter(p=>(`${p.name} ${p.region} ${p.category}`).toLowerCase().includes(q));
+    places=places.filter(p=>{
+      const haystack=[
+        p.name,p.region,p.category,p.desc,p.game_style,p.immersive_type,p.milestone_type,
+        ...(p.tags||[]),...(p.shopping_targets||[])
+      ].filter(Boolean).join(" ").toLowerCase();
+      return haystack.includes(q);
+    });
   }
-  $("#places-strip").innerHTML=places.map(p=>`<article class="place-card ${p.event_type==="scheduled"?"scheduled-card":""}" data-place-id="${p.id}" tabindex="0">
+  $("#places-strip").innerHTML=places.map(p=>`<article class="place-card ${p.event_type==="scheduled"?"scheduled-card":""} ${p.unavailable_on_trip?"unavailable-card":""}" data-place-id="${p.id}" tabindex="0">
     <div class="place-thumb"><img data-image-id="${p.id}" alt="" loading="lazy"><span>${esc(p.name).slice(0,1)}</span></div>
     <div class="place-card-content">
       ${preferenceButtons(p.id)}
+      <button class="details-icon" type="button" data-open-details="${p.id}" aria-label="Ver detalhes de ${esc(p.name)}" title="Ver detalhes">ⓘ</button>
       <div class="card-title">${esc(p.name)}</div><div class="card-subtitle">${esc(p.region)} · ${esc(p.category)}</div>
-      <div class="mini-meta">${p.event_type==="scheduled"?sessionMeta(p):`${fmtDuration(p.duration)} · ${priceLabel(p)}`}</div>
+      <div class="mini-meta">${p.unavailable_on_trip?"indisponível nas datas":(p.event_type==="scheduled"?sessionMeta(p):`${fmtDuration(p.duration)} · ${priceLabel(p)}`)}${state.sortByDistance?` · ${drawerDistanceMinutes(p.id)} min ${distanceSortLabel()}`:""}</div>
       <div class="drag-hint">${p.event_type==="scheduled"?"arraste para um dia com sessão ↑":"segure e arraste ↑"}</div>
     </div>
   </article>`).join("")||`<div class="drawer-empty">Nenhum passeio neste filtro.</div>`;
   updateFilterButtons();updateDrawerHelper();setupImageObserver();
+  const sortBtn=$("#sort-distance");
+  if(sortBtn){
+    sortBtn.setAttribute("aria-pressed",String(state.sortByDistance));
+    sortBtn.classList.toggle("active",state.sortByDistance);
+    sortBtn.title=state.sortByDistance
+      ? `Ordenado por proximidade ${distanceSortLabel()}`
+      : "Ordenar por proximidade ao último ponto do dia";
+  }
 }
 
 function togglePreference(id,person){
@@ -749,6 +785,10 @@ function removeFromPlan(id){
 }
 function addToPlan(id,index,date=dayDate(),sessionStart=null){
   const p=state.byId[id];
+  if(p?.unavailable_on_trip){
+    showToast(p.unavailable_reason || `${p.name} não está disponível durante a viagem.`);
+    return false;
+  }
   const planSnapshot=structuredClone(state.plan);
   const sessionSnapshot=structuredClone(state.eventSessions);
 
@@ -840,6 +880,8 @@ function setupDelegatedInteraction(){
   document.addEventListener("click",e=>{
     const pref=e.target.closest("[data-pref-person][data-pref-id]");
     if(pref){e.stopPropagation();togglePreference(pref.dataset.prefId,pref.dataset.prefPerson);return;}
+    const details=e.target.closest("[data-open-details]");
+    if(details){openDetails(details.dataset.openDetails);return;}
     const session=e.target.closest("[data-session-id]");
     if(session && !session.disabled){
       const id=session.dataset.sessionId,date=session.dataset.sessionDate,start=session.dataset.sessionStart;
@@ -897,7 +939,7 @@ function loadRecommendedPlan(){state.plan=structuredClone(state.recommended);sta
 
 async function init(){
   const [places,travelData,recommended]=await Promise.all([
-    fetch("./data/places.json").then(r=>r.json()),fetch("./data/travel-times.json").then(r=>r.json()),fetch("./data/recommended-plan.json").then(r=>r.json())
+    fetch("./data/places.json?v=15").then(r=>r.json()),fetch("./data/travel-times.json?v=15").then(r=>r.json()),fetch("./data/recommended-plan.json?v=15").then(r=>r.json())
   ]);
   state.places=places;state.byId=Object.fromEntries(places.map(p=>[p.id,p]));
   travelData.forEach(t=>{state.travel.set(travelKey(t.origin_id,t.destination_id),t);state.travel.set(travelKey(t.destination_id,t.origin_id),t);});
@@ -912,6 +954,16 @@ async function init(){
   $("#reset-plan").addEventListener("click",()=>{if(confirm("Limpar todo o planner?")){state.plan=Object.fromEntries(state.days.map(d=>[d.date,[]]));renderAfterPlanChange();}});
   $("#filter-rafael").addEventListener("click",()=>{state.filters.rafael=!state.filters.rafael;renderDrawer();});
   $("#filter-lidia").addEventListener("click",()=>{state.filters.lidia=!state.filters.lidia;renderDrawer();});
+  $("#sort-distance").addEventListener("click",()=>{
+    state.sortByDistance=!state.sortByDistance;
+    const btn=$("#sort-distance");
+    btn.setAttribute("aria-pressed",String(state.sortByDistance));
+    btn.classList.toggle("active",state.sortByDistance);
+    btn.title=state.sortByDistance
+      ? `Ordenado por proximidade ${distanceSortLabel()}`
+      : "Ordenar por proximidade ao último ponto do dia";
+    renderDrawer();
+  });
   $("#open-search").addEventListener("click",()=>{const row=$("#search-row");row.hidden=!row.hidden;if(!row.hidden)$("#place-search").focus();});
   let searchFrame=0;$("#place-search").addEventListener("input",e=>{state.search=e.target.value;if(searchFrame)cancelAnimationFrame(searchFrame);searchFrame=requestAnimationFrame(()=>{searchFrame=0;renderDrawer();});});
   $("#close-details").addEventListener("click",closeDetails);$("#details-backdrop").addEventListener("click",e=>{if(e.target.id==="details-backdrop")closeDetails();});
