@@ -20,7 +20,9 @@ const state = {
   dragging: null,
   eventSessions: {},
   anchors: [],
-  constraints: {}
+  constraints: {},
+  activeView: "planner",
+  mapMode: "day"
 };
 
 let scheduleCache = new Map();
@@ -42,6 +44,13 @@ let syncLoading = false;
 let syncConflict = null;
 let firstRemoteLoadDone = false;
 
+let tripMap = null;
+let mapPointLayer = null;
+let mapRouteLayer = null;
+let mapMarkerById = new Map();
+let mapHasInitialFit = false;
+
+
 
 const toMin = value => {
   const [h,m] = String(value).split(":").map(Number);
@@ -56,6 +65,12 @@ const fmtDuration = mins => mins >= 60
   : `${mins} min`;
 const fmtMoney = value => `US$ ${Math.round(value).toLocaleString("pt-BR")}`;
 const esc = value => String(value ?? "").replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
+const LEGACY_PLACE_ID_MAP = {"X60":"X61"};
+function migratePlaceId(id){ return LEGACY_PLACE_ID_MAP[id] || id; }
+function migratePlaceList(list=[]){
+  return [...new Set((Array.isArray(list)?list:[]).map(migratePlaceId))];
+}
+
 
 const imageCache = new Map();
 let imageObserver = null;
@@ -195,13 +210,13 @@ function applySharedState(data){
   if(data.plan && typeof data.plan==="object"){
     const next={};
     state.days.forEach(d=>{
-      const ids=Array.isArray(data.plan[d.date]) ? data.plan[d.date] : [];
+      const ids=migratePlaceList(Array.isArray(data.plan[d.date]) ? data.plan[d.date] : []);
       next[d.date]=ids.filter(id=>state.byId[id]);
     });
     state.plan=next;
   }
-  if(data.preferences?.rafael) state.preferences.rafael=new Set(data.preferences.rafael.filter(id=>state.byId[id]));
-  if(data.preferences?.lidia) state.preferences.lidia=new Set(data.preferences.lidia.filter(id=>state.byId[id]));
+  if(data.preferences?.rafael) state.preferences.rafael=new Set(migratePlaceList(data.preferences.rafael).filter(id=>state.byId[id]));
+  if(data.preferences?.lidia) state.preferences.lidia=new Set(migratePlaceList(data.preferences.lidia).filter(id=>state.byId[id]));
   if(data.eventSessions && typeof data.eventSessions==="object") state.eventSessions=structuredClone(data.eventSessions);
   invalidateSchedules();
 }
@@ -233,7 +248,9 @@ function saveLocalOnly(){
     preferences:{rafael:[...state.preferences.rafael],lidia:[...state.preferences.lidia]},
     selectedDayIndex:state.selectedDayIndex,
     theme:state.theme,
-    eventSessions:state.eventSessions
+    eventSessions:state.eventSessions,
+    activeView:state.activeView,
+    mapMode:state.mapMode
   }));
 }
 function markSynced(){
@@ -488,12 +505,16 @@ function restore(){
       }
     }
     if(!data) return;
-    if(data.plan) state.plan=data.plan;
-    if(data.preferences?.rafael) state.preferences.rafael=new Set(data.preferences.rafael);
-    if(data.preferences?.lidia) state.preferences.lidia=new Set(data.preferences.lidia);
+    if(data.plan){
+      state.plan=Object.fromEntries(Object.entries(data.plan).map(([date,ids])=>[date,migratePlaceList(ids)]));
+    }
+    if(data.preferences?.rafael) state.preferences.rafael=new Set(migratePlaceList(data.preferences.rafael));
+    if(data.preferences?.lidia) state.preferences.lidia=new Set(migratePlaceList(data.preferences.lidia));
     if(Number.isInteger(data.selectedDayIndex)) state.selectedDayIndex=Math.max(0,Math.min(state.days.length-1,data.selectedDayIndex));
     if(data.theme==="colorful"||data.theme==="division") state.theme=data.theme;
     if(data.eventSessions && typeof data.eventSessions==="object") state.eventSessions=data.eventSessions;
+    if(data.activeView==="planner"||data.activeView==="map") state.activeView=data.activeView;
+    if(data.mapMode==="day"||data.mapMode==="all") state.mapMode=data.mapMode;
   }catch{}
 }
 
@@ -536,6 +557,217 @@ function scheduleFor(date){
   return result;
 }
 
+function mapColors(){
+  if(state.theme==="division"){
+    return {route:"#ff7e29", option:"#79c8d6", neutral:"#8ba0aa", hotel:"#ff9f52", line:"#ff8f33"};
+  }
+  return {route:"#a95f5d", option:"#718b7f", neutral:"#8c9694", hotel:"#17333c", line:"#b99157"};
+}
+function markerPreferenceStyle(p){
+  const r=indicatedBy(p.id,"rafael"), l=indicatedBy(p.id,"lidia");
+  if(r&&l) return {fill:"#3277c7",stroke:"#c45252",weight:3};
+  if(r) return {fill:"#3277c7",stroke:"#245b99",weight:2};
+  if(l) return {fill:"#c45252",stroke:"#8e3939",weight:2};
+  const c=mapColors();
+  return {fill:c.option,stroke:c.neutral,weight:1};
+}
+function initTripMap(){
+  if(tripMap || !window.L) return;
+  const hotel=state.byId["L01"];
+  tripMap=L.map("trip-map",{preferCanvas:true,zoomControl:true,scrollWheelZoom:true});
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{
+    maxZoom:19,
+    attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(tripMap);
+  mapPointLayer=L.layerGroup().addTo(tripMap);
+  mapRouteLayer=L.layerGroup().addTo(tripMap);
+  tripMap.setView([hotel?.lat||40.75694,hotel?.lon||-73.99316],12);
+}
+function routeMarkerIcon(index){
+  return L.divIcon({
+    className:"map-div-icon",
+    html:`<span class="route-map-marker">${index}</span>`,
+    iconSize:[32,32],iconAnchor:[16,16],popupAnchor:[0,-17]
+  });
+}
+function hotelMarkerIcon(){
+  return L.divIcon({
+    className:"map-div-icon",
+    html:`<span class="hotel-map-marker">H</span>`,
+    iconSize:[38,38],iconAnchor:[19,19],popupAnchor:[0,-20]
+  });
+}
+function mapPopupHTML(p,{plannedIndex=null}={}){
+  if(p.id==="L01"){
+    return `<div class="map-popup"><strong>🏨 Nossa base</strong><span>${esc(p.address)}</span><button type="button" data-map-details="${p.id}">Ver detalhes</button></div>`;
+  }
+  const planned=plannedIndex!==null;
+  const distance=drawerDistanceMinutes(p.id);
+  return `<div class="map-popup">
+    <strong>${planned?`${plannedIndex+1}. `:""}${esc(p.name)}</strong>
+    <span>${esc(p.region)} · ${esc(p.category)}</span>
+    ${!planned?`<small>~${distance} min da última parada do dia</small>`:""}
+    <div>
+      <button type="button" data-map-details="${p.id}">Detalhes</button>
+      ${!planned && !p.unavailable_on_trip?`<button type="button" data-map-add="${p.id}">+ adicionar ao dia</button>`:""}
+    </div>
+  </div>`;
+}
+function fitMapToRoute(){
+  if(!tripMap) return;
+  const hotel=state.byId["L01"];
+  const ids=state.plan[dayDate()]||[];
+  const coords=[
+    hotel && [hotel.lat,hotel.lon],
+    ...ids.map(id=>state.byId[id]).filter(p=>p?.lat&&p?.lon).map(p=>[p.lat,p.lon]),
+    hotel && ids.length ? [hotel.lat,hotel.lon] : null
+  ].filter(Boolean);
+  if(coords.length>1) tripMap.fitBounds(coords,{padding:[42,42],maxZoom:14});
+  else if(hotel) tripMap.setView([hotel.lat,hotel.lon],12);
+}
+function renderMapRoutePanel(){
+  const day=state.days[state.selectedDayIndex], date=day?.date;
+  if(!day) return;
+  $("#map-day-label").textContent=day.label;
+  $("#map-route-title").textContent=`${day.weekday} · ${day.label}`;
+  const ids=state.plan[date]||[];
+  const hotel=state.byId["L01"];
+  let html=`<button class="map-route-stop hotel-stop" type="button" data-map-focus="L01"><span class="route-order">H</span><span><strong>Hotel</strong><small>340 W 40th St · base</small></span></button>`;
+  let prev="L01";
+  ids.forEach((id,i)=>{
+    const p=state.byId[id]; if(!p) return;
+    const t=getTravel(prev,id);
+    html+=`<div class="map-route-transit"><span></span><strong>${t.planning_min} min</strong><small>${esc(t.mode||"deslocamento")}</small></div>`;
+    html+=`<div class="map-route-stop-wrap">
+      <button class="map-route-stop" type="button" data-map-focus="${id}">
+        <span class="route-order">${i+1}</span>
+        <span><strong>${esc(p.name)}</strong><small>${esc(p.region)}</small></span>
+      </button>
+      <div class="map-reorder-actions">
+        <button type="button" data-map-reorder="${id}" data-map-direction="-1" ${i===0?"disabled":""} aria-label="Mover ${esc(p.name)} para cima">↑</button>
+        <button type="button" data-map-reorder="${id}" data-map-direction="1" ${i===ids.length-1?"disabled":""} aria-label="Mover ${esc(p.name)} para baixo">↓</button>
+      </div>
+    </div>`;
+    prev=id;
+  });
+  if(ids.length){
+    const back=getTravel(prev,"L01");
+    html+=`<div class="map-route-transit return"><span></span><strong>${back.planning_min} min</strong><small>${esc(back.mode||"retorno")}</small></div>`;
+    html+=`<button class="map-route-stop hotel-stop return" type="button" data-map-focus="L01"><span class="route-order">H</span><span><strong>Hotel</strong><small>retorno estimado</small></span></button>`;
+  }else{
+    html+=`<div class="map-route-empty"><strong>Dia sem circuito</strong><span>Adicione lugares pela gaveta ou diretamente pelos pontos do mapa.</span></div>`;
+  }
+  $("#map-route-list").innerHTML=html;
+}
+function focusMapPlace(id){
+  if(!tripMap) return;
+  const p=state.byId[id], marker=mapMarkerById.get(id);
+  if(!p?.lat||!p?.lon) return;
+  tripMap.flyTo([p.lat,p.lon],Math.max(tripMap.getZoom(),14),{duration:.45});
+  marker?.openPopup?.();
+}
+function renderTripMap({fit=false}={}){
+  initTripMap();
+  if(!tripMap||!mapPointLayer||!mapRouteLayer) return;
+  mapPointLayer.clearLayers();
+  mapRouteLayer.clearLayers();
+  mapMarkerById.clear();
+
+  const colors=mapColors();
+  const hotel=state.byId["L01"];
+  const ids=state.plan[dayDate()]||[];
+  const plannedIndex=new Map(ids.map((id,i)=>[id,i]));
+  const plannedSet=new Set(ids);
+
+  // Hotel is always explicit and visually distinct.
+  if(hotel?.lat&&hotel?.lon){
+    const marker=L.marker([hotel.lat,hotel.lon],{icon:hotelMarkerIcon(),zIndexOffset:1200})
+      .bindPopup(mapPopupHTML(hotel)).addTo(mapPointLayer);
+    mapMarkerById.set("L01",marker);
+  }
+
+  // The route is an indicative spatial order, not street-by-street navigation.
+  const routeCoords=[
+    hotel && [hotel.lat,hotel.lon],
+    ...ids.map(id=>state.byId[id]).filter(p=>p?.lat&&p?.lon).map(p=>[p.lat,p.lon]),
+    hotel && ids.length ? [hotel.lat,hotel.lon] : null
+  ].filter(Boolean);
+  if(routeCoords.length>1){
+    L.polyline(routeCoords,{
+      color:colors.line,weight:3,opacity:.78,dashArray:"7 8",lineCap:"round"
+    }).addTo(mapRouteLayer);
+  }
+
+  state.places.forEach(p=>{
+    if(p.id==="L01"||!p.lat||!p.lon) return;
+    if(plannedSet.has(p.id)){
+      const idx=plannedIndex.get(p.id);
+      const marker=L.marker([p.lat,p.lon],{icon:routeMarkerIcon(idx+1),zIndexOffset:900-idx})
+        .bindPopup(mapPopupHTML(p,{plannedIndex:idx})).addTo(mapPointLayer);
+      mapMarkerById.set(p.id,marker);
+      return;
+    }
+
+    const pref=markerPreferenceStyle(p);
+    const full=state.mapMode==="all";
+    const marker=L.circleMarker([p.lat,p.lon],{
+      radius:full?5.5:4,
+      fillColor:pref.fill,
+      color:pref.stroke,
+      weight:pref.weight,
+      fillOpacity:p.unavailable_on_trip?.22:(full?.72:.30),
+      opacity:p.unavailable_on_trip?.28:(full?.78:.42)
+    }).bindPopup(mapPopupHTML(p)).addTo(mapPointLayer);
+    mapMarkerById.set(p.id,marker);
+  });
+
+  renderMapRoutePanel();
+  $$(".map-mode-button[data-map-mode]").forEach(btn=>{
+    const active=btn.dataset.mapMode===state.mapMode;
+    btn.classList.toggle("active",active);
+    btn.setAttribute("aria-pressed",String(active));
+  });
+
+  requestAnimationFrame(()=>tripMap.invalidateSize());
+  if(fit || !mapHasInitialFit){
+    mapHasInitialFit=true;
+    setTimeout(fitMapToRoute,30);
+  }
+}
+function setActiveView(view){
+  if(view!=="planner"&&view!=="map") return;
+  state.activeView=view;
+  const planner=$("#planner-view-pane"), mapPane=$("#map-view-pane");
+  planner.hidden=view!=="planner";
+  mapPane.hidden=view!=="map";
+  $$("[data-view-switch]").forEach(btn=>{
+    const active=btn.dataset.viewSwitch===view;
+    btn.classList.toggle("active",active);
+    btn.setAttribute("aria-pressed",String(active));
+  });
+  $("#view-context").textContent=view==="map"?"espaço e circuitos":"tempo e horários";
+  if(view==="map") renderTripMap({fit:!mapHasInitialFit});
+  else renderActivePlanner();
+  renderDrawer();
+  queueSave();
+}
+function reorderMapStop(id,direction){
+  const date=dayDate(), list=state.plan[date]||[], index=list.indexOf(id);
+  if(index<0) return;
+  const next=index+Number(direction);
+  if(next<0||next>=list.length) return;
+  const snapshot=list.slice();
+  [list[index],list[next]]=[list[next],list[index]];
+  invalidateSchedules();
+  if(violatesConstraint(date)){
+    state.plan[date]=snapshot;
+    invalidateSchedules();
+    showToast(constraintForDate(date)?.reason||"Essa ordem entra em conflito com uma janela fixa.");
+    return;
+  }
+  renderAfterPlanChange();
+}
+
 function applyTheme(){
   document.body.dataset.theme=state.theme;
   const btn=$("#theme-toggle"); if(btn) btn.textContent=state.theme==="division"?"Tema: Division":"Tema: Colorido";
@@ -546,6 +778,7 @@ function toggleTheme(){
   state.theme=state.theme==="colorful"?"division":"colorful";
   applyTheme();
   syncAllPreferenceGlyphs();
+  if(state.activeView==="map") renderTripMap();
   queueSave();
 }
 function syncAllPreferenceGlyphs(){
@@ -561,7 +794,21 @@ function syncAllPreferenceGlyphs(){
 function renderAll(){
   applyTheme();
   renderHeader();
-  renderActivePlanner();
+  if(state.activeView==="map") {
+    $("#planner-view-pane").hidden=true;
+    $("#map-view-pane").hidden=false;
+    renderTripMap();
+  } else {
+    $("#planner-view-pane").hidden=false;
+    $("#map-view-pane").hidden=true;
+    renderActivePlanner();
+  }
+  $$("[data-view-switch]").forEach(btn=>{
+    const active=btn.dataset.viewSwitch===state.activeView;
+    btn.classList.toggle("active",active);
+    btn.setAttribute("aria-pressed",String(active));
+  });
+  $("#view-context").textContent=state.activeView==="map"?"espaço e circuitos":"tempo e horários";
   renderDrawer();
 }
 function renderActivePlanner(){
@@ -570,7 +817,8 @@ function renderActivePlanner(){
 function renderAfterPlanChange(){
   invalidateSchedules();
   renderHeader();
-  renderActivePlanner();
+  if(state.activeView==="map") renderTripMap();
+  else renderActivePlanner();
   renderDrawer();
   queueSave();
 }
@@ -662,12 +910,15 @@ function renderMobileDay(){
 function selectDay(date){
   const idx=state.days.findIndex(d=>d.date===date); if(idx<0||idx===state.selectedDayIndex) return;
   state.selectedDayIndex=idx;
-  if(isDesktop()){
+  if(state.activeView==="map"){
+    renderTripMap({fit:true});
+  }else if(isDesktop()){
     $$('.week-day-header.selected,.calendar-day-column.selected').forEach(el=>el.classList.remove('selected'));
     $(`[data-select-date="${date}"]`)?.classList.add('selected');
     $(`[data-drop-date="${date}"]`)?.classList.add('selected');
     updateDrawerHelper();
   }else renderMobileDay();
+  renderDrawer();
   queueSave();
 }
 
@@ -681,7 +932,9 @@ function updateFilterButtons(){
 }
 function updateDrawerHelper(){
   const helper=$("#drawer-helper"),day=state.days[state.selectedDayIndex];
-  if(helper) helper.textContent=`arraste para qualquer dia · selecionado: ${day?.label||""}`;
+  if(helper) helper.textContent=state.activeView==="map"
+    ? `mapa: clique em um ponto ou adicione ao circuito · ${day?.label||""}`
+    : `arraste para qualquer dia · selecionado: ${day?.label||""}`;
 }
 function drawerReferencePlaceId(){
   const date=dayDate();
@@ -713,7 +966,7 @@ function renderDrawer(){
     const q=state.search.toLowerCase();
     places=places.filter(p=>{
       const haystack=[
-        p.name,p.region,p.category,p.desc,p.game_style,p.immersive_type,p.milestone_type,
+        p.name,p.region,p.category,p.desc,p.game_style,p.immersive_type,p.milestone_type,p.science_type,p.availability_note,
         ...(p.tags||[]),...(p.shopping_targets||[])
       ].filter(Boolean).join(" ").toLowerCase();
       return haystack.includes(q);
@@ -760,7 +1013,7 @@ function openDetails(id){
   state.selectedPlaceId=id;
   $("#details-title").textContent=p.name;$("#details-region").textContent=`${p.region} · ${p.category}`;$("#details-description").textContent=p.desc;
   $("#details-duration").textContent=fmtDuration(p.duration);$("#details-cost").textContent=priceLabel(p);
-  $("#details-hours").textContent=p.event_type==="scheduled"?"sessões fixas":`${p.open}–${p.close}`;$("#details-area").textContent=p.region;
+  $("#details-hours").textContent=p.event_type==="scheduled"?"sessões fixas":`${p.open}–${p.close}`+(p.availability_note?` · ${p.availability_note}`:"");$("#details-area").textContent=p.region;
   $("#details-map").href=p.source||`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.name)}`;
   const hero=$("#details-hero"); hero.style.backgroundImage=""; $("#details-hero-label").textContent=p.name;
   const credit=$("#details-image-source"); credit.hidden=true;
@@ -785,6 +1038,10 @@ function removeFromPlan(id){
 }
 function addToPlan(id,index,date=dayDate(),sessionStart=null){
   const p=state.byId[id];
+  if(Array.isArray(p?.available_dates) && !p.available_dates.includes(date)){
+    showToast(p.availability_note || `${p.name} não está disponível em ${date.slice(8)}/09.`);
+    return false;
+  }
   if(p?.unavailable_on_trip){
     showToast(p.unavailable_reason || `${p.name} não está disponível durante a viagem.`);
     return false;
@@ -882,6 +1139,22 @@ function setupDelegatedInteraction(){
     if(pref){e.stopPropagation();togglePreference(pref.dataset.prefId,pref.dataset.prefPerson);return;}
     const details=e.target.closest("[data-open-details]");
     if(details){openDetails(details.dataset.openDetails);return;}
+    const mapDetails=e.target.closest("[data-map-details]");
+    if(mapDetails){openDetails(mapDetails.dataset.mapDetails);return;}
+    const mapAdd=e.target.closest("[data-map-add]");
+    if(mapAdd){
+      const id=mapAdd.dataset.mapAdd, date=dayDate();
+      if(addToPlan(id,(state.plan[date]||[]).length,date)){
+        tripMap?.closePopup();
+        renderAfterPlanChange();
+        showToast(`${state.byId[id]?.name||"Passeio"} adicionado ao circuito.`);
+      }
+      return;
+    }
+    const mapFocus=e.target.closest("[data-map-focus]");
+    if(mapFocus){focusMapPlace(mapFocus.dataset.mapFocus);return;}
+    const reorder=e.target.closest("[data-map-reorder]");
+    if(reorder){reorderMapStop(reorder.dataset.mapReorder,Number(reorder.dataset.mapDirection));return;}
     const session=e.target.closest("[data-session-id]");
     if(session && !session.disabled){
       const id=session.dataset.sessionId,date=session.dataset.sessionDate,start=session.dataset.sessionStart;
@@ -939,7 +1212,7 @@ function loadRecommendedPlan(){state.plan=structuredClone(state.recommended);sta
 
 async function init(){
   const [places,travelData,recommended]=await Promise.all([
-    fetch("./data/places.json?v=17").then(r=>r.json()),fetch("./data/travel-times.json?v=17").then(r=>r.json()),fetch("./data/recommended-plan.json?v=17").then(r=>r.json())
+    fetch("./data/places.json?v=19").then(r=>r.json()),fetch("./data/travel-times.json?v=19").then(r=>r.json()),fetch("./data/recommended-plan.json?v=19").then(r=>r.json())
   ]);
   state.places=places;state.byId=Object.fromEntries(places.map(p=>[p.id,p]));
   travelData.forEach(t=>{state.travel.set(travelKey(t.origin_id,t.destination_id),t);state.travel.set(travelKey(t.destination_id,t.origin_id),t);});
@@ -947,6 +1220,11 @@ async function init(){
 
   setupSyncUI();
   setupDelegatedInteraction();
+  $$("[data-view-switch]").forEach(btn=>btn.addEventListener("click",()=>setActiveView(btn.dataset.viewSwitch)));
+  $$("[data-map-mode]").forEach(btn=>btn.addEventListener("click",()=>{state.mapMode=btn.dataset.mapMode;renderTripMap();queueSave();}));
+  $("#map-fit-route")?.addEventListener("click",fitMapToRoute);
+  $("#map-prev-day")?.addEventListener("click",()=>{const i=Math.max(0,state.selectedDayIndex-1);selectDay(state.days[i].date);});
+  $("#map-next-day")?.addEventListener("click",()=>{const i=Math.min(state.days.length-1,state.selectedDayIndex+1);selectDay(state.days[i].date);});
   $("#prev-day").addEventListener("click",()=>{const i=Math.max(0,state.selectedDayIndex-1);selectDay(state.days[i].date);});
   $("#next-day").addEventListener("click",()=>{const i=Math.min(state.days.length-1,state.selectedDayIndex+1);selectDay(state.days[i].date);});
   $("#theme-toggle").addEventListener("click",toggleTheme);$("#drawer-theme-toggle").addEventListener("click",toggleTheme);
@@ -985,7 +1263,13 @@ async function init(){
   });
   $("#details-remove").addEventListener("click",()=>{const id=state.selectedPlaceId;if(!id)return;removeFromPlan(id);closeDetails();renderAfterPlanChange();});
 
-  matchMedia(DESKTOP_QUERY).addEventListener("change",e=>{if(e.matches!==lastDesktop){lastDesktop=e.matches;renderActivePlanner();}});
+  matchMedia(DESKTOP_QUERY).addEventListener("change",e=>{
+    if(e.matches!==lastDesktop){
+      lastDesktop=e.matches;
+      if(state.activeView==="map"){renderTripMap();requestAnimationFrame(()=>tripMap?.invalidateSize());}
+      else renderActivePlanner();
+    }
+  });
 
   renderAll();
 
@@ -1006,4 +1290,5 @@ init().catch(err=>{
   console.error(err);
   $("#week-board") && ($("#week-board").innerHTML=`<div class="load-error">Não foi possível carregar os dados do planner.</div>`);
   $("#timeline") && ($("#timeline").innerHTML=`<div class="load-error">Não foi possível carregar os dados do planner.</div>`);
+  $("#trip-map") && ($("#trip-map").innerHTML=`<div class="load-error">Não foi possível carregar o mapa.</div>`);
 });

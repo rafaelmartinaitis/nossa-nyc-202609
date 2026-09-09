@@ -54,7 +54,11 @@
     "priority": true,
     "desc": "Museu de história natural com dinossauros, biodiversidade e ciência. Um dos passeios principais da viagem.",
     "image": null,
-    "wiki_title": "American Museum of Natural History"
+    "wiki_title": "American Museum of Natural History",
+    "tags": [
+      "science",
+      "space"
+    ]
   },
   {
     "id": "L04",
@@ -805,7 +809,11 @@
     "priority": true,
     "desc": "Museu no porta-aviões Intrepid, previsto como início do dia de Hudson River e e-bike.",
     "image": null,
-    "wiki_title": "Intrepid Museum"
+    "wiki_title": "Intrepid Museum",
+    "tags": [
+      "science",
+      "space"
+    ]
   },
   {
     "id": "L39",
@@ -2618,39 +2626,6 @@
     "unavailable_reason": "Fechado durante 19–26/09/2026; Design Shop reabre 01/10 e galerias 12/11."
   },
   {
-    "id": "X60",
-    "name": "Brooklyn Botanic Garden",
-    "region": "Prospect Park / Brooklyn Museum",
-    "category": "Jardim botânico · relax",
-    "status": "Considerado",
-    "lat": 40.6694,
-    "lon": -73.9624,
-    "address": "990 Washington Ave, Brooklyn, NY 11225",
-    "source": "https://www.bbg.org/visit",
-    "duration": 150,
-    "cost_couple": 44,
-    "cost_note": "US$ 22 por adulto (referência atual)",
-    "open": "10:00",
-    "close": "19:00",
-    "priority": true,
-    "desc": "Jardim botânico mais compacto e urbano que o do Bronx, conhecido pela escala mais fácil de percorrer, pelo Japanese Hill-and-Pond Garden e pela proximidade de Prospect Park e Brooklyn Museum. Boa opção relax sem ocupar um dia tão inteiro quanto o NYBG.",
-    "wiki_title": "Brooklyn Botanic Garden",
-    "anchor_id": "L30",
-    "tags": [
-      "relax",
-      "garden",
-      "botanic",
-      "nature"
-    ],
-    "relax_score": 5,
-    "energy_level": "low",
-    "indoor_outdoor": "majoritariamente outdoor",
-    "reservation_recommended": true,
-    "timed_entry": false,
-    "hours_note": "Em setembro costuma abrir terça–quinta 10h–19h e sexta–domingo 10h–18h; fechado às segundas.",
-    "comparison_hint": "mais compacto e fácil de encaixar que o NYBG"
-  },
-  {
     "id": "X61",
     "name": "Brooklyn Botanic Garden",
     "region": "Prospect Park / Brooklyn",
@@ -2666,7 +2641,7 @@
     "open": "10:00",
     "close": "19:00",
     "priority": true,
-    "desc": "Jardim botânico compacto e muito agradável, com Japanese Hill-and-Pond Garden, áreas arborizadas e bons lugares para sentar. Em setembro fecha às 19h de terça a quinta e às 18h de sexta a domingo.",
+    "desc": "Jardim botânico compacto e muito agradável, conhecido pelo Japanese Hill-and-Pond Garden e por ser fácil de combinar com Prospect Park/Brooklyn Museum. Em setembro, terça–quinta costuma ir até 19h e sexta–domingo até 18h.",
     "wiki_title": "Brooklyn Botanic Garden",
     "anchor_id": "L31",
     "tags": [
@@ -2816,5 +2791,777 @@
     "reservation_recommended": false,
     "timed_entry": false,
     "hours_note": "Oficialmente aberto diariamente do amanhecer ao anoitecer."
+  },
+  {
+    "id": "X66",
+    "name": "Hayden Planetarium — Encounters in the Milky Way",
+    "region": "Upper West Side / AMNH",
+    "category": "Planetário · espaço imersivo",
+    "status": "Considerado · forte",
+    "lat": 40.7813,
+    "lon": -73.9739,
+    "address": "Rose Center for Earth and Space, 81st St entrance, New York, NY 10024",
+    "source": "https://www.amnh.org/exhibitions/space-show",
+    "duration": 45,
+    "cost_couple": null,
+    "cost_note": "ingresso adicional ao AMNH",
+    "open": "10:30",
+    "close": "16:30",
+    "priority": true,
+    "desc": "Show imersivo do Hayden Planetarium sobre os encontros cósmicos que moldam a Via Láctea. O filme tem 24 min e passa a cada 30 min, das 10:30 às 16:30. É a opção de planetário mais fácil de encaixar porque combina naturalmente com o AMNH.",
+    "wiki_title": "Hayden Planetarium",
+    "anchor_id": "L03",
+    "parent_id": "L03",
+    "tags": [
+      "science",
+      "space",
+      "planetarium",
+      "immersive"
+    ],
+    "science_type": "planetário fulldome",
+    "event_type": "scheduled",
+    "sessions": [
+      {
+        "date": "2026-09-19",
+        "start": "10:30",
+        "label": "19/09 · 10:30"
+      },
+      {
+        "date": "2026-09-19",
+        "start": "11:00",
+        "label": "19/09 · 11:00"
+      },
+      {
+        "date": "2026-09-19",
+        "start": "11:30",
+        "label": "19/09 · 11:30"
+      },
+      {
+        "date": "2026-09-19",
+        "start": "12:00",
+        "label": "19/09 · 12:00"
+      },
+      {
+        "date": "2026-09-19",
+        "start": "12:30",
+        "label": "19/09 · 12:30"
+      },
+      {
+        "date": "2026-09-19",
+        "start": "13:00",
+        "label": "19/09 · 13:00"
+      },
+      {
+        "date": "2026-09-19",
+        "start": "13:30",
+        "label": "19/09 · 13:30"
+      },
+      {
+        "date": "2026-09-19",
+        "start": "14:00",
+        "label": "19/09 · 14:00"
+      },
+      {
+        "date": "2026-09-19",
+        "start": "14:30",
+        "label": "19/09 · 14:30"
+      },
+      {
+        "date": "2026-09-19",
+        "start": "15:00",
+        "label": "19/09 · 15:00"
+      },
+      {
+        "date": "2026-09-19",
+        "start": "15:30",
+        "label": "19/09 · 15:30"
+      },
+      {
+        "date": "2026-09-19",
+        "start": "16:00",
+        "label": "19/09 · 16:00"
+      },
+      {
+        "date": "2026-09-19",
+        "start": "16:30",
+        "label": "19/09 · 16:30"
+      },
+      {
+        "date": "2026-09-20",
+        "start": "10:30",
+        "label": "20/09 · 10:30"
+      },
+      {
+        "date": "2026-09-20",
+        "start": "11:00",
+        "label": "20/09 · 11:00"
+      },
+      {
+        "date": "2026-09-20",
+        "start": "11:30",
+        "label": "20/09 · 11:30"
+      },
+      {
+        "date": "2026-09-20",
+        "start": "12:00",
+        "label": "20/09 · 12:00"
+      },
+      {
+        "date": "2026-09-20",
+        "start": "12:30",
+        "label": "20/09 · 12:30"
+      },
+      {
+        "date": "2026-09-20",
+        "start": "13:00",
+        "label": "20/09 · 13:00"
+      },
+      {
+        "date": "2026-09-20",
+        "start": "13:30",
+        "label": "20/09 · 13:30"
+      },
+      {
+        "date": "2026-09-20",
+        "start": "14:00",
+        "label": "20/09 · 14:00"
+      },
+      {
+        "date": "2026-09-20",
+        "start": "14:30",
+        "label": "20/09 · 14:30"
+      },
+      {
+        "date": "2026-09-20",
+        "start": "15:00",
+        "label": "20/09 · 15:00"
+      },
+      {
+        "date": "2026-09-20",
+        "start": "15:30",
+        "label": "20/09 · 15:30"
+      },
+      {
+        "date": "2026-09-20",
+        "start": "16:00",
+        "label": "20/09 · 16:00"
+      },
+      {
+        "date": "2026-09-20",
+        "start": "16:30",
+        "label": "20/09 · 16:30"
+      },
+      {
+        "date": "2026-09-21",
+        "start": "10:30",
+        "label": "21/09 · 10:30"
+      },
+      {
+        "date": "2026-09-21",
+        "start": "11:00",
+        "label": "21/09 · 11:00"
+      },
+      {
+        "date": "2026-09-21",
+        "start": "11:30",
+        "label": "21/09 · 11:30"
+      },
+      {
+        "date": "2026-09-21",
+        "start": "12:00",
+        "label": "21/09 · 12:00"
+      },
+      {
+        "date": "2026-09-21",
+        "start": "12:30",
+        "label": "21/09 · 12:30"
+      },
+      {
+        "date": "2026-09-21",
+        "start": "13:00",
+        "label": "21/09 · 13:00"
+      },
+      {
+        "date": "2026-09-21",
+        "start": "13:30",
+        "label": "21/09 · 13:30"
+      },
+      {
+        "date": "2026-09-21",
+        "start": "14:00",
+        "label": "21/09 · 14:00"
+      },
+      {
+        "date": "2026-09-21",
+        "start": "14:30",
+        "label": "21/09 · 14:30"
+      },
+      {
+        "date": "2026-09-21",
+        "start": "15:00",
+        "label": "21/09 · 15:00"
+      },
+      {
+        "date": "2026-09-21",
+        "start": "15:30",
+        "label": "21/09 · 15:30"
+      },
+      {
+        "date": "2026-09-21",
+        "start": "16:00",
+        "label": "21/09 · 16:00"
+      },
+      {
+        "date": "2026-09-21",
+        "start": "16:30",
+        "label": "21/09 · 16:30"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "10:30",
+        "label": "22/09 · 10:30"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "11:00",
+        "label": "22/09 · 11:00"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "11:30",
+        "label": "22/09 · 11:30"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "12:00",
+        "label": "22/09 · 12:00"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "12:30",
+        "label": "22/09 · 12:30"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "13:00",
+        "label": "22/09 · 13:00"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "13:30",
+        "label": "22/09 · 13:30"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "14:00",
+        "label": "22/09 · 14:00"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "14:30",
+        "label": "22/09 · 14:30"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "15:00",
+        "label": "22/09 · 15:00"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "15:30",
+        "label": "22/09 · 15:30"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "16:00",
+        "label": "22/09 · 16:00"
+      },
+      {
+        "date": "2026-09-22",
+        "start": "16:30",
+        "label": "22/09 · 16:30"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "10:30",
+        "label": "23/09 · 10:30"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "11:00",
+        "label": "23/09 · 11:00"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "11:30",
+        "label": "23/09 · 11:30"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "12:00",
+        "label": "23/09 · 12:00"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "12:30",
+        "label": "23/09 · 12:30"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "13:00",
+        "label": "23/09 · 13:00"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "13:30",
+        "label": "23/09 · 13:30"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "14:00",
+        "label": "23/09 · 14:00"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "14:30",
+        "label": "23/09 · 14:30"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "15:00",
+        "label": "23/09 · 15:00"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "15:30",
+        "label": "23/09 · 15:30"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "16:00",
+        "label": "23/09 · 16:00"
+      },
+      {
+        "date": "2026-09-23",
+        "start": "16:30",
+        "label": "23/09 · 16:30"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "10:30",
+        "label": "24/09 · 10:30"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "11:00",
+        "label": "24/09 · 11:00"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "11:30",
+        "label": "24/09 · 11:30"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "12:00",
+        "label": "24/09 · 12:00"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "12:30",
+        "label": "24/09 · 12:30"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "13:00",
+        "label": "24/09 · 13:00"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "13:30",
+        "label": "24/09 · 13:30"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "14:00",
+        "label": "24/09 · 14:00"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "14:30",
+        "label": "24/09 · 14:30"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "15:00",
+        "label": "24/09 · 15:00"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "15:30",
+        "label": "24/09 · 15:30"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "16:00",
+        "label": "24/09 · 16:00"
+      },
+      {
+        "date": "2026-09-24",
+        "start": "16:30",
+        "label": "24/09 · 16:30"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "10:30",
+        "label": "25/09 · 10:30"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "11:00",
+        "label": "25/09 · 11:00"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "11:30",
+        "label": "25/09 · 11:30"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "12:00",
+        "label": "25/09 · 12:00"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "12:30",
+        "label": "25/09 · 12:30"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "13:00",
+        "label": "25/09 · 13:00"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "13:30",
+        "label": "25/09 · 13:30"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "14:00",
+        "label": "25/09 · 14:00"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "14:30",
+        "label": "25/09 · 14:30"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "15:00",
+        "label": "25/09 · 15:00"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "15:30",
+        "label": "25/09 · 15:30"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "16:00",
+        "label": "25/09 · 16:00"
+      },
+      {
+        "date": "2026-09-25",
+        "start": "16:30",
+        "label": "25/09 · 16:30"
+      },
+      {
+        "date": "2026-09-26",
+        "start": "10:30",
+        "label": "26/09 · 10:30"
+      },
+      {
+        "date": "2026-09-26",
+        "start": "11:00",
+        "label": "26/09 · 11:00"
+      },
+      {
+        "date": "2026-09-26",
+        "start": "11:30",
+        "label": "26/09 · 11:30"
+      },
+      {
+        "date": "2026-09-26",
+        "start": "12:00",
+        "label": "26/09 · 12:00"
+      },
+      {
+        "date": "2026-09-26",
+        "start": "12:30",
+        "label": "26/09 · 12:30"
+      },
+      {
+        "date": "2026-09-26",
+        "start": "13:00",
+        "label": "26/09 · 13:00"
+      },
+      {
+        "date": "2026-09-26",
+        "start": "13:30",
+        "label": "26/09 · 13:30"
+      },
+      {
+        "date": "2026-09-26",
+        "start": "14:00",
+        "label": "26/09 · 14:00"
+      },
+      {
+        "date": "2026-09-26",
+        "start": "14:30",
+        "label": "26/09 · 14:30"
+      },
+      {
+        "date": "2026-09-26",
+        "start": "15:00",
+        "label": "26/09 · 15:00"
+      },
+      {
+        "date": "2026-09-26",
+        "start": "15:30",
+        "label": "26/09 · 15:30"
+      },
+      {
+        "date": "2026-09-26",
+        "start": "16:00",
+        "label": "26/09 · 16:00"
+      },
+      {
+        "date": "2026-09-26",
+        "start": "16:30",
+        "label": "26/09 · 16:30"
+      }
+    ],
+    "reservation_recommended": true,
+    "timed_entry": true
+  },
+  {
+    "id": "X67",
+    "name": "Invisible Worlds — AMNH",
+    "region": "Upper West Side / AMNH",
+    "category": "Ciência imersiva · 360°",
+    "status": "Considerado",
+    "lat": 40.7813,
+    "lon": -73.9739,
+    "address": "American Museum of Natural History, 200 Central Park W, New York, NY 10024",
+    "source": "https://www.amnh.org/exhibitions/invisible-worlds",
+    "duration": 30,
+    "cost_couple": null,
+    "cost_note": "exposição com ingresso adicional ao AMNH",
+    "open": "10:00",
+    "close": "17:30",
+    "priority": true,
+    "desc": "Experiência imersiva e interativa de 360° sobre sistemas vivos em escalas invisíveis ao olho humano. A projeção reage ao movimento dos visitantes; o loop principal dura cerca de 12 min.",
+    "wiki_title": "American Museum of Natural History",
+    "anchor_id": "L03",
+    "parent_id": "L03",
+    "tags": [
+      "science",
+      "immersive",
+      "interactive",
+      "biology"
+    ],
+    "science_type": "projeção 360° interativa",
+    "reservation_recommended": true,
+    "timed_entry": true
+  },
+  {
+    "id": "X68",
+    "name": "Space Shuttle Pavilion — Enterprise",
+    "region": "Hudson River / Intrepid",
+    "category": "Espaço · nave real",
+    "status": "Considerado · forte",
+    "lat": 40.7645,
+    "lon": -73.9995,
+    "address": "Intrepid Museum, Pier 86, W 46th St, New York, NY 10036",
+    "source": "https://intrepidmuseum.org/exhibitions/permanent-exhibitions/space-shuttle-pavilion",
+    "duration": 75,
+    "cost_couple": 0,
+    "cost_note": "incluído no ingresso do Intrepid",
+    "open": "10:00",
+    "close": "17:00",
+    "priority": true,
+    "desc": "Pavilhão dedicado ao ônibus espacial Enterprise, protótipo orbital da NASA, com 17 zonas de exposição, artefatos, fotografias, áudio e filmes. Dá para caminhar diretamente sob a nave.",
+    "wiki_title": "Space Shuttle Enterprise",
+    "anchor_id": "L38",
+    "parent_id": "L38",
+    "tags": [
+      "science",
+      "space",
+      "nasa",
+      "immersive"
+    ],
+    "science_type": "artefato espacial + exposição"
+  },
+  {
+    "id": "X69",
+    "name": "Apollo 11 & Beyond VR — Intrepid",
+    "region": "Hudson River / Intrepid",
+    "category": "Espaço · realidade virtual",
+    "status": "Considerado",
+    "lat": 40.7645,
+    "lon": -73.9995,
+    "address": "Space Shuttle Pavilion, Intrepid Museum, Pier 86, New York, NY 10036",
+    "source": "https://intrepidmuseum.org/plan-your-visit/experiences/3d-4d-films-vr/apollo-beyond-vr",
+    "duration": 30,
+    "cost_couple": 26,
+    "cost_note": "US$ 13 por pessoa, além do ingresso do museu",
+    "open": "10:00",
+    "close": "16:30",
+    "priority": true,
+    "desc": "Experiência VR que coloca vocês dentro da narrativa das missões Apollo, incluindo lançamento em Saturn V e os primeiros passos na Lua.",
+    "wiki_title": "Apollo 11",
+    "anchor_id": "L38",
+    "parent_id": "L38",
+    "tags": [
+      "science",
+      "space",
+      "vr",
+      "immersive"
+    ],
+    "science_type": "VR espacial",
+    "reservation_recommended": true
+  },
+  {
+    "id": "X70",
+    "name": "Cosmic Coaster — 4D Experience",
+    "region": "Hudson River / Intrepid",
+    "category": "Espaço · simulador 4D",
+    "status": "Considerado",
+    "lat": 40.7645,
+    "lon": -73.9995,
+    "address": "Hangar 3, Intrepid Museum, Pier 86, New York, NY 10036",
+    "source": "https://intrepidmuseum.org/cosmic-coaster-4d-experience",
+    "duration": 20,
+    "cost_couple": 22,
+    "cost_note": "US$ 11 por pessoa",
+    "open": "10:00",
+    "close": "16:30",
+    "priority": false,
+    "desc": "Experiência 4D curtinha e intensa que simula uma montanha-russa através do cosmos. O filme dura 4min16, mas reservei 20 min no planner para fila e embarque.",
+    "wiki_title": "Outer space",
+    "anchor_id": "L38",
+    "parent_id": "L38",
+    "tags": [
+      "science",
+      "space",
+      "4d",
+      "ride"
+    ],
+    "science_type": "simulador 4D"
+  },
+  {
+    "id": "X71",
+    "name": "New York Hall of Science — Connected Worlds + Rocket Park",
+    "region": "Flushing Meadows / Queens",
+    "category": "Ciência interativa · STEM",
+    "status": "Considerado",
+    "lat": 40.7472,
+    "lon": -73.8517,
+    "address": "47-01 111th St, Corona, NY 11368",
+    "source": "https://nysci.org/",
+    "duration": 180,
+    "cost_couple": 44,
+    "cost_note": "US$ 22 por adulto na admissão geral; add-ons à parte",
+    "open": "10:00",
+    "close": "17:00",
+    "priority": true,
+    "desc": "Museu de ciência interativo em Queens. O destaque é Connected Worlds, um grande ambiente responsivo em que gestos e decisões alteram ecossistemas digitais; Rocket Park e demonstrações de física completam a visita.",
+    "wiki_title": "New York Hall of Science",
+    "anchor_id": "X42",
+    "tags": [
+      "science",
+      "interactive",
+      "immersive",
+      "stem",
+      "space"
+    ],
+    "science_type": "museu STEM + ambiente responsivo",
+    "available_dates": [
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-22",
+      "2026-09-23",
+      "2026-09-24",
+      "2026-09-25",
+      "2026-09-26"
+    ],
+    "availability_note": "Fechado na segunda 21/09; reabre em 16/09 após fechamento técnico.",
+    "reservation_recommended": true
+  },
+  {
+    "id": "X72",
+    "name": "Jennifer Chalsty Planetarium — Liberty Science Center",
+    "region": "Liberty State Park / Jersey City",
+    "category": "Planetário · ciência imersiva",
+    "status": "Considerado",
+    "lat": 40.7084,
+    "lon": -74.0556,
+    "address": "222 Jersey City Blvd, Jersey City, NJ 07305",
+    "source": "https://lsc.org/explore/planetarium",
+    "duration": 150,
+    "cost_couple": null,
+    "cost_note": "entrada do Liberty Science Center + add-on do planetário",
+    "open": "10:00",
+    "close": "17:00",
+    "priority": true,
+    "desc": "Planetário de 89 pés com 88 milhões de pixels, som de 30.000 watts e programação de astronomia. O Liberty Science Center o apresenta como o maior planetário dos EUA. É uma alternativa mais focada em planetário, mas exige deslocamento até Jersey City.",
+    "wiki_title": "Liberty Science Center",
+    "anchor_id": "L41",
+    "tags": [
+      "science",
+      "space",
+      "planetarium",
+      "immersive",
+      "new_jersey"
+    ],
+    "science_type": "planetário fulldome gigante",
+    "available_dates": [
+      "2026-09-19",
+      "2026-09-20",
+      "2026-09-21",
+      "2026-09-26"
+    ],
+    "availability_note": "O Liberty Science Center está fechado de 22 a 25/09/2026.",
+    "reservation_recommended": true,
+    "timed_entry": true
+  },
+  {
+    "id": "X73",
+    "name": "MoMath — National Museum of Mathematics",
+    "region": "Chelsea / Flatiron",
+    "category": "Ciência interativa · matemática",
+    "status": "Considerado",
+    "lat": 40.7401,
+    "lon": -73.9953,
+    "address": "635 Sixth Avenue, New York, NY 10011",
+    "source": "https://momath.org/",
+    "duration": 120,
+    "cost_couple": 60,
+    "cost_note": "US$ 30 por adulto no preço introdutório atual",
+    "open": "10:00",
+    "close": "17:00",
+    "priority": true,
+    "desc": "Novo MoMath em Chelsea, aberto em fevereiro de 2026 em um espaço de cerca de 46.000 pés² com mais de 70 exposições, muitas interativas. É mais lúdico e experimental do que um museu tradicional.",
+    "wiki_title": "National Museum of Mathematics",
+    "anchor_id": "L09",
+    "tags": [
+      "science",
+      "math",
+      "interactive",
+      "hands_on"
+    ],
+    "science_type": "matemática interativa",
+    "reservation_recommended": false
   }
 ]

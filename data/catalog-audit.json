@@ -1,18 +1,19 @@
 {
-  "catalog_version": 17,
+  "catalog_version": 19,
   "generated_for": "Nossa NYC · Rafael & Lídia",
   "trip_dates": "2026-09-19 to 2026-09-26",
   "counts": {
     "core_master_places": 45,
     "scheduled_events": 2,
     "additional_previously_discussed_places": 18,
-    "total_drawer_catalog": 112,
+    "total_drawer_catalog": 119,
     "fixed_trip_anchors": 3,
     "immersive_experiences": 12,
     "arcades_and_games": 8,
     "shopping_places": 15,
     "trip_milestones": 6,
-    "relax_options": 17
+    "relax_options": 17,
+    "science_space_experiences": 10
   },
   "immersive_experience": {
     "id": "L08",
@@ -526,5 +527,82 @@
     "bronx_nybg_id": null,
     "brooklyn_bbg_id": "X60",
     "summary": "NYBG = maior e mais profundo; BBG = mais compacto e fácil de encaixar."
+  },
+  "science_space_added": [
+    {
+      "id": "X66",
+      "name": "Hayden Planetarium — Encounters in the Milky Way",
+      "type": "planetário fulldome"
+    },
+    {
+      "id": "X67",
+      "name": "Invisible Worlds — AMNH",
+      "type": "projeção 360° interativa"
+    },
+    {
+      "id": "X68",
+      "name": "Space Shuttle Pavilion — Enterprise",
+      "type": "artefato espacial + exposição"
+    },
+    {
+      "id": "X69",
+      "name": "Apollo 11 & Beyond VR — Intrepid",
+      "type": "VR espacial"
+    },
+    {
+      "id": "X70",
+      "name": "Cosmic Coaster — 4D Experience",
+      "type": "simulador 4D"
+    },
+    {
+      "id": "X71",
+      "name": "New York Hall of Science — Connected Worlds + Rocket Park",
+      "type": "museu STEM + ambiente responsivo"
+    },
+    {
+      "id": "X72",
+      "name": "Jennifer Chalsty Planetarium — Liberty Science Center",
+      "type": "planetário fulldome gigante"
+    },
+    {
+      "id": "X73",
+      "name": "MoMath — National Museum of Mathematics",
+      "type": "matemática interativa"
+    }
+  ],
+  "hayden_planetarium": {
+    "id": "X66",
+    "sessions_count": 104,
+    "first": "10:30",
+    "last": "16:30",
+    "interval_min": 30
+  },
+  "preserved_relax_ids": [
+    {
+      "id": "X61",
+      "name": "Brooklyn Botanic Garden"
+    },
+    {
+      "id": "X62",
+      "name": "Wave Hill"
+    },
+    {
+      "id": "X63",
+      "name": "Conservatory Garden — Central Park"
+    },
+    {
+      "id": "X64",
+      "name": "Roosevelt Island Tram + waterfront"
+    },
+    {
+      "id": "X65",
+      "name": "Gantry Plaza State Park"
+    }
+  ],
+  "catalog_cleanup": {
+    "removed_duplicate_id": "X60",
+    "canonical_id": "X61",
+    "name": "Brooklyn Botanic Garden",
+    "automatic_state_migration": true
   }
 }

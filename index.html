@@ -11,7 +11,9 @@
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="apple-touch-icon" href="./assets/icons/icon-180.png">
   <link rel="icon" href="./assets/icons/icon-192.png">
-  <link rel="stylesheet" href="./styles.css?v=17">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="./styles.css?v=19">
 </head>
 <body class="access-locked">
   <section class="access-gate" id="access-gate" aria-label="Acesso ao planner">
@@ -52,6 +54,13 @@
     </header>
 
     <main class="planner-panel" id="planner-panel">
+      <nav class="view-switcher" aria-label="Visualização da viagem">
+        <button class="view-switch-button active" id="view-planner" type="button" data-view-switch="planner" aria-pressed="true">▦ Planner</button>
+        <button class="view-switch-button" id="view-map" type="button" data-view-switch="map" aria-pressed="false">⌖ Mapa</button>
+        <span class="view-context" id="view-context">tempo e horários</span>
+      </nav>
+
+      <div class="planner-view-pane" id="planner-view-pane">
       <section class="desktop-week" id="desktop-week" aria-label="Planner semanal">
         <div class="week-caption">
           <div>
@@ -88,6 +97,46 @@
         <div class="mobile-time-layout">
           <aside class="mobile-time-axis" id="mobile-time-axis" aria-hidden="true"></aside>
           <section class="timeline" id="timeline" aria-label="Planner do dia"></section>
+        </div>
+      </section>
+      </div>
+
+      <section class="map-view-pane" id="map-view-pane" hidden aria-label="Mapa e circuitos">
+        <div class="map-toolbar">
+          <div class="map-day-picker">
+            <button class="map-day-nav" id="map-prev-day" type="button" aria-label="Dia anterior">‹</button>
+            <div>
+              <span class="eyebrow">Circuito do dia</span>
+              <strong id="map-day-label">19 SET</strong>
+            </div>
+            <button class="map-day-nav" id="map-next-day" type="button" aria-label="Próximo dia">›</button>
+          </div>
+          <div class="map-toolbar-actions">
+            <button class="map-mode-button active" id="map-mode-day" type="button" data-map-mode="day" aria-pressed="true">Dia + opções</button>
+            <button class="map-mode-button" id="map-mode-all" type="button" data-map-mode="all" aria-pressed="false">Todos os pontos</button>
+            <button class="map-mode-button" id="map-fit-route" type="button">◎ Enquadrar circuito</button>
+          </div>
+        </div>
+
+        <div class="map-main">
+          <div class="trip-map-wrap">
+            <div id="trip-map" class="trip-map" aria-label="Mapa dos pontos da viagem"></div>
+            <div class="map-legend">
+              <span><i class="legend-hotel">H</i> hotel</span>
+              <span><i class="legend-route">1</i> ordem do dia</span>
+              <span><i class="legend-option"></i> opções</span>
+            </div>
+          </div>
+          <aside class="map-route-panel" id="map-route-panel">
+            <div class="map-route-heading">
+              <div>
+                <span class="eyebrow">Ordem espacial</span>
+                <strong id="map-route-title">Circuito</strong>
+              </div>
+              <small>↑↓ altera a ordem do planner</small>
+            </div>
+            <div class="map-route-list" id="map-route-list"></div>
+          </aside>
         </div>
       </section>
     </main>
@@ -164,6 +213,8 @@
   </div>
 
   <div class="app-toast" id="app-toast" role="status" aria-live="polite" hidden></div>
-  <script type="module" src="./app.js?v=17"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script type="module" src="./app.js?v=19"></script>
 </body>
 </html>

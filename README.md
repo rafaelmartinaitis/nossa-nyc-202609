@@ -197,3 +197,35 @@ Esses campos ficam prontos para uma próxima evolução: o planner calcular o �
 - Resumo editorial:
   - NYBG: maior, mais de dia inteiro, conservatory + tram, experiência mais “instituição botânica”.
   - BBG: menor, mais fácil de encaixar, mais desenhado e urbano, forte no Japanese Hill-and-Pond Garden.
+
+
+## V18 — Mapa e circuitos
+
+Nova segunda tela:
+- `Planner`: organiza o tempo.
+- `Mapa`: organiza o espaço.
+
+O mapa usa Leaflet 1.9.4 + tiles OpenStreetMap.
+- O hotel `L01` é sempre exibido como `H`.
+- Os passeios do dia recebem marcadores `1, 2, 3...`.
+- Uma linha tracejada mostra a ordem espacial Hotel → passeios → Hotel; ela é indicativa e não representa navegação rua-a-rua.
+- Os demais pontos ficam visíveis como opções.
+- `Dia + opções` enfatiza o circuito atual; `Todos os pontos` aumenta a visibilidade do catálogo inteiro.
+- O painel lateral mostra os minutos de deslocamento da matriz entre as paradas.
+- Os botões ↑/↓ reordenam o circuito e alteram imediatamente o planner compartilhado.
+- Clicar num ponto não planejado permite adicioná-lo ao dia selecionado.
+- A tela é lazy: Leaflet só é inicializado quando o mapa é usado.
+
+## V19 — planetários, ciência e espaço
+
+Adicionados em IDs X66–X73, sem sobrescrever os cartões relax X60–X65:
+- Hayden Planetarium — Encounters in the Milky Way
+- Invisible Worlds — AMNH
+- Space Shuttle Pavilion — Enterprise
+- Apollo 11 & Beyond VR — Intrepid
+- Cosmic Coaster 4D — Intrepid
+- New York Hall of Science — Connected Worlds + Rocket Park
+- Jennifer Chalsty Planetarium — Liberty Science Center
+- MoMath — National Museum of Mathematics
+
+O planner agora respeita `available_dates` para atrações que não funcionam em todos os dias da viagem.
